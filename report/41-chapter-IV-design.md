@@ -955,7 +955,10 @@ específica, mostrando los recorridos posibles mediante mockups de alta fidelida
 
 ## 4.5. Web Applications Prototyping
 
+<img src="../assets/Prototyping.png"/>
+
 Aquí está el video del prototipo hecho con Figma
+
 https://drive.google.com/drive/folders/1i6KZDtYcAT-HQNS06tekE2Z9jYt_wBFw?usp=sharing
 
 ---

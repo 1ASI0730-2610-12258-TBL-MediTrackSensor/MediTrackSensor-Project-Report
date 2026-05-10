@@ -56,6 +56,7 @@ Este sistema automatizado facilitará la gestión de los productos farmacéutico
 #### 1.2.2.1. Lean UX Problem Statements
 
 ### Dominio y Alcance del Problema
+
 El proyecto se enfoca en el sector de la salud, específicamente en la gestión y almacenamiento de **medicamentos** dentro de hospitales, centros de distribución y almacenes farmacéuticos en el Perú. A pesar de la importancia crítica de mantener condiciones adecuadas de conservación, la supervisión de variables como temperatura, humedad y luz sigue siendo deficiente debido a la dependencia de procesos manuales, infraestructura limitada y la falta de monitoreo en tiempo real.
 
 Este problema afecta a nivel nacional, con un énfasis particular en hospitales públicos y centros de distribución de medicamentos, incluyendo almacenes estratégicos como los de Lurín. El problema se presenta tanto en zonas urbanas como rurales, donde las limitaciones tecnológicas y de infraestructura dificultan el control adecuado de las condiciones de almacenamiento. Esto genera un riesgo en la calidad y seguridad de los medicamentos, impactando directamente a los pacientes y la operatividad de las entidades de salud.

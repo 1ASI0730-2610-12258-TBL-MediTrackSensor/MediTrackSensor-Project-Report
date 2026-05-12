@@ -327,6 +327,28 @@ A continuación se presenta el resumen del Sprint Planning Meeting realizado par
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 2. Cada aspecto representa una fase crítica de la entrega del frontend, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución, cumpliendo con el objetivo de proporcionar liderazgo conjunto y un entorno colaborativo (ABET Student Outcome 5).
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Development | IAM Module | Subscriptions Module | Monitoring Module | Establishment Module | Logistics Module | Frontend UI/Design | Report & Documentation |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Tufiño Argüelles, Luis Angel | LuisTufino2 | C | **L** | C | C | C | C | C | C |
+| Urviola Condori, Mateo Sebastián | BeyaminUv | C | C | **L** | C | C | C | C | C |
+| Paredes Díaz, Tomás Alessandro | TParedes92 | C | C | C | **L** | C | C | C | C |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | C | C | **L** | **L** | C | C |
+| Rioja Nuñez, Franco Diego | FrancoDiegoR | **L** | C | C | C | C | C | **L** | C |
+| Herrera Enriquez, Diego Fernando | DerDFHE | C | C | C | C | C | C | C | **L** |
+
+---
+
+**Sustento de los Aspectos de Liderazgo:**
+
+* **Luis Tufiño (IAM Module):** Lideró el desarrollo del módulo de identidad y acceso, estableciendo la arquitectura de autenticación, validación de credenciales y gestión de tokens JWT para asegurar la seguridad de las sesiones de usuario en la aplicación.
+* **Mateo Urviola (Subscriptions Module):** Dirigió el diseño e implementación del módulo de planes y suscripciones, definiendo la lógica de selección de planes, comparación de opciones y flujo de integración con pagos.
+* **Tomás Paredes (Monitoring Module):** Lideró la construcción del módulo de monitoreo y dashboard, coordinando la visualización de indicadores de sensores, valores en tiempo real y estados del sistema para asegurar claridad en la representación de datos.
+* **Dhilsen Mallqui (Establishment & Logistics Modules):** Responsable del desarrollo de los módulos de gestión de establecimientos y logística, implementando interfaces de administración, etiquetado de ubicaciones y seguimiento de transportes farmacéuticos.
+* **Franco Rioja (Frontend UI/Design & Responsiveness):** Lideró la coherencia visual y la experiencia de usuario del frontend, asegurando el cumplimiento del design system, la adaptación responsive en dispositivos móviles y la integración de componentes reutilizables.
+* **Diego Herrera (Report & Documentation):** Coordinó la redacción, organización y consolidación de la sección de desarrollo del reporte de Sprint 2, asegurando la trazabilidad entre las tareas, commits y evidencia presentada.
+
 #### 5.2.2.3. Sprint Backlog 2.
 
 Durante el segundo sprint backlog, nuestro equipo tuvo como objetivo principal diseñar la Aplicación Web completándola parcialmente para esta segunda entrega. Para la organización y gestión de los miembros se utilizó Trello, lo que permitió dividir las user stories en tareas manejables y asignarlas a cada integrante según sus habilidades. El propósito de este sprint fue construir parcialmente la aplicación web, asegurando que fuera funcional, atractiva y alineada con la propuesta de valor de TBL.

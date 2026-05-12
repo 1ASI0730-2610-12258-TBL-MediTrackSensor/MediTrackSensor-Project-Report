@@ -1288,13 +1288,13 @@ En conjunto, los User Flow Diagrams permiten validar la estructura lógica de la
 
 ## 4.5. Web Applications Prototyping
 
-<img src="../assets/Prototyping.png"/>
+En esta etapa se ha desarrollado un prototipo interactivo de alta fidelidad utilizando **Figma**, con el objetivo de validar la experiencia de usuario (UX) y la interfaz (UI) de la plataforma MediTrack Sensor. Este prototipo permite simular de manera precisa la navegación real, las transiciones de estado y la interacción con los dashboards de telemetría, asegurando que los flujos de trabajo diseñados para el personal operativo y las entidades de salud sean intuitivos y libres de fricciones operativas.
 
-Aquí está el video del prototipo hecho con Figma
+<img src="../assets/Prototyping.png" alt="Visualización del Prototipo" style="max-width: 100%; height: auto;"/>
 
-https://drive.google.com/drive/folders/1i6KZDtYcAT-HQNS06tekE2Z9jYt_wBFw?usp=sharing
+La simulación abarca desde el flujo de autenticación hasta la gestión avanzada de alertas críticas, permitiendo testear la jerarquía visual y la efectividad del sistema de etiquetado antes de pasar a la fase de desarrollo.
 
----
+> [Ver video del prototipo en Figma](https://drive.google.com/drive/folders/1i6KZDtYcAT-HQNS06tekE2Z9jYt_wBFw?usp=sharing)
 
 ## 4.6. Domain-Driven Software Architecture
 

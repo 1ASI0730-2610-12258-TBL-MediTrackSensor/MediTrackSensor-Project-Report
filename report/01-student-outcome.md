@@ -7,7 +7,6 @@ Criterio: La capacidad de funcionar efectivamente en un
 equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de
 colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos
 
-#### 5.2.2. ABET Student Outcome 5: Teamwork
 
 #### 5.2.2. ABET Student Outcome 5: Teamwork
 

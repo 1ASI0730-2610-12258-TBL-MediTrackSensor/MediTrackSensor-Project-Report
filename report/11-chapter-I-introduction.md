@@ -59,8 +59,6 @@ Este sistema automatizado facilitará la gestión de los productos farmacéutico
 
 ## 1.2.2. Lean UX Process
 
-#### 1.2.2.1. Lean UX Problem Statements
-
 ### 1.2.2.1. Lean UX Problem Statements
 
 #### **Problem Statement 1 — Personal encargado de almacenes farmacéuticos**
@@ -213,28 +211,91 @@ El personal de salud y las entidades regulatorias no cuentan con herramientas au
 
 ### 1.2.2.4. Lean UX Canvas
 
-**1. Business Problem**  
-La gestión del almacenamiento de medicamentos en el sistema de salud presenta deficiencias debido a la falta de monitoreo en tiempo real y el uso de procesos manuales. Esto provoca que variables críticas como la temperatura, humedad y exposición a la luz no sean controladas adecuadamente, generando riesgos en la calidad de los medicamentos tanto en almacenes como durante su transporte.
+**1. Business Problem**
 
+La gestión del almacenamiento de medicamentos en el sistema de salud fue diseñada para conservar los productos farmacéuticos en condiciones seguras y garantizar su calidad durante el almacenamiento y transporte. Sin embargo, hemos observado que la falta de monitoreo en tiempo real y el uso de procesos manuales están afectando la eficacia de este sistema. Variables críticas como temperatura, humedad y exposición a la luz no están siendo controladas adecuadamente, lo que genera riesgos en la calidad de los medicamentos, tanto en los almacenes como durante su transporte.
+
+¿Cómo podríamos mejorar el sistema de gestión de almacenamiento de medicamentos para que las entidades de salud sean más exitosas, evidenciado por una reducción del 30% en incidentes relacionados con el deterioro de los medicamentos, una mejora en la respuesta a desviaciones de condiciones ambientales y un aumento en el cumplimiento de las normativas de conservación?
+
+---
 **2. Business Outcomes**
-- Reducir la pérdida de medicamentos por condiciones inadecuadas de almacenamiento.
-- Mejorar la eficiencia en la gestión de almacenes farmacéuticos.
-- Disminuir el tiempo de respuesta ante incidencias relacionadas con condiciones ambientales.
-- Asegurar el cumplimiento de normativas sanitarias en almacenamiento de medicamentos.
-- Optimizar la trazabilidad y control de los productos farmacéuticos en múltiples sedes.
 
+**1.** **Nuestro producto** fue diseñado para lograr **[estos objetivos de negocio/cliente y entregar este valor]**.
+- **Contexto**: El sistema fue diseñado para garantizar la conservación y trazabilidad de los medicamentos en condiciones óptimas dentro de los almacenes farmacéuticos, mejorando la eficiencia operativa y asegurando el cumplimiento de las normativas sanitarias.
+
+**2.** **Hemos observado [de estas maneras]** que el producto/servicio no está cumpliendo estos objetivos, lo que está causando **[este efecto/adversidad]** en nuestro negocio.
+- **Observación**: Hemos notado que el almacenamiento inadecuado y la falta de monitoreo en tiempo real están llevando a un aumento en las pérdidas económicas por medicamentos deteriorados, incumplimiento de las normativas de conservación y baja eficiencia en la gestión de los almacenes, lo que también afecta la trazabilidad y el control en múltiples sedes.
+
+**3.** **¿Cómo podríamos mejorar [el servicio/producto]** para que nuestros clientes sean más exitosos, según **[estos cambios medibles en su comportamiento]**?
+- **Resultado de negocio 1**: **Reducir la pérdida de medicamentos** por condiciones inadecuadas de almacenamiento en un 30%.
+- **Resultado de negocio 2**: **Mejorar la eficiencia en la gestión de almacenes farmacéuticos**, alcanzando una reducción del 20% en los tiempos de gestión operativa dentro de los primeros 6 meses.
+- **Resultado de negocio 3**: **Disminuir el tiempo de respuesta** ante incidencias relacionadas con condiciones ambientales de 15 a 10 minutos, mejorando la capacidad de reacción ante problemas críticos.
+- **Resultado de negocio 4**: **Asegurar el cumplimiento del 100% de las normativas sanitarias** relacionadas con el almacenamiento de medicamentos dentro de los primeros 6 meses de uso.
+- **Resultado de negocio 5**: **Optimizar la trazabilidad y control de los productos farmacéuticos** en múltiples sedes, garantizando que el 80% de los almacenes estén conectados y monitorizados en tiempo real.
+
+---
 **3. Users**
-- Personal encargado de almacenes farmacéuticos (operarios, técnicos y responsables de control).
-- Farmacéuticos y administradores de hospitales.
-- Entidades del sector salud como el MINSA y centros de distribución (ej. almacenes de Lurín).
+
+1. **Personal encargado de almacenes farmacéuticos**
+  - **¿Quién compra el producto?**  
+    Los **hospitales, clínicas y centros de distribución** que necesitan una solución para optimizar el almacenamiento y monitoreo de medicamentos.
+  - **¿Quién usa el producto?**  
+    El **personal operativo de los almacenes farmacéuticos**, incluyendo operarios, técnicos y encargados de la gestión de los productos.
+  - **¿Quién configura el producto?**  
+    Los **administradores** de las entidades de salud y personal de soporte técnico en los almacenes.
+
+2. **Personal de salud (farmacéuticos, administradores hospitalarios)**
+  - **¿Quién compra el producto?**  
+    **Hospitales, farmacias y clínicas** que necesitan asegurar la conservación de medicamentos en condiciones óptimas.
+  - **¿Quién usa el producto?**  
+    Los **farmacéuticos** y **administradores hospitalarios** que supervisan la distribución de medicamentos y deben asegurarse de que los productos sean almacenados correctamente.
+  - **¿Quién configura el producto?**  
+    Los **técnicos y administradores** encargados de configurar el sistema para supervisar y gestionar el almacenamiento.
+
+3. **Entidades regulatorias (MINSA y redes de salud)**
+  - **¿Quién compra el producto?**  
+    **Instituciones gubernamentales o entidades regulatorias** encargadas de supervisar las normativas sanitarias de almacenamiento y distribución de medicamentos.
+  - **¿Quién usa el producto?**  
+    Las **entidades gubernamentales** que monitorean el cumplimiento de las normativas en centros de salud y almacenes farmacéuticos.
+  - **¿Quién configura el producto?**  
+    Los **administradores de las redes de salud** que supervisan y regulan el cumplimiento de las normativas sanitarias a nivel nacional.
+
+---
 
 **4. User Benefits**
-- Monitoreo en tiempo real de condiciones ambientales.
-- Alertas automáticas ante variaciones críticas.
-- Acceso a datos históricos para auditorías y toma de decisiones.
-- Reducción de procesos manuales y errores humanos.
-- Mejora en la seguridad y calidad de los medicamentos.
+1. **Personal encargado de almacenes farmacéuticos**
+  - **¿Por qué buscan nuestro producto?**  
+    Necesitan una **solución eficiente** para monitorear las condiciones de almacenamiento de medicamentos y evitar la pérdida de productos debido a condiciones inadecuadas.
+  - **¿Qué beneficio obtienen de usarlo?**  
+    Reducción de la **pérdida de medicamentos** y mejora de la **eficiencia operativa** en la gestión de almacenes.
+  - **Cambio de comportamiento observable**:  
+    El personal adoptará prácticas más **diligentes y sistemáticas** en el monitoreo de las condiciones ambientales, registrando y respondiendo de manera oportuna ante desviaciones.
 
+2. **Personal de salud (farmacéuticos, administradores hospitalarios)**
+  - **¿Por qué buscan nuestro producto?**  
+    Buscan una **herramienta confiable** para asegurar que los medicamentos se almacenen correctamente, respetando las normativas sanitarias y evitando riesgos para los pacientes.
+  - **¿Qué beneficio obtienen de usarlo?**  
+    Aseguran que los medicamentos estén en condiciones óptimas, **cumpliendo con las normativas** y mejorando la **seguridad de los pacientes**.
+  - **Cambio de comportamiento observable**:  
+    El personal usará el sistema para **verificar condiciones ambientales en tiempo real**, asegurando que los productos farmacéuticos no se deterioren y se mantengan dentro de los parámetros establecidos.
+
+3. **Entidades regulatorias (MINSA y redes de salud)**
+  - **¿Por qué buscan nuestro producto?**  
+    Necesitan garantizar que las **normativas sanitarias** se sigan de manera efectiva en los centros de salud y almacenes farmacéuticos.
+  - **¿Qué beneficio obtienen de usarlo?**  
+    Mejora del **cumplimiento normativo** a nivel nacional, con la capacidad de auditar y verificar de manera sencilla si se están cumpliendo las condiciones de almacenamiento.
+  - **Cambio de comportamiento observable**:  
+    Las entidades podrán **verificar y reportar el cumplimiento de normativas** en tiempo real, evitando sanciones y mejorando la supervisión de los centros de salud.
+
+4. **Pacientes**
+  - **¿Por qué buscan nuestro producto?**  
+    Aunque no usan el producto directamente, los **pacientes se benefician indirectamente** al recibir medicamentos que han sido almacenados y distribuidos bajo condiciones controladas.
+  - **¿Qué beneficio obtienen de usarlo?**  
+    Garantía de que los **medicamentos sean efectivos** y **seguros** al ser almacenados adecuadamente.
+  - **Cambio de comportamiento observable**:  
+    El **impacto indirecto** se verá reflejado en una mayor **confianza en la seguridad de los medicamentos** que los pacientes consumen.
+
+---
 **5. Solutions**
 - Plataforma web con dashboards para visualizar condiciones ambientales en tiempo real.
 - Integración con sensores IoT para capturar datos de temperatura, humedad y luz.

@@ -589,6 +589,35 @@ Para validar la propuesta de valor de MediTrack Sensor y comprender las necesida
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+Para complementar los hallazgos de entrevistas, se realizó una evaluación heurística focalizada de la primera versión del frontend de MediTrack Sensor, aplicando las heurísticas 2, 4 y 5 de Nielsen por su relación directa con el alcance funcional del Sprint 2. El objetivo fue validar la calidad de uso en los flujos críticos implementados.
+
+**Escala utilizada (criterio de evaluación):**
+- 1 = Cumplimiento muy bajo (requiere rediseño)
+- 2 = Cumplimiento bajo (requiere correcciones mayores)
+- 3 = Cumplimiento aceptable (requiere mejoras)
+- 4 = Cumplimiento bueno (ajustes menores)
+- 5 = Cumplimiento completo (sin observaciones críticas)
+
+**Aplicación de la escala en esta evaluación:**
+- Heurísticas evaluadas: 2, 4 y 5.
+- Resultado obtenido: 5/5 en todas las heurísticas evaluadas.
+
+| Heurística (Nielsen) | Hallazgo principal | Evidencia observada | Puntaje (1-5) | Severidad | Acción recomendada |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| 2. Relación entre el sistema y el mundo real | La terminología y estructura del frontend se alinean con el flujo operativo del dominio farmacéutico. | Los entrevistados identifican con claridad los módulos y comprenden su propósito funcional. | 5 | Baja | Mantener la nomenclatura actual y documentar el estándar para siguientes módulos. |
+| 4. Consistencia y estándares | La interfaz mantiene coherencia visual, de navegación y de comportamiento entre pantallas principales. | Evidencia de componentes reutilizables y patrones de diseño homogéneos en el Sprint 2. | 5 | Baja | Continuar aplicando la guía de estilos y checklist de consistencia antes de cada release. |
+| 5. Prevención de errores | Los flujos críticos evaluados incluyen validaciones y restricciones suficientes para evitar errores frecuentes de operación. | En las pruebas funcionales y revisión del frontend no se observaron fallos críticos en acciones principales. | 5 | Baja | Sostener las validaciones implementadas y ampliar cobertura en nuevos formularios. |
+
+**Resultado general de la evaluación heurística:**
+- **Promedio de cumplimiento:** 5.0 / 5
+- **Fortalezas identificadas:** Alineación con el lenguaje del usuario, consistencia de interfaz y prevención de errores en flujos críticos.
+- **Brechas prioritarias:** No se identificaron brechas críticas en las heurísticas evaluadas (2, 4 y 5).
+
+**Priorización de mejora para próximos Sprints:**
+1. Mantener la calidad lograda en heurísticas 2, 4 y 5 con revisiones de usabilidad por sprint.
+2. Extender la evaluación al resto de heurísticas de Nielsen en futuras iteraciones.
+3. Consolidar evidencia de pruebas con matriz comparativa entre sprints para trazabilidad académica.
+
 ---
 
 ## 5.4. Video About-the-Product

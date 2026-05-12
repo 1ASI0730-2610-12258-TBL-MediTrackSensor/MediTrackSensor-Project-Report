@@ -82,8 +82,7 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 ## Desarrollo del Frontend
 
-![Desarrollo_frontend](../assets/Desarrollo%20del%20frontend.png)
-
+![Desarrollo_frontend](assets/Desarrollo%20del%20frontend.png)
 
 
 ---

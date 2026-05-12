@@ -196,7 +196,7 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 Durante el primer sprint backlog, nuestro equipo tuvo como objetivo principal diseñar la Aplicación Web y Landing Page, completando esta última en el proceso. Para la organización y gestión de los miembros se utilizó Trello, lo que permitió dividir las user stories en tareas manejables y asignarlas a cada integrante según sus habilidades. El propósito de este sprint fue construir en su totalidad la landing page, asegurando que fuera atractiva, funcional y alineada con la propuesta de valor de TBL.
 
-<img src="assets/Sprint Backlog 1.png" alt="Sprint Backlog 1" />
+![Sprint Backlog 1](../assets/Sprint Backlog 1.png)
 
 Enlace de Trello: https://trello.com/invite/b/69e9e940d5d58b559007b0af/ATTIbc7fef21e3ae9af5f9b1524a8311a897E9406869/meditrack-sensor
 

@@ -253,7 +253,7 @@ Durante el Sprint 1, el equipo utilizó GitHub como sistema de control de versio
 
 En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostrando el cumplimiento de los objetivos establecidos y el despliegue del producto en un entorno de producción accesible.
 
-<img src="assets/Landing pAge EVIDENCE.png"/>
+![Landing pAge EVIDENCE](../assets/Landing%20pAge%20EVIDENCE.png)
 
 **Enlace del Landing Page:** [https://meditrack-sensor.vercel.app/](https://meditrack-sensor.vercel.app/)
 
@@ -261,7 +261,7 @@ En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostr
 
 A continuación, se presenta la captura del dashboard de Vercel que confirma el despliegue exitoso (Production Deployment) de la Landing Page desde el repositorio oficial de GitHub.
 
-<img src="assets/Deploy Landing.jpeg" />
+![Deploy Landing](../assets/Deploy%20Landing.jpeg)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -273,15 +273,15 @@ El deploy de la Landing Page se hizo en Vercel de la siguiente manera
 
 ### Paso 1: Se agregó el proyecto
 
-<img src="assets/Agregar proyecto.png" />
+![Agregar proyecto](../assets/Agregar%20proyecto.png)
 
 ### Paso 2: Se agregó el repositorio
 
-<img src="assets/Agregar repositorio.png" />
+![Agregar repositorio](../assets/Agregar%20repositorio.png)
 
 ### Paso 3: Se hace deploy con html, css y javascript
 
-<img src="assets/Deploy Landing.jpeg" />
+![Deploy Landing](../assets/Deploy%20Landing.jpeg)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -291,11 +291,11 @@ A continuación, se presentan las evidencias de colaboración extraídas de los 
 
 **Evidencia de Contribuciones en el Código (Landing Page):**
 
-<img src="assets/Deploy Contributors del repositorio de la Landing Page.png" />
+![Deploy Contributors del repositorio de la Landing Page](../assets/Deploy%20Contributors%20del%20repositorio%20de%20la%20Landing%20Page.png)
 
 **Evidencia de Contribuciones en el Reporte (Documentation):**
 
-<img src="assets/Contributors del repositorio del informe.png" />
+![Contributors del repositorio del informe](../assets/Contributors%20del%20repositorio%20del%20informe.png)
 
 ### 5.2.1. Sprint 2
 
@@ -326,7 +326,7 @@ A continuación se presenta el resumen del Sprint Planning Meeting realizado par
 
 Durante el segundo sprint backlog, nuestro equipo tuvo como objetivo principal diseñar la Aplicación Web completándola parcialmente para esta segunda entrega. Para la organización y gestión de los miembros se utilizó Trello, lo que permitió dividir las user stories en tareas manejables y asignarlas a cada integrante según sus habilidades. El propósito de este sprint fue construir parcialmente la aplicación web, asegurando que fuera funcional, atractiva y alineada con la propuesta de valor de TBL.
 
-<img src="assets/Sprint Backlog 2.png" alt="Sprint Backlog 1" />
+![Sprint Backlog 2](../assets/Sprint%20Backlog%202.png)
 
 Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc3193b48f5acf5194c54a2233ca38e2EFFB77A/meditracksensor
 

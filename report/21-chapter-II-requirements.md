@@ -304,52 +304,9 @@ El entrevistado, Omar, supervisa varios almacenes en un hospital público, inclu
 
 ![Entrevista](../assets/segmento02-entrevista03.png)
 Lucero Betis Morarizano, de 22 años, trabaja como infusora en el área farmacéutica de la clínica agroamericana, donde supervisa las áreas de dispensación directa. Su trabajo incluye rondas de inspección programadas y la revisión de reportes diarios de temperatura y humedad, los cuales son registrados por el personal operativo. A pesar de la dificultad de tener visibilidad centralizada de los almacenes, maneja los problemas de incumplimiento normativo, como variaciones térmicas, activando protocolos de cuarentena y notificando al área de calidad. Lucero considera esencial tener acceso a datos históricos para auditorías y detectar fallas en equipos de refrigeración. Ha evaluado algunos sensores, pero prefiere soluciones en la nube para monitorear desde cualquier lugar. Aunque su institución está abierta a adoptar nuevas tecnologías, el principal obstáculo es la integración con los sistemas de gestión existentes y la cobertura de red.
-
-### 2.2.3. Análisis de entrevistas
-
-### Segmento 01: Personal Operativo
-
-* **Nombre:** Luis Mendoza
-* **Edad:** 36
-* **Distrito:** Ate
-* **Ocupación:** Técnico en farmacia en hospital público
-* **Browser:** Google Chrome
-* **Device:** Computadora y celular
-
-**Resumen:** Luis trabaja en el área de almacén de medicamentos de un hospital público desde hace 7 años. Actualmente realiza el control de temperatura y humedad de manera manual, registrando datos en cuadernos y ocasionalmente en Excel. El proceso es limitado, con registros solo dos o tres veces al día, lo que genera riesgos de no detectar variaciones críticas a tiempo. Ha enfrentado pérdidas de medicamentos por fallas en refrigeración y considera frustrante el sistema manual. Se siente cómodo con herramientas básicas y cree que una solución digital con alertas automáticas mejoraría significativamente la gestión, aunque en hospitales públicos el presupuesto es un factor clave.
-
 ---
 
-* **Nombre:** Jorge Pérez
-* **Edad:** 34
-* **Distrito:** San Juan de Lurigancho
-* **Ocupación:** Técnico de almacén en clínica privada
-* **Browser:** Google Chrome
-* **Device:** Celular y computadora
-
-**Resumen:** Jorge trabaja en una clínica privada en Miraflores y lleva 6 años en el área de almacenamiento farmacéutico. El control ambiental se realiza manualmente con termómetros y higrómetros básicos, registrando datos en cuadernos dos veces al día. Ha experimentado pérdidas de medicamentos por variaciones no detectadas durante fines de semana. El proceso manual resulta tedioso y poco confiable, especialmente en auditorías. Jorge utiliza principalmente su celular y considera que una herramienta digital con alertas automáticas sería un cambio positivo, ya que permitiría actuar de inmediato. Cree que su institución estaría dispuesta a pagar por una solución si el costo es razonable.
-
-### Segmento 02: Jefaturas y Supervisión
-
-* **Nombre:** Omar Ruiz
-* **Edad:** 47
-* **Distrito:** Surco
-* **Ocupación:** Químico farmacéutica y jefe de farmacia en hospital público
-* **Browser:** Google Chrome
-* **Device:** Computadora y celular
-
-**Resumen:** Ruiz supervisa tres almacenes en un hospital público y depende de reportes manuales entregados por encargados de cada área. El proceso es lento y poco confiable, dificultando la visibilidad en tiempo real. Ha enfrentado problemas de incumplimiento normativo por registros incompletos y reconoce la importancia de contar con datos históricos para auditorías. Considera indispensable una solución con alertas en tiempo real, preferiblemente accesible desde el celular. Aunque hay apertura a nuevas tecnologías, los procesos de adquisición en el sector público son lentos y el presupuesto limitado. Una solución económica y en español tendría mayor viabilidad.
-
----
-
-* **Nombre:** Luis Mendoza
-* **Edad:** 36
-* **Distrito:** Ate
-* **Ocupación:** Técnico en farmacia en hospital público
-* **Browser:** Google Chrome
-* **Device:** Computadora y celular
-
-**Resumen:** Este entrevistado describe un sistema de control ambiental manual en hospitales públicos, con registros en cuadernos y ocasionalmente en Excel. La frecuencia de registro es limitada y no permite detectar variaciones críticas fuera de horario. Ha enfrentado pérdidas de medicamentos sensibles como vacunas debido a fallas en refrigeración. Considera frustrante el proceso manual y reconoce la necesidad de una solución digital con alertas automáticas. Aunque está dispuesto a aprender nuevas tecnologías, la adopción depende del presupuesto y aprobación administrativa en instituciones públicas.
+Enlace de las entrevistas : https://goo.su/ANGn
 
 ### 2.2.3. Análisis de entrevistas
 ### Segmento 01: Personal operativo de almacenes farmacéuticos
@@ -374,7 +331,7 @@ Lucero Betis Morarizano, de 22 años, trabaja como infusora en el área farmacé
 ---
 
 ### Segmento 02: Gestores y responsables de farmacia en instituciones de salud
-**(Entrevistado: Omar Ruiz – hospital público)**
+**(Entrevistado: Omar Ruiz – hospital público,Dayana Quispe-practicante de medicina ,Lucero Bella-Farnaceutica de una clínica)**
 
 #### Características objetivas:
 * **Supervisión de múltiples almacenes:** 100% supervisa más de un almacén (tres en total).

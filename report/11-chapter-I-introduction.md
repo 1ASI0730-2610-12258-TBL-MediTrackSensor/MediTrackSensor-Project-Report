@@ -297,25 +297,46 @@ La gestión del almacenamiento de medicamentos en el sistema de salud fue diseñ
 
 ---
 **5. Solutions**
-- Plataforma web con dashboards para visualizar condiciones ambientales en tiempo real.
-- Integración con sensores IoT para capturar datos de temperatura, humedad y luz.
-- Sistema de alertas automáticas ante condiciones fuera de rango.
-- Módulo de reportes y almacenamiento de datos históricos.
-- Gestión centralizada para múltiples almacenes o sedes.
+1. **Plataforma web con dashboards para visualizar condiciones ambientales en tiempo real**  
+   Desarrollar una **plataforma web** que permita a los usuarios visualizar, en tiempo real, las condiciones de almacenamiento de medicamentos, como temperatura, humedad y exposición a la luz, con un **dashboard fácil de usar** para el monitoreo continuo.
+
+2. **Integración con sensores IoT para capturar datos de temperatura, humedad y luz**  
+   Utilizar **sensores IoT** para **medir y registrar en tiempo real** las condiciones ambientales críticas de los almacenes farmacéuticos, garantizando la conservación adecuada de los medicamentos.
+
+3. **Sistema de alertas automáticas ante condiciones fuera de rango**  
+   Implementar un **sistema de alertas automáticas** que notifique a los usuarios cuando las condiciones ambientales (temperatura, humedad, luz) se desvíen de los parámetros establecidos, mejorando la **capacidad de respuesta rápida** ante cualquier incidente.
+
+4. **Módulo de reportes y almacenamiento de datos históricos**  
+   Incluir un **módulo de reportes** que permita a los usuarios generar informes detallados sobre las condiciones de almacenamiento a lo largo del tiempo, con el fin de facilitar las **auditorías** y el **cumplimiento normativo**.
+
+5. **Gestión centralizada para múltiples almacenes o sedes**  
+   Crear un sistema de **gestión centralizada** que permita monitorear **todos los almacenes y sedes** de manera integrada, ofreciendo visibilidad completa y en tiempo real sobre las condiciones de almacenamiento en toda la organización.
+
+---
 
 **6. Hypotheses**
-- Si implementamos un sistema de monitoreo en tiempo real, el personal podrá detectar problemas antes de que afecten los medicamentos.
-- Si se automatizan las alertas, se reducirá el riesgo de deterioro por falta de respuesta oportuna.
-- Si centralizamos la información de múltiples almacenes, las entidades de salud mejorarán su control y eficiencia operativa.
-- Si se digitalizan los registros de almacenamiento, se reducirá el error humano y se mejorará la trazabilidad.
-- Si el sistema es fácil de usar, el personal adoptará la tecnología y reemplazará los métodos manuales.
+
+1. **Creemos que** la reducción del deterioro de medicamentos se logrará si el personal encargado de almacenes farmacéuticos detecta problemas antes de que afecten los medicamentos con un sistema de monitoreo en tiempo real.
+
+2. **Creemos que** la reducción del riesgo de deterioro se logrará si el personal encargado de almacenes farmacéuticos recibe alertas automáticas ante condiciones críticas, lo que reducirá la falta de respuesta oportuna con un sistema de alertas automatizadas.
+
+3. **Creemos que** la mejora del control y eficiencia operativa se logrará si las entidades de salud centralizan la información de múltiples almacenes y mejoran la visibilidad de las condiciones de almacenamiento con una plataforma centralizada de monitoreo.
+
+4. **Creemos que** la reducción de errores humanos y la mejora de la trazabilidad se logrará si las entidades de salud digitalizan los registros de almacenamiento y optimizarán el seguimiento histórico con un sistema de registro digitalizado.
+
+5. **Creemos que** la adopción de la tecnología se logrará si el personal de almacenes farmacéuticos encuentra fácil de usar el sistema y reemplaza los métodos manuales con una interfaz de usuario intuitiva y accesible.
+
+---
 
 **7. What’s the most important thing we need to learn first?**  
 Primero necesitamos entender si el personal encargado de almacenes y las entidades de salud están dispuestos a adoptar una solución tecnológica para el monitoreo en tiempo real, así como sus necesidades específicas y limitaciones en el uso de estas herramientas.
 
+---
+
 **8. What’s the least amount of work we need to do to learn the next most important thing?**  
-Realizar entrevistas con personal de almacenes y profesionales de salud, además de pruebas de prototipos simples, como mockups o dashboards básicos, para validar la utilidad del monitoreo en tiempo real y la aceptación del sistema. También se debe crear una landing page para obtener retroalimentación sobre el interés en la solución propuesta.
-## 1.3. Segmentos objetivo
+### 8. What’s the least amount of work we need to do to learn the next most important thing?
+
+Realizar entrevistas con personal de almacenes y profesionales de salud, además de pruebas de prototipos simples, como mockups o dashboards básicos, para validar la utilidad del monitoreo en tiempo real y la aceptación del sistema. También se debe crear una landing page para obtener retroalimentación sobre el interés en la solución propuesta.## 1.3. Segmentos objetivo
 
 ### 1.3. Segmentos objetivo
 

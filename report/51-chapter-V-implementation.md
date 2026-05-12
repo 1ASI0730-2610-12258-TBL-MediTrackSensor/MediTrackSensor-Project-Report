@@ -324,15 +324,16 @@ A continuación se presenta el resumen del Sprint Planning Meeting realizado par
 | Sprint 2 Velocity                  | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Sum of Story Points                | 23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+#### 5.2.2.3. Sprint Backlog 2.
+
 Durante el segundo sprint backlog, nuestro equipo tuvo como objetivo principal diseñar la Aplicación Web completándola parcialmente para esta segunda entrega. Para la organización y gestión de los miembros se utilizó Trello, lo que permitió dividir las user stories en tareas manejables y asignarlas a cada integrante según sus habilidades. El propósito de este sprint fue construir parcialmente la aplicación web, asegurando que fuera funcional, atractiva y alineada con la propuesta de valor de TBL.
 
 ![Sprint Backlog 2](../assets/Sprint%20Backlog%202.png)
 
 Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc3193b48f5acf5194c54a2233ca38e2EFFB77A/meditracksensor
-
-#### 5.2.2.2. Aspect Leaders and Collaborators
-
-#### 5.2.2.3. Sprint Backlog 2.
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 

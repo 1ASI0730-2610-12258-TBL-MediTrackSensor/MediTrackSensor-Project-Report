@@ -395,6 +395,10 @@ Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc31
 
 Durante el Sprint 2, el equipo de desarrollo utilizó GitHub como sistema de control de versiones, siguiendo la estrategia GitFlow para organizar el trabajo en branches por bounded context. A continuación, se presenta el registro de los commits más relevantes que evidencian el desarrollo de los módulos principales del frontend de MediTrack Sensor.
 
+![Development Evidence TB1](../assets/Development%20Evidence%20TB1.png)
+
+LINK DEL DESPLIEGUE EN VERCEL: https://meditracksensor-iot-frontend.vercel.app/login
+
 **Repository:** 1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Frontend
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |

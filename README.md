@@ -80,6 +80,8 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 ## Desarrollo del reporte
 
+![Desarrollo_reporte](assets/Desarrollo%20reporte.png)
+
 ## Desarrollo de Landing Page
 
 ![Desarrollo_landing_2](assets/Desarrolo%20landing%202.png)

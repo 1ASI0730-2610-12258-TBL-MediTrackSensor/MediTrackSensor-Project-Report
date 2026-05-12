@@ -22,6 +22,12 @@ Nuestro producto principal es MediTrack Sensor, una plataforma web que permite a
 
 ### 1.2.1. Antecedentes y problemática
 
+### Contexto del mercado y oportunidad
+
+En el Perú, el sector salud enfrenta desafíos en la gestión del almacenamiento de medicamentos, como se evidencia en el caso del Hospital I de Tingo María, donde los medicamentos se encontraron almacenados en condiciones inadecuadas, expuestos al sol y sin control adecuado de temperatura y humedad. Este problema, común en muchas instituciones de salud, compromete la eficacia y seguridad de los medicamentos.
+Actualmente, existe una oportunidad de mercado para soluciones tecnológicas que mejoren la eficiencia operativa del sector salud. Aunque algunas herramientas en el mercado abordan aspectos como inventarios o facturación, pocas resuelven el problema central: la falta de visibilidad en tiempo real sobre las condiciones críticas de almacenamiento.
+Con la creciente necesidad de digitalización en el sector, especialmente a través de iniciativas como las del Ministerio de Salud, las soluciones basadas en sensores IoT ofrecen una oportunidad única para mejorar el monitoreo y control de las condiciones de conservación de los medicamentos, asegurando su efectividad y reduciendo riesgos operativos.
+---
 #### Who (¿Quiénes son los involucrados?)
 Los principales involucrados en esta problemática son los hospitales, clínicas, farmacias, almacenes farmacéuticos, distribuidores de medicamentos y entidades del Estado encargadas de la regulación y distribución de medicamentos en el Perú. Los pacientes son también actores clave, ya que dependen de que los medicamentos sean almacenados y transportados en condiciones óptimas para garantizar su efectividad y seguridad.
 
@@ -193,36 +199,58 @@ Actualmente, no existe un sistema digital integrado que permita monitorear en ti
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-- **Hipótesis 1:**  
-  Si ofrecemos una plataforma web que permita el monitoreo en tiempo real de las condiciones ambientales de almacenamiento de medicamentos, entonces el personal encargado podrá tomar decisiones oportunas para evitar el deterioro de los productos farmacéuticos.  
-  Usuarios: Personal encargado de almacenes farmacéuticos, operarios.  
-  User Outcome: Mejorar la toma de decisiones en tiempo real y evitar el deterioro de los productos farmacéuticos.  
-  Feature: Plataforma web con monitoreo en tiempo real de las condiciones de almacenamiento y alertas automáticas.
+**Hipótesis 1**
 
-- **Hipótesis 2:**  
-  Si las entidades de salud cuentan con un sistema que genere alertas automáticas ante variaciones de temperatura, humedad o luz, entonces podrán reducir riesgos asociados al almacenamiento inadecuado y mejorar la seguridad de los medicamentos.  
-  Usuarios: Administradores de almacenes, personal de salud.  
-  User Outcome: Mejorar la seguridad de los medicamentos mediante alertas automáticas para tomar decisiones rápidas ante variaciones críticas.  
-  Feature: Sistema de alertas automáticas basado en sensores para monitoreo de temperatura, humedad y luz.
+**Creemos que lograremos** una mejora significativa en la toma de decisiones del personal encargado de almacenes farmacéuticos para evitar el deterioro de los productos farmacéuticos  
+**Si** el personal encargado de almacenes farmacéuticos tiene acceso a una plataforma web con monitoreo en tiempo real de las condiciones de almacenamiento de medicamentos  
+**Alcanzan** la capacidad de tomar decisiones oportunas para evitar el deterioro de los productos farmacéuticos  
+**Con** el sistema de monitoreo en tiempo real de las condiciones de almacenamiento y alertas automáticas sobre temperatura, humedad y exposición a la luz
 
-- **Hipótesis 3:**  
-  Si los usuarios pueden visualizar datos históricos y reportes sobre las condiciones de almacenamiento, entonces podrán mejorar la trazabilidad y cumplir con las normativas sanitarias de manera más eficiente.  
-  Usuarios: Farmacéuticos, administradores de salud, auditores.  
-  User Outcome: Facilitar auditorías y el cumplimiento normativo con acceso a datos históricos y reportes detallados.  
-  Feature: Funcionalidad para visualizar datos históricos y generar reportes automáticos sobre las condiciones de almacenamiento.
+> Sabremos que esto es verdad cuando observemos una mejora del 30% en la reducción de incidentes relacionados con el deterioro de medicamentos durante los primeros 3 meses de uso de la plataforma.
 
-- **Hipótesis 4:**  
-  Si se implementa el uso de sensores IoT integrados a una plataforma digital, entonces se reducirá la dependencia de procesos manuales y se minimizarán los errores humanos en el control de condiciones ambientales.  
-  Usuarios: Personal de almacenes, operarios.  
-  User Outcome: Mejorar la precisión y eficiencia del monitoreo de las condiciones de almacenamiento, reduciendo la carga operativa.  
-  Feature: Sensores IoT integrados para monitoreo continuo de las condiciones ambientales, con registro automático de datos.
+---
 
-- **Hipótesis 5:**  
-  Si las entidades de salud utilizan un sistema centralizado para gestionar múltiples almacenes o sedes, entonces podrán optimizar la gestión de recursos, reducir pérdidas económicas y mejorar la eficiencia operativa.  
-  Usuarios: Administradores de salud, responsables de la gestión de almacenes.  
-  User Outcome: Facilitar la gestión de múltiples almacenes y mejorar la eficiencia operativa mediante un sistema centralizado.  
-  Feature: Plataforma centralizada para la gestión de almacenes y distribución de medicamentos, con acceso a datos en tiempo real.
+**Hipótesis 2**
 
+**Creemos que lograremos** una mejora significativa en la seguridad de los medicamentos al reducir los riesgos asociados al almacenamiento inadecuado  
+**Si** las entidades de salud cuentan con un sistema que genere alertas automáticas ante variaciones de temperatura, humedad o luz  
+**Alcanzan** la capacidad de tomar decisiones rápidas ante variaciones críticas en las condiciones de almacenamiento  
+**Con** el sistema de alertas automáticas basado en sensores para monitoreo de temperatura, humedad y luz
+
+> Sabremos que esto es verdad cuando observemos una mejora del 25% en la reducción de incidentes de deterioro de medicamentos durante los primeros 3 meses de uso del sistema de alertas.--
+
+---
+
+**Hipótesis 3**
+
+**Creemos que lograremos** una mejora significativa en la trazabilidad y cumplimiento de las normativas sanitarias  
+**Si** los usuarios pueden visualizar datos históricos y reportes sobre las condiciones de almacenamiento  
+**Alcanzan** la capacidad de mejorar la trazabilidad y cumplir con las normativas sanitarias de manera más eficiente  
+**Con** la funcionalidad para visualizar datos históricos y generar reportes automáticos sobre las condiciones de almacenamiento
+
+> Sabremos que esto es verdad cuando observemos una mejora del 20% en la eficiencia de auditorías y cumplimiento normativo durante los primeros 3 meses de uso del sistema de reportes.
+
+---
+
+**Hipótesis 4**
+
+**Creemos que lograremos** una reducción significativa en la dependencia de procesos manuales y los errores humanos  
+**Si** se implementa el uso de sensores IoT integrados a una plataforma digital  
+**Alcanzan** la capacidad de reducir la carga operativa y mejorar la precisión del monitoreo de las condiciones ambientales  
+**Con** los sensores IoT integrados para monitoreo continuo de las condiciones ambientales, con registro automático de datos
+
+> Sabremos que esto es verdad cuando observemos una mejora del 25% en la precisión del monitoreo y una reducción del 30% en los errores operativos durante los primeros 3 meses de uso del sistema.
+
+---
+
+**Hipótesis 5**
+
+**Creemos que lograremos** una optimización significativa en la gestión de recursos y eficiencia operativa  
+**Si** las entidades de salud utilizan un sistema centralizado para gestionar múltiples almacenes o sedes  
+**Alcanzan** la capacidad de optimizar la gestión de recursos, reducir pérdidas económicas y mejorar la eficiencia operativa  
+**Con** una plataforma centralizada para la gestión de almacenes y distribución de medicamentos, con acceso a datos en tiempo real
+
+> Sabremos que esto es verdad cuando observemos una mejora del 30% en la eficiencia operativa y una reducción del 20% en pérdidas económicas durante los primeros 6 meses de uso del sistema centralizado.
 
 ### 1.2.2.4. Lean UX Canvas
 

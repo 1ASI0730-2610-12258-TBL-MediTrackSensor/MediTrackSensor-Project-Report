@@ -61,141 +61,100 @@ Este sistema automatizado facilitará la gestión de los productos farmacéutico
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-### Dominio y Alcance del Problema
+### 1.2.2.1. Lean UX Problem Statements
 
-El proyecto se enfoca en el sector de la salud, específicamente en la gestión y almacenamiento de **medicamentos** dentro de hospitales, centros de distribución y almacenes farmacéuticos en el Perú. A pesar de la importancia crítica de mantener condiciones adecuadas de conservación, la supervisión de variables como temperatura, humedad y luz sigue siendo deficiente debido a la dependencia de procesos manuales, infraestructura limitada y la falta de monitoreo en tiempo real.
+#### **Problem Statement 1 — Personal encargado de almacenes farmacéuticos**
 
-Este problema afecta a nivel nacional, con un énfasis particular en hospitales públicos y centros de distribución de medicamentos, incluyendo almacenes estratégicos como los de Lurín. El problema se presenta tanto en zonas urbanas como rurales, donde las limitaciones tecnológicas y de infraestructura dificultan el control adecuado de las condiciones de almacenamiento. Esto genera un riesgo en la calidad y seguridad de los medicamentos, impactando directamente a los pacientes y la operatividad de las entidades de salud.
+**Contexto:**
+En el sector salud en Perú, hospitales y centros de distribución enfrentan el desafío de no contar con un sistema de monitoreo en tiempo real para condiciones críticas como temperatura, humedad y luz. La falta de visibilidad sobre estos parámetros compromete la efectividad de los medicamentos y genera pérdidas económicas debido al deterioro o vencimiento de productos.
 
-Un ejemplo claro de la magnitud de este problema es el caso del **Hospital Santa Rosa de Piura**, donde un informe de Infobae titulado *"Entre cucarachas y medicina vencida fue hallado almacén del hospital Santa Rosa de Piura"* reveló que, debido a la falta de controles adecuados y la inadecuada conservación, se encontraron **medicamentos vencidos** y condiciones insalubres en el área de almacenamiento. Este hallazgo subraya la urgente necesidad de mejorar la infraestructura y los procesos de conservación en los hospitales y almacenes farmacéuticos, ya que los **medicamentos vencidos** representan no solo una **pérdida económica significativa**, sino también un **grave riesgo para la salud** de los pacientes. Este tipo de incidentes pone de manifiesto los peligros que enfrentan los pacientes cuando no se implementan tecnologías adecuadas para monitorear y controlar las condiciones de almacenamiento.
+**Problema:**
+El personal de almacenes farmacéuticos carece de un sistema automatizado que permita monitorear en tiempo real las condiciones críticas de almacenamiento, lo que genera vulnerabilidades en el proceso y aumenta el riesgo de deterioro de los medicamentos.
 
-La oportunidad clave que nuestra startup busca aprovechar radica en la creciente necesidad de optimizar el control y monitoreo de los medicamentos a través de soluciones tecnológicas avanzadas, que permitan automatizar los procesos de conservación y garantizar un control más riguroso en tiempo real. Esto no solo resolvería las deficiencias del sistema actual, sino que también contribuiría a la mejora de la trazabilidad, la eficiencia operativa y el cumplimiento de las normativas sanitarias.
-
----
-
-### Actores Involucrados (Segmentos de Cliente)
-- **Personal encargado de almacenes farmacéuticos (operarios, técnicos y responsables de control):** Son los responsables directos del almacenamiento y conservación de medicamentos. Necesitan herramientas que mejoren la gestión de condiciones de almacenamiento y reduzcan el riesgo de errores.
-- **Personal de salud (farmacéuticos, administradores hospitalarios):** Supervisan el uso y la disponibilidad de los medicamentos, y deben garantizar que los productos sean administrados con la máxima seguridad.
-- **Entidades del Estado (MINSA, redes de salud):** Regulan la distribución de medicamentos y deben asegurarse de que se cumplan las normativas de conservación y control sanitario.
-- **Pacientes:** Son los usuarios finales que se ven directamente afectados por la calidad de los medicamentos, y cuya seguridad depende de que se mantengan condiciones adecuadas de conservación.
+**Pregunta clave:**
+¿Cómo podemos proporcionar a los encargados de almacenes una solución que permita monitorear las condiciones de almacenamiento de los medicamentos en tiempo real, reducir las incidencias operativas no detectadas y mejorar la trazabilidad de los productos en un 30% durante los primeros 6 meses?
 
 ---
 
-### Problemas, Puntos de Dolor y Causas
+#### **Problem Statement 2 — Personal de salud y entidades regulatorias**
 
-#### **Puntos de dolor**
-- **Falta de herramientas tecnológicas para monitoreo en tiempo real:** El personal encargado de almacenar medicamentos carece de un sistema automatizado que permita monitorear las condiciones críticas de almacenamiento en tiempo real, lo que genera vulnerabilidades en el proceso.
-- **Dificultad para detectar variaciones de temperatura o humedad:** Sin un sistema adecuado, las variaciones de estos factores pueden pasar desapercibidas hasta que los medicamentos se ven afectados.
-- **Falta de alertas automáticas:** En el sistema actual, los fallos en las condiciones ambientales no generan alertas inmediatas, lo que retrasa las decisiones correctivas.
-- **Baja trazabilidad de los medicamentos:** La falta de un registro digitalizado dificulta el seguimiento histórico de los medicamentos, lo que complica las auditorías y el control normativo.
-- **Pérdidas económicas por deterioro o vencimiento:** La gestión inadecuada de las condiciones de almacenamiento lleva a la pérdida de medicamentos, generando pérdidas económicas significativas.
+**Contexto:**
+Las entidades de salud, como hospitales y centros de distribución, carecen de un sistema automatizado de monitoreo continuo para asegurar que los medicamentos se conserven en condiciones óptimas. Esto genera incumplimiento de normativas sanitarias y riesgos para la seguridad de los pacientes debido a la dependencia de procesos manuales ineficaces.
 
-#### **Causas raíz**
-- **Infraestructura insuficiente:** Muchos almacenes y hospitales carecen de la infraestructura adecuada para almacenar medicamentos de manera controlada.
-- **Ausencia de sistemas automatizados de monitoreo:** La falta de tecnología para monitorear condiciones críticas contribuye a la ineficiencia y los errores en la gestión de los productos farmacéuticos.
-- **Dependencia de procesos manuales propensos a errores:** Los registros manuales y el monitoreo visual son procesos lentos y vulnerables a errores.
-- **Falta de integración tecnológica:** La ausencia de un sistema centralizado dificulta el intercambio de información entre diferentes niveles de la cadena de suministro de medicamentos.
-- **Supervisión limitada y no continua:** El monitoreo de las condiciones de almacenamiento es insuficiente, y no se realiza de manera continua, lo que aumenta los riesgos de deterioro.
+**Problema:**
+El personal de salud y las entidades regulatorias no cuentan con herramientas automatizadas para monitorear y garantizar el cumplimiento de las normativas de conservación de medicamentos, lo que pone en riesgo la calidad de los medicamentos y la seguridad de los pacientes.
 
----
+**Pregunta clave:**
+¿Cómo podemos diseñar un sistema que permita a las entidades de salud cumplir con las normativas sanitarias de manera más eficiente, garantizando que el 100% de los medicamentos se almacenen en condiciones adecuadas dentro de los primeros 12 meses de uso?
 
-### Brecha, Impactos e Indicadores
+### 1.2.2.2.2. Lean UX Assumptions
 
-#### **Brecha detectada**
-Actualmente, no existe un sistema digital integrado que permita monitorear en tiempo real las condiciones ambientales de almacenamiento de medicamentos. Esta falta de monitoreo eficaz genera riesgos que impactan tanto en la calidad de los medicamentos como en la eficiencia operativa del sistema de salud.
+#### Supuestos de Negocio
+- **Creemos que** el mercado de la salud en Perú necesita una solución tecnológica que permita monitorear en tiempo real las condiciones ambientales (temperatura, humedad, luz) en los almacenes farmacéuticos y hospitales, para garantizar la conservación adecuada de los medicamentos.
 
-#### **Impactos y riesgos**
-- **Deterioro de medicamentos:** Los medicamentos se pueden deteriorar debido a condiciones inadecuadas de almacenamiento, lo que afecta su efectividad y seguridad.
-- **Riesgos para la salud:** Los medicamentos deteriorados pueden causar daños a la salud de los pacientes.
-- **Pérdidas económicas:** La inadecuada conservación de los medicamentos genera pérdidas económicas considerables debido a productos no aptos para su consumo.
-- **Incumplimiento normativo:** La falta de un sistema adecuado de monitoreo puede resultar en el incumplimiento de normativas sanitarias sobre almacenamiento de medicamentos.
-- **Desabastecimiento:** La gestión deficiente puede llevar a un desabastecimiento de medicamentos esenciales en hospitales y clínicas.
+- **Creemos que** el valor principal que los clientes buscan obtener de esta solución es la seguridad de los medicamentos, evitando pérdidas económicas debido al deterioro o vencimiento de los productos.
 
-#### **Indicadores**
-- **Número de incidencias:** Casos de medicamentos almacenados fuera de los rangos recomendados.
-- **Tiempo de detección de fallas:** El tiempo promedio desde que ocurre una desviación hasta que es detectada.
-- **% de medicamentos deteriorados:** Proporción de medicamentos que han sido deteriorados por condiciones inadecuadas.
-- **Nivel de cumplimiento normativo:** Porcentaje de almacenes y hospitales que cumplen con las normativas de conservación.
-- **Tiempo de respuesta:** Tiempo necesario para tomar medidas correctivas después de una desviación.
-- **Disponibilidad de datos históricos:** La cantidad y calidad de los registros históricos disponibles para auditar el cumplimiento de las condiciones de almacenamiento.
+- **Creemos que** el modelo de negocio se basará en un sistema de suscripción mensual escalable según la cantidad de almacenes y sensores IoT conectados, con soporte adicional para instalación y mantenimiento de los sensores.
 
+- **Creemos que** nuestra ventaja competitiva es la combinación de monitoreo IoT en tiempo real con la gestión de condiciones ambientales, específicamente en el sector farmacéutico y de salud.
 
-#### 1.2.2.2. Lean UX Assumptions
+- **Creemos que** si no se evidencia una reducción de pérdidas operativas en los primeros 3 meses, perderemos la confianza de los clientes y no renovarán la suscripción.
 
-**Sobre usuarios (personal de almacenes, farmacéuticos, administradores de salud)**
-
-- Asumimos que el personal encargado del almacenamiento de medicamentos prioriza la conservación adecuada de las condiciones ambientales (temperatura, humedad, luz) para mantener la efectividad de los medicamentos.  
-  Métrica de éxito: El 95% de los medicamentos deben mantenerse dentro de los rangos ideales de conservación (temperatura, humedad, luz) durante todo el ciclo de almacenamiento.  
-  Definition of done: El sistema asegura que el 95% de los productos almacenados se mantengan en condiciones adecuadas, con registros automáticos de temperatura, humedad y luz.  
-  Objetivos del grupo objetivo: Garantizar la conservación de los medicamentos sin deterioro y asegurar su efectividad al final del proceso de almacenamiento.  
-  Características de la solución: La solución debe incluir sensores IoT para monitorear en tiempo real las condiciones de almacenamiento y alertar en caso de desviaciones.
-
-- Asumimos que los operarios necesitan información en tiempo real sobre las condiciones ambientales para tomar decisiones rápidas y garantizar la calidad de los medicamentos.  
-  Métrica de éxito: Reducir el tiempo de respuesta a las alertas críticas en un 30%, pasando de 15 a 10 minutos, mediante el uso de alertas automáticas y monitoreo en tiempo real.  
-  Definition of done: El sistema permite la recepción de alertas en tiempo real y asegura que los operarios tomen decisiones correctivas inmediatamente después de recibir la alerta.  
-  Objetivos del grupo objetivo: Minimizar el impacto de las variaciones ambientales en los medicamentos, asegurando que las decisiones correctivas se tomen rápidamente.  
-  Características de la solución: La solución debe permitir la visualización en tiempo real de las condiciones ambientales mediante un dashboard fácil de usar y accesible para los operarios.
-
-- Asumimos que los usuarios valoran soluciones simples y fáciles de usar debido a la carga operativa diaria, lo que implica que la interfaz debe ser intuitiva y fácil de implementar.  
-  Métrica de éxito: El 85% de los usuarios deben ser capaces de utilizar la solución de manera efectiva con menos de 30 minutos de formación inicial.  
-  Definition of done: La solución se considera implementada cuando al menos el 85% de los usuarios activos logran completar las tareas básicas sin asistencia adicional.  
-  Objetivos del grupo objetivo: Mejorar la eficiencia operativa diaria sin agregar complejidad.  
-  Características de la solución: Interfaz de usuario intuitiva, diseño simple y accesibilidad desde dispositivos móviles y estaciones de trabajo.
-
-- Asumimos que los usuarios consideran importante recibir alertas inmediatas ante cualquier variación crítica en las condiciones de almacenamiento, para poder mitigar riesgos.  
-  Métrica de éxito: El 95% de las alertas deben ser gestionadas de forma efectiva dentro del tiempo estipulado.  
-  Definition of done: El sistema estará completo cuando el 95% de las alertas generen una respuesta de acción dentro de un tiempo de 30 minutos desde su emisión.  
-  Objetivos del grupo objetivo: Minimizar el riesgo de deterioro de los medicamentos mediante la rápida identificación y solución de problemas.  
-  Características de la solución: Sistema de alertas automáticas basado en condiciones predefinidas, con opción de personalización de umbrales.
+- **Creemos que** la mayoría de los almacenes clave en el sector salud cuentan con conexión a internet suficiente para sincronizar datos operativos en tiempo real desde la plataforma.
 
 ---
 
-**Sobre entidades de salud (hospitales, MINSA, centros de distribución como Lurín)**
+#### Supuestos de Usuario
 
-- Asumimos que muchas entidades gestionan el almacenamiento de medicamentos con procesos manuales o parcialmente digitalizados, lo que dificulta el control y la trazabilidad.  
-  Métrica de éxito: Implementar el sistema en al menos el 60% de las entidades del sistema de salud dentro de los primeros 12 meses.  
-  Definition of done: El sistema se considera implementado cuando el 60% de las entidades cuentan con monitoreo automatizado, registrando datos de temperatura, humedad y luz en tiempo real.  
-  Objetivos del grupo objetivo: Mejorar la trazabilidad de los medicamentos y optimizar el control de almacenamiento a nivel nacional.  
-  Características de la solución: La solución debe incluir una plataforma centralizada que permita acceder a los datos históricos y actuales de todos los almacenes y entidades conectadas.
+- ¿Quién es el usuario?
+  - Personal encargado de almacenes farmacéuticos, como operarios, técnicos y responsables de control de medicamentos en hospitales y centros de distribución.
 
-- Asumimos que estas entidades carecen de sistemas continuos y automatizados de monitoreo de condiciones ambientales.  
-  Métrica de éxito: Automatizar el monitoreo en tiempo real en el 80% de los almacenes en los primeros 6 meses de implementación.  
-  Definition of done: El sistema se considera completamente implementado cuando el 80% de los almacenes estén conectados a la plataforma de monitoreo en tiempo real.  
-  Objetivos del grupo objetivo: Mejorar la eficiencia operativa, reducir los riesgos de errores humanos y garantizar la calidad de los medicamentos.  
-  Características de la solución: Sensores IoT integrados para monitoreo en tiempo real, accesibles desde una plataforma centralizada.
+- ¿Dónde encaja nuestro producto en su trabajo o vida?
+  - El producto se utilizará en la gestión diaria del almacenamiento de medicamentos, ayudando al personal a monitorear las condiciones ambientales (temperatura, humedad, luz) y asegurarse de que los productos se mantengan en condiciones adecuadas.
 
-- Asumimos que estas entidades necesitan garantizar el cumplimiento de normativas sanitarias relacionadas con el almacenamiento de medicamentos, para evitar sanciones y mejorar la calidad del servicio.  
-  Métrica de éxito: Lograr el 100% de cumplimiento con las normativas sanitarias dentro de los primeros 12 meses.  
-  Definition of done: El sistema se considerará exitoso cuando todas las entidades implementen un sistema de monitoreo que cumpla con las normativas locales e internacionales.  
-  Objetivos del grupo objetivo: Garantizar que todos los medicamentos almacenados estén en condiciones adecuadas según las regulaciones vigentes.  
-  Características de la solución: Reportes automáticos de cumplimiento normativo, con opción de auditorías digitales.
+- ¿Qué problemas resuelve nuestro producto?
+  - La falta de visibilidad en tiempo real sobre las condiciones de almacenamiento de medicamentos, la detección tardía de anomalías y la ausencia de alertas automáticas ante condiciones no ideales.
 
----
+- ¿Cuándo y cómo se usa nuestro producto?
+  - Durante toda la jornada operativa, tanto en dispositivos móviles como en computadoras, con acceso a un dashboard centralizado para visualizar en tiempo real las condiciones de los medicamentos y responder a alertas.
 
-**Sobre comportamiento y riesgos**
+- ¿Qué características son indispensables?
+  - Dashboard en tiempo real con datos de los sensores IoT, alertas automáticas ante condiciones fuera de rango, gestión multisede y reportes históricos para auditorías.
 
-- Asumimos que la falta de monitoreo en tiempo real incrementa significativamente el riesgo de deterioro de medicamentos, lo que pone en peligro la seguridad de los pacientes.  
-  Métrica de éxito: Reducir el riesgo de deterioro de los medicamentos en 90% mediante el monitoreo en tiempo real.  
-  Definition of done: El sistema se considerará exitoso cuando el 90% de los incidentes se resuelvan antes de que los medicamentos sufran daños irreparables.  
-  Objetivos del grupo objetivo: Asegurar la calidad y seguridad de los medicamentos hasta su distribución final.  
-  Características de la solución: Sistema de monitoreo en tiempo real con alertas automáticas que permitan tomar decisiones correctivas antes de que los productos sean afectados.
+- ¿Cómo debe verse y comportarse el producto?
+  - Interfaz simple y clara, con codificación por colores (verde, amarillo, rojo) para que el personal entienda rápidamente el estado de los medicamentos, sin necesidad de capacitación técnica extensa.
 
 ---
 
-**Sobre tecnología y datos**
+#### Supuestos de Tecnología
 
-- Asumimos que las entidades están dispuestas a implementar sensores IoT si estos mejoran el control y monitoreo de las condiciones de almacenamiento, brindando mayor seguridad en el proceso.  
-  Métrica de éxito: Implementar sensores IoT en el 80% de los almacenes dentro del primer año.  
-  Definition of done: El sistema se considera completo cuando el 80% de los almacenes han adoptado la tecnología de sensores IoT para monitoreo de condiciones ambientales.  
-  Objetivos del grupo objetivo: Aumentar la precisión del monitoreo y mejorar la seguridad en el almacenamiento de los medicamentos.  
-  Características de la solución: Sensores IoT para recolección de datos en tiempo real, integrados a una plataforma accesible en todo momento.
+- **Creemos que** las entidades de salud están dispuestas a adoptar tecnología avanzada como sensores IoT para mejorar el monitoreo de las condiciones de almacenamiento de medicamentos.
 
-- Asumimos que existe disponibilidad de conexión a internet en la mayoría de los almacenes principales, lo que facilita la implementación de soluciones tecnológicas avanzadas.  
-  Métrica de éxito: El 95% de los almacenes clave deben contar con conexión a Internet confiable dentro del primer año de implementación.  
-  Definition of done: El sistema se considera implementado cuando el 95% de los almacenes clave tienen la capacidad de conectarse a la plataforma para monitorear las condiciones ambientales.  
-  Objetivos del grupo objetivo: Facilitar el monitoreo remoto y la centralización de datos en tiempo real.  
-  Características de la solución: Solución basada en la nube, con acceso remoto y conexión continua.
+- **Creemos que** los sensores IoT serán integrados fácilmente a una plataforma centralizada que permitirá acceder a datos históricos y en tiempo real desde cualquier dispositivo conectado.
 
+- **Creemos que** los almacenes principales tienen conexión a internet confiable, lo que facilita la implementación de soluciones basadas en la nube.
+
+- **Creemos que** la plataforma será compatible con los sistemas actuales de gestión de inventarios y será fácil de integrar sin interrumpir las operaciones diarias.
+
+- **Creemos que** los sensores IoT podrán funcionar de manera eficiente en diversas condiciones ambientales, como en áreas con temperaturas extremas o humedad elevada, comunes en algunos hospitales y almacenes.
+
+- **Creemos que** la plataforma debe ser escalable para adaptarse al crecimiento de los hospitales o redes de distribución, permitiendo agregar más sensores y almacenes sin dificultad.
+
+---
+
+#### Supuestos del Mercado
+
+- **Creemos que** las entidades de salud (hospitales y centros de distribución) necesitan una solución automatizada para cumplir con las normativas sanitarias relacionadas con el almacenamiento de medicamentos.
+
+- **Creemos que** la adopción de esta tecnología será rápida en el sector debido a la creciente demanda por soluciones tecnológicas para mejorar la seguridad de los pacientes y cumplir con las normativas.
+
+- **Creemos que** las entidades de salud están cada vez más dispuestas a invertir en tecnologías que les permitan optimizar costos y mejorar la eficiencia operativa a largo plazo.
+
+- **Creemos que** la competencia en el mercado de monitoreo IoT para el sector farmacéutico aún está en etapas tempranas, lo que nos ofrece una ventaja para posicionarnos como líderes en este nicho.
+
+- **Creemos que** los clientes en el sector de salud valoran las soluciones personalizables que se adaptan a sus necesidades específicas y que sean fáciles de integrar en sus sistemas operativos existentes.
+
+- **Creemos que** las entidades reguladoras como MINSA y otras agencias de salud están promoviendo iniciativas digitales para mejorar la eficiencia en la gestión de medicamentos, lo que facilita la adopción de soluciones tecnológicas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 

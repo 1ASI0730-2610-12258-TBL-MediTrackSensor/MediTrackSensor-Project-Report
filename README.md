@@ -30,6 +30,7 @@
 | Rioja Nuñez, Franco Diego |    U202221597    |
 | Tufiño Argüelles, Luis Angel |    U202216240    |
 | Urviola Condori, Mateo Sebastián |    U20231e443    |
+| Paredes Diaz, Tomás Alessandro |    U202416552    |
 
 </div>
 
@@ -65,15 +66,28 @@
 
 A continuación, se brindará un mayor detalle sobre las actividades realizadas en cada entrega, la participación de cada miembro de la startup y las evidencias correspondientes.
 
+## AV1
+
 ## Desarrollo del reporte
-#### AV1:
 
 <img src="assets/collabReport.png" alt="Collab Landing Page"/>
 
 ## Desarrollo de Landing Page
-#### AV1:
 
 <img src="assets/collabLanding.png" alt="Collab Landing Page"/>
+
+## TB1
+
+## Desarrollo del reporte
+
+## Desarrollo de Landing Page
+
+![Desarrollo_landing_2](assets/Desarrolo%20landing%202.png)
+
+## Desarrollo del Frontend
+
+![Desarrollo_frontend](assets/Desarrollo%20del%20frontend.png)
+
 
 ---
 

@@ -9,201 +9,335 @@ Nuestra visión es contribuir a la modernización de la gestión del almacenamie
 Nuestro producto principal es MediTrack Sensor, una plataforma web que permite a clínicas, farmacias, hospitales y entidades de distribución supervisar en tiempo real las condiciones ambientales de los medicamentos, generando alertas, almacenando datos históricos y facilitando la gestión de la conservación. Esta solución reemplaza procesos manuales y limitados, ofreciendo un sistema centralizado que mejora la trazabilidad y reduce riesgos en la calidad de los productos farmacéuticos.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| Código     | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Foto                                 |
-|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| U202216240 | **Luis Angel Tufiño Argüelles**<br>Ingeniería de Software<br><br>Elegí la carrera de Ingeniería de Software motivado por mi interés inicial en comprender el funcionamiento de un programa básico como Scratch. Posteriormente, durante la pandemia, comencé a modificar juegos sencillos, lo que representó mis primeros acercamientos al mundo de la programación.<br><br>Cuento con conocimientos en lenguajes como C++, Python y JavaScript. Además, durante el verano reforcé mis habilidades en el desarrollo de páginas web utilizando HTML y CSS, así como en la creación de bots para Discord y Telegram empleando el lenguaje Python.<br><br>Considero que mi capacidad para generar ideas, junto con mi disposición para escuchar y trabajar en equipo, pueden aportar de manera positiva al desarrollo de este proyecto. | ![Foto](./assets/luis-tufino.png)    |
-| U20221587  | **Franco Diego Rioja Nuñez** <br>Ingeniería de Software<br><br>Tengo 21 años y actualmente curso el séptimo ciclo de la carrera. Me considero una persona proactiva y comprometida en el desarrollo de proyectos, además de ser colaborativa y atenta a las necesidades y problemas de mis compañeros de equipo. En paralelo, me encuentro llevando cursos de especialización en Análisis de Datos, con el objetivo de ampliar mis conocimientos y fortalecer mis competencias profesionales.<br>                                                                                                                                                                                                                                                                                                                                    | ![Foto](./assets/Franco-Rioja.png)   |
-| U20231e443 | **Mateo Sebastian Urviola Condori** <br>"Soy estudiante del programa para ingeniería en software, tengo 20 años y estoy buscando mi lugar en el mundo de la tecnología. Llevo año y medio estudiando programación y me gustaría seguir mejorando constantemente, creo que tengo potencial para desarrollar sistemas muy buenos.Tengo conocimientos en C++ basico-intermedio, dominio básico en python con el cuál he hecho web scraping y ya he manejado openGL como motor gráfico.<br>                                                                                                                                                                                                                                                                                                                                              | ![Foto](./assets/mateo-urviola.png)  |
-| U202419440 | **Dhilsen Armil Mallqui Vilca** <br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | ![Foto](./assets/dhilsen-malqui.png) |
-| U202319037 | **Diego Fernando Herrera Enriquez** <br>Con creatividad, responsabilidad y con disposición para aprender y crecer junto a mi equipo, pienso en entregar una aportación sobresaliente. Me adapto con facilidad a distintos retos, aportando ideas y soluciones prácticas que buscan mejorar cada proyecto. Valoro las buenas prácticas en esta profesión para servir a las personas con pasión por lo que hacemos. Conocimientos competentes en Frontend (HTML, CSS, JS) y experimentado en el diseño de proyectos a nivel integral. Mi enfoque está orientado a desarrollar soluciones prácticas y efectivas, siempre priorizando la satisfacción del usuario y con visión a seguir mejorando en futuros proyectos<br>                                                                                                               | ![Foto](./assets/diego-herrera.png)  |
----
+
+| Código | Descripción | Foto |
+|:---|:---|:---|
+| U202216240 | **Luis Angel Tufiño Argüelles**<br>Ingeniería de Software<br><br>Elegí la carrera de Ingeniería de Software motivado por mi interés inicial en comprender el funcionamiento de un programa básico como Scratch. Posteriormente, durante la pandemia, comencé a modificar juegos sencillos, lo que representó mis primeros acercamientos al mundo de la programación. Cuento con conocimientos en lenguajes como C++, Python y JavaScript. Además, durante el verano reforcé mis habilidades en el desarrollo de páginas web utilizando HTML y CSS. | ![Foto](../assets/luis-tufino.png) |
+| U20221587 | **Franco Diego Rioja Nuñez** <br>Ingeniería de Software<br><br>Tengo 21 años y actualmente curso el séptimo ciclo de la carrera. Me considero una persona proactiva y comprometida en el desarrollo de proyectos, además de ser colaborativa y atenta a las necesidades y problemas de mis compañeros de equipo. En paralelo, me encuentro llevando cursos de especialización en Análisis de Datos, con el objetivo de ampliar mi perfil profesional. | ![Foto](../assets/Franco-Rioja.png) |
+| U20231e443 | **Mateo Sebastian Urviola Condori** <br>Ingeniería de Software<br><br>Estudiante de ingeniería de software de 20 años. Llevo año y medio estudiando programación y busco mejorar constantemente. Tengo conocimientos en C++ nivel básico-intermedio, dominio de Python para web scraping y experiencia manejando OpenGL como motor gráfico. Mi objetivo es desarrollar sistemas de alto impacto. | ![Foto](../assets/mateo-urviola.png) |
+| **U202416552** | **Tomás Alessandro Paredes Diaz**<br>Ingeniería de Software<br><br>Estudiante de Ingeniería de Software con un fuerte enfoque en el desarrollo de aplicaciones web. Cuento con experiencia técnica en frameworks como Angular y Vue.js para el frontend, y .NET Core para el backend. Poseo conocimientos en gestión de bases de datos relacionales y no relacionales como SQL Server y MongoDB. Me apasiona la arquitectura de software y el liderazgo técnico en entornos ágiles. | ![Foto](../assets/tomas-paredes.png) |
+| U202419440 | **Dhilsen Armil Mallqui Vilca** <br>Ingeniería de Software<br><br>Estudiante de Ingeniería de Software enfocado en el desarrollo de soluciones tecnológicas escalables. Me interesa la implementación de buenas prácticas de programación y el despliegue continuo. Soy una persona colaborativa, orientada al aprendizaje constante y al cumplimiento de los hitos técnicos del equipo. | ![Foto](../assets/dhilsen-malqui.png) |
+| U202319037 | **Diego Fernando Herrera Enriquez** <br>Ingeniería de Software<br><br>Responsable y con disposición para aprender, busco entregar aportaciones sobresalientes. Me adapto con facilidad a distintos retos, aportando soluciones prácticas. Conocimientos competentes en Frontend (HTML, CSS, JS) y experimentado en el diseño de proyectos a nivel integral, priorizando siempre la satisfacción del usuario. | ![Foto](../assets/diego-herrera.png) |
 
 ## 1.2. Solution Profile
+
 ### 1.2.1. Antecedentes y problemática
+
+### Contexto del mercado y oportunidad
+
+En el Perú, el sector salud enfrenta desafíos en la gestión del almacenamiento de medicamentos, como se evidencia en el caso del Hospital I de Tingo María, donde los medicamentos se encontraron almacenados en condiciones inadecuadas, expuestos al sol y sin control adecuado de temperatura y humedad. Este problema, común en muchas instituciones de salud, compromete la eficacia y seguridad de los medicamentos.
+Actualmente, existe una oportunidad de mercado para soluciones tecnológicas que mejoren la eficiencia operativa del sector salud. Aunque algunas herramientas en el mercado abordan aspectos como inventarios o facturación, pocas resuelven el problema central: la falta de visibilidad en tiempo real sobre las condiciones críticas de almacenamiento.
+Con la creciente necesidad de digitalización en el sector, especialmente a través de iniciativas como las del Ministerio de Salud, las soluciones basadas en sensores IoT ofrecen una oportunidad única para mejorar el monitoreo y control de las condiciones de conservación de los medicamentos, asegurando su efectividad y reduciendo riesgos operativos.
+---
 #### Who (¿Quiénes son los involucrados?)
-Los principales involucrados son hospitales, clínicas, farmacias, almacenes farmacéuticos y entidades del Estado encargadas de la distribución de medicamentos en el Perú. Asimismo, los pacientes se ven directamente afectados, ya que dependen de que los medicamentos se conserven en condiciones adecuadas para garantizar su efectividad y seguridad.
+Los principales involucrados en esta problemática son los hospitales, clínicas, farmacias, almacenes farmacéuticos, distribuidores de medicamentos y entidades del Estado encargadas de la regulación y distribución de medicamentos en el Perú. Los pacientes son también actores clave, ya que dependen de que los medicamentos sean almacenados y transportados en condiciones óptimas para garantizar su efectividad y seguridad.
 
 #### What (¿Qué se necesita?)
-Existe la necesidad de un sistema que permita monitorear en tiempo real las condiciones ambientales de almacenamiento de medicamentos, como temperatura, humedad y exposición a la luz, debido a la falta de control continuo y herramientas tecnológicas que aseguren su correcta conservación.
+Se necesita un sistema tecnológico que permita monitorear en tiempo real las condiciones de almacenamiento y transporte de los **medicamentos**, específicamente variables críticas como la temperatura, la humedad y la exposición a la luz. Este sistema debe utilizar sensores IoT para asegurar que los medicamentos mantengan sus propiedades y no sufran deterioro debido a condiciones de almacenamiento inadecuadas.
 
 #### Where (¿Dónde ocurre el problema?)
-El problema se presenta en hospitales y almacenes de medicamentos a nivel nacional, especialmente en zonas de provincias como Tingo María, así como en centros de distribución donde no se cuenta con infraestructura adecuada para el almacenamiento de productos farmacéuticos.
+El problema ocurre principalmente en los hospitales, clínicas, almacenes farmacéuticos y centros de distribución de medicamentos a nivel nacional, especialmente en zonas de provincias como Tingo María y en áreas de difícil acceso donde la infraestructura de almacenamiento no es adecuada para garantizar el control de los medicamentos. Este problema también se extiende a los procesos de transporte, donde los medicamentos pueden ser expuestos a condiciones no ideales sin monitoreo efectivo.
 
 #### When (¿Cuándo surge esta necesidad?)
-Esta necesidad surge de manera constante durante todo el proceso de almacenamiento y distribución de medicamentos, especialmente en contextos donde no existen sistemas automatizados de monitoreo y control, lo que hace que el problema sea continuo y vigente en la actualidad.
+Esta necesidad surge de manera constante durante todo el proceso de almacenamiento y distribución de medicamentos. Desde que los productos son almacenados hasta que son transportados a su destino final, existe la necesidad continua de monitorear las condiciones ambientales para evitar que los medicamentos sufran alteraciones que puedan comprometer su seguridad y efectividad.
 
 #### Why (¿Por qué existe esta necesidad?)
-La problemática se origina debido a la falta de infraestructura adecuada, deficiencias en la gestión de almacenes y ausencia de sistemas de monitoreo en tiempo real. Según reportes de la Contraloría General de la República, se han identificado casos de almacenamiento inadecuado en hospitales, mientras que el Estado ha reconocido la necesidad de mejorar la infraestructura de almacenamiento, lo que evidencia que las condiciones actuales no garantizan la correcta conservación de medicamentos.
+La problemática existe debido a la falta de infraestructura adecuada en muchos almacenes y hospitales, junto con la carencia de sistemas automatizados de monitoreo de condiciones. Esto ha provocado incidentes de almacenamiento inadecuado, como la exposición a temperaturas o humedades fuera de rango, lo que compromete la calidad de los medicamentos. Además, la dependencia de procesos manuales y la ausencia de tecnologías de monitoreo en tiempo real incrementan el riesgo de pérdida de productos y desabastecimiento.
 
 #### How (¿Cómo se manifiesta el problema?)
-El problema se manifiesta mediante el almacenamiento de medicamentos en condiciones inadecuadas, como exposición al sol, humedad, polvo o cercanía a zonas contaminantes. Además, se observa la falta de control de temperatura y la ausencia de sistemas automatizados, lo que obliga a depender de procesos manuales e improvisados que incrementan el riesgo de deterioro de los productos farmacéuticos.
+El problema se manifiesta en el almacenamiento de medicamentos en condiciones no controladas, como la exposición al sol, humedad excesiva, polvo, o el almacenamiento en espacios no adecuados. También se evidencia la falta de un sistema automatizado que controle y ajuste en tiempo real estos parámetros, lo que obliga a depender de procesos manuales y poco confiables. Esto aumenta el riesgo de que los medicamentos se deterioren o pierdan su efectividad, poniendo en peligro la salud de los pacientes.
 
 #### How Much (¿Cuánto cuesta o qué magnitud tiene el problema?)
-El problema tiene un impacto significativo en el sistema de salud, generando pérdidas económicas por medicamentos deteriorados, riesgos para la salud de los pacientes y deficiencias en la atención médica. La magnitud es considerable, ya que afecta a múltiples establecimientos de salud a nivel nacional y evidencia la necesidad de implementar soluciones tecnológicas que mejoren el control y la trazabilidad de los medicamentos.
+El impacto económico de este problema es significativo, dado que el almacenamiento inadecuado de medicamentos genera pérdidas debido al deterioro de productos que no pueden ser utilizados. Además, esta situación afecta la salud de los pacientes, ya que los medicamentos deteriorados pueden resultar ineficaces o incluso peligrosos. La magnitud del problema es considerable a nivel nacional, afectando tanto a las entidades públicas como privadas, lo que resalta la urgente necesidad de implementar soluciones tecnológicas que permitan garantizar la trazabilidad y conservación de los medicamentos.
 
 ---
 
-#### Descripción de la Problemática
+### Descripción de la Solución Propuesta
 
-En el Perú, el almacenamiento inadecuado de medicamentos representa una problemática vigente en el sistema de salud. Según reportes de la Contraloría General de la República, en el Hospital de Tingo María se evidenciaron deficiencias en el almacenamiento, como medicamentos ubicados en pasadizos, expuestos a condiciones no adecuadas y sin control ambiental, lo que compromete su calidad y efectividad.
+El producto propuesto consiste en un sistema de monitoreo en tiempo real utilizando sensores IoT que permiten controlar y registrar las condiciones ambientales de almacenamiento y transporte de los **medicamentos**. Estos sensores medirán constantemente parámetros como temperatura, humedad y exposición a la luz, proporcionando alertas inmediatas si alguno de estos valores se desvía de los rangos recomendados para la correcta conservación de los medicamentos.
 
-Asimismo, el diario oficial El Peruano señala que el Estado ha identificado limitaciones en la infraestructura de almacenamiento de medicamentos, lo que ha llevado a la implementación de mejoras y nuevos almacenes especializados. Esto evidencia que previamente no se contaba con condiciones óptimas para la conservación de productos farmacéuticos, especialmente aquellos que requieren control de temperatura y humedad.
+Este sistema automatizado facilitará la gestión de los productos farmacéuticos a lo largo de toda la cadena de suministro, desde el almacenamiento en los almacenes hasta el transporte y distribución. A través de la integración de tecnologías de monitoreo avanzadas, el sistema asegura que los medicamentos se mantengan en condiciones óptimas, evitando el deterioro y mejorando la trazabilidad, lo que reducirá el riesgo de pérdidas económicas y contribuirá a la seguridad de los pacientes.
 
-Esta situación refleja una problemática estructural caracterizada por la falta de monitoreo en tiempo real, deficiencias en infraestructura y dependencia de procesos manuales, lo que incrementa el riesgo de deterioro de los medicamentos. Como consecuencia, se generan pérdidas económicas, desabastecimiento y, principalmente, riesgos para la salud de los pacientes, evidenciando la necesidad de implementar soluciones tecnológicas que permitan supervisar de manera eficiente las condiciones de almacenamiento.
-### 1.2.2. Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
-### Dominio y Alcance del Problema
-El proyecto se enmarca en el sector salud, específicamente en la gestión y almacenamiento de medicamentos dentro de hospitales, centros de distribución y almacenes farmacéuticos en el Perú. A pesar de la importancia crítica de mantener condiciones adecuadas de conservación, la supervisión de variables como temperatura, humedad y luz aún presenta deficiencias debido a procesos manuales, infraestructura limitada y ausencia de monitoreo en tiempo real.
+## 1.2.2. Lean UX Process
 
-El problema se presenta a nivel nacional, con énfasis en hospitales públicos y centros de distribución de medicamentos, incluyendo almacenes estratégicos como los de Lurín. Afecta tanto a zonas urbanas como rurales, donde las limitaciones tecnológicas y de infraestructura dificultan el control adecuado de las condiciones de almacenamiento.
+### 1.2.2.1. Lean UX Problem Statements
 
----
+#### **Problem Statement 1 — Personal encargado de almacenes farmacéuticos**
 
-### Actores Involucrados (Segmentos de Cliente)
-- Personal encargado de almacenes farmacéuticos (operarios, técnicos y responsables de control): responsables directos del almacenamiento y conservación de medicamentos.
-- Personal de salud (farmacéuticos, administradores hospitalarios): supervisan el uso y disponibilidad de medicamentos.
-- Entidades del Estado (MINSA, redes de salud): responsables de la distribución y cumplimiento de normativas.
-- Pacientes: usuarios finales afectados por la calidad de los medicamentos.
+**Contexto:**
+En el sector salud en Perú, hospitales y centros de distribución enfrentan el desafío de no contar con un sistema de monitoreo en tiempo real para condiciones críticas como temperatura, humedad y luz. La falta de visibilidad sobre estos parámetros compromete la efectividad de los medicamentos y genera pérdidas económicas debido al deterioro o vencimiento de productos.
 
----
+**Problema:**
+El personal de almacenes farmacéuticos carece de un sistema automatizado que permita monitorear en tiempo real las condiciones críticas de almacenamiento, lo que genera vulnerabilidades en el proceso y aumenta el riesgo de deterioro de los medicamentos.
 
-### Problemas, Puntos de Dolor y Causas
-**Puntos de dolor**
-- Falta de herramientas tecnológicas para monitoreo en tiempo real.
-- Dificultad para detectar variaciones de temperatura o humedad.
-- Falta de alertas automáticas.
-- Baja trazabilidad de los medicamentos.
-- Pérdidas económicas por deterioro o vencimiento.
-
-**Causas raíz**
-- Infraestructura insuficiente.
-- Ausencia de sistemas automatizados.
-- Procesos manuales propensos a errores.
-- Falta de integración tecnológica.
-- Supervisión limitada y no continua.
+**Pregunta clave:**
+¿Cómo podemos proporcionar a los encargados de almacenes una solución que permita monitorear las condiciones de almacenamiento de los medicamentos en tiempo real, reducir las incidencias operativas no detectadas y mejorar la trazabilidad de los productos en un 30% durante los primeros 6 meses?
 
 ---
 
-### Brecha, Impactos e Indicadores
-**Brecha detectada**  
-No existe un sistema digital integrado que permita monitorear en tiempo real las condiciones ambientales de almacenamiento de medicamentos, generando alertas y registros históricos confiables.
+#### **Problem Statement 2 — Personal de salud y entidades regulatorias**
 
-**Impactos y riesgos**
-- Deterioro de medicamentos.
-- Riesgos para la salud.
-- Pérdidas económicas.
-- Incumplimiento normativo.
-- Desabastecimiento.
+**Contexto:**
+Las entidades de salud, como hospitales y centros de distribución, carecen de un sistema automatizado de monitoreo continuo para asegurar que los medicamentos se conserven en condiciones óptimas. Esto genera incumplimiento de normativas sanitarias y riesgos para la seguridad de los pacientes debido a la dependencia de procesos manuales ineficaces.
 
-**Indicadores**
-- Número de incidencias.
-- Tiempo de detección de fallas.
-- % de medicamentos deteriorados.
-- Nivel de cumplimiento.
-- Tiempo de respuesta.
-- Disponibilidad de datos históricos.
+**Problema:**
+El personal de salud y las entidades regulatorias no cuentan con herramientas automatizadas para monitorear y garantizar el cumplimiento de las normativas de conservación de medicamentos, lo que pone en riesgo la calidad de los medicamentos y la seguridad de los pacientes.
 
-#### 1.2.2.2. Lean UX Assumptions
-**Sobre usuarios (personal de almacenes, farmacéuticos, administradores de salud)**
-- Asumimos que el personal encargado del almacenamiento prioriza mantener condiciones adecuadas de temperatura, humedad y luz para conservar los medicamentos.
-- Asumimos que necesitan información en tiempo real sobre las condiciones ambientales para tomar decisiones rápidas.
-- Asumimos que valoran sistemas simples y fáciles de usar, debido a la carga operativa diaria.
-- Asumimos que toleran poca complejidad en el uso de nuevas tecnologías, por lo que requieren interfaces intuitivas.
-- Asumimos que consideran importante recibir alertas inmediatas ante cualquier variación crítica en las condiciones de almacenamiento.
-- Asumimos que una parte del personal depende aún de registros manuales, como cuadernos o Excel.
-- Asumimos que existe interés en digitalizar procesos si esto reduce errores y facilita su trabajo.
-- Asumimos que el personal valora la trazabilidad de los datos para auditorías y cumplimiento de normativas.
+**Pregunta clave:**
+¿Cómo podemos diseñar un sistema que permita a las entidades de salud cumplir con las normativas sanitarias de manera más eficiente, garantizando que el 100% de los medicamentos se almacenen en condiciones adecuadas dentro de los primeros 12 meses de uso?
 
-**Sobre entidades de salud (hospitales, MINSA, centros de distribución como Lurín)**
-- Asumimos que muchas entidades gestionan el almacenamiento de medicamentos con procesos manuales o parcialmente digitalizados.
-- Asumimos que carecen de monitoreo continuo y automatizado de condiciones ambientales.
-- Asumimos que necesitan garantizar el cumplimiento de normativas sanitarias relacionadas al almacenamiento.
-- Asumimos que requieren información histórica para auditorías y toma de decisiones.
-- Asumimos que buscan reducir pérdidas económicas por medicamentos deteriorados o vencidos.
-- Asumimos que la centralización de información facilitaría la gestión de múltiples almacenes o sedes.
-- Asumimos que existe interés en soluciones tecnológicas que mejoren la eficiencia operativa.
+### 1.2.2.2.2. Lean UX Assumptions
 
-**Sobre comportamiento y riesgos**
-- Asumimos que la falta de monitoreo en tiempo real incrementa el riesgo de deterioro de medicamentos.
-- Asumimos que errores humanos en registros manuales pueden generar información inexacta.
-- Asumimos que la ausencia de alertas inmediatas retrasa la respuesta ante condiciones críticas.
-- Asumimos que condiciones ambientales inadecuadas pueden pasar desapercibidas durante largos periodos.
-- Asumimos que la falta de trazabilidad dificulta identificar responsabilidades ante incidentes.
+#### Supuestos de Negocio
+- **Creemos que** el mercado de la salud en Perú necesita una solución tecnológica que permita monitorear en tiempo real las condiciones ambientales (temperatura, humedad, luz) en los almacenes farmacéuticos y hospitales, para garantizar la conservación adecuada de los medicamentos.
 
-**Sobre tecnología y datos**
-- Asumimos que las entidades están dispuestas a implementar sensores IoT si estos mejoran el control y monitoreo.
-- Asumimos que existe disponibilidad de conexión a internet en la mayoría de almacenes principales.
-- Asumimos que los datos de temperatura, humedad y luz pueden ser recolectados y procesados en tiempo real.
-- Asumimos que la visualización de datos en dashboards facilita la toma de decisiones.
-- Asumimos que el registro histórico de datos permitirá análisis y mejora continua del proceso.
-- Asumimos que la automatización mediante alertas reducirá la dependencia de la supervisión manual.
+- **Creemos que** el valor principal que los clientes buscan obtener de esta solución es la seguridad de los medicamentos, evitando pérdidas económicas debido al deterioro o vencimiento de los productos.
+
+- **Creemos que** el modelo de negocio se basará en un sistema de suscripción mensual escalable según la cantidad de almacenes y sensores IoT conectados, con soporte adicional para instalación y mantenimiento de los sensores.
+
+- **Creemos que** nuestra ventaja competitiva es la combinación de monitoreo IoT en tiempo real con la gestión de condiciones ambientales, específicamente en el sector farmacéutico y de salud.
+
+- **Creemos que** si no se evidencia una reducción de pérdidas operativas en los primeros 3 meses, perderemos la confianza de los clientes y no renovarán la suscripción.
+
+- **Creemos que** la mayoría de los almacenes clave en el sector salud cuentan con conexión a internet suficiente para sincronizar datos operativos en tiempo real desde la plataforma.
+
+---
+
+#### Supuestos de Usuario
+
+- ¿Quién es el usuario?
+  - Personal encargado de almacenes farmacéuticos, como operarios, técnicos y responsables de control de medicamentos en hospitales y centros de distribución.
+
+- ¿Dónde encaja nuestro producto en su trabajo o vida?
+  - El producto se utilizará en la gestión diaria del almacenamiento de medicamentos, ayudando al personal a monitorear las condiciones ambientales (temperatura, humedad, luz) y asegurarse de que los productos se mantengan en condiciones adecuadas.
+
+- ¿Qué problemas resuelve nuestro producto?
+  - La falta de visibilidad en tiempo real sobre las condiciones de almacenamiento de medicamentos, la detección tardía de anomalías y la ausencia de alertas automáticas ante condiciones no ideales.
+
+- ¿Cuándo y cómo se usa nuestro producto?
+  - Durante toda la jornada operativa, tanto en dispositivos móviles como en computadoras, con acceso a un dashboard centralizado para visualizar en tiempo real las condiciones de los medicamentos y responder a alertas.
+
+- ¿Qué características son indispensables?
+  - Dashboard en tiempo real con datos de los sensores IoT, alertas automáticas ante condiciones fuera de rango, gestión multisede y reportes históricos para auditorías.
+
+- ¿Cómo debe verse y comportarse el producto?
+  - Interfaz simple y clara, con codificación por colores (verde, amarillo, rojo) para que el personal entienda rápidamente el estado de los medicamentos, sin necesidad de capacitación técnica extensa.
+
+---
+
+#### Supuestos de Tecnología
+
+- **Creemos que** las entidades de salud están dispuestas a adoptar tecnología avanzada como sensores IoT para mejorar el monitoreo de las condiciones de almacenamiento de medicamentos.
+
+- **Creemos que** los sensores IoT serán integrados fácilmente a una plataforma centralizada que permitirá acceder a datos históricos y en tiempo real desde cualquier dispositivo conectado.
+
+- **Creemos que** los almacenes principales tienen conexión a internet confiable, lo que facilita la implementación de soluciones basadas en la nube.
+
+- **Creemos que** la plataforma será compatible con los sistemas actuales de gestión de inventarios y será fácil de integrar sin interrumpir las operaciones diarias.
+
+- **Creemos que** los sensores IoT podrán funcionar de manera eficiente en diversas condiciones ambientales, como en áreas con temperaturas extremas o humedad elevada, comunes en algunos hospitales y almacenes.
+
+- **Creemos que** la plataforma debe ser escalable para adaptarse al crecimiento de los hospitales o redes de distribución, permitiendo agregar más sensores y almacenes sin dificultad.
+
+---
+
+#### Supuestos del Mercado
+
+- **Creemos que** las entidades de salud (hospitales y centros de distribución) necesitan una solución automatizada para cumplir con las normativas sanitarias relacionadas con el almacenamiento de medicamentos.
+
+- **Creemos que** la adopción de esta tecnología será rápida en el sector debido a la creciente demanda por soluciones tecnológicas para mejorar la seguridad de los pacientes y cumplir con las normativas.
+
+- **Creemos que** las entidades de salud están cada vez más dispuestas a invertir en tecnologías que les permitan optimizar costos y mejorar la eficiencia operativa a largo plazo.
+
+- **Creemos que** la competencia en el mercado de monitoreo IoT para el sector farmacéutico aún está en etapas tempranas, lo que nos ofrece una ventaja para posicionarnos como líderes en este nicho.
+
+- **Creemos que** los clientes en el sector de salud valoran las soluciones personalizables que se adaptan a sus necesidades específicas y que sean fáciles de integrar en sus sistemas operativos existentes.
+
+- **Creemos que** las entidades reguladoras como MINSA y otras agencias de salud están promoviendo iniciativas digitales para mejorar la eficiencia en la gestión de medicamentos, lo que facilita la adopción de soluciones tecnológicas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+**Hipótesis 1**
 
-- **Hipótesis 1:**  
-  Si ofrecemos una plataforma web que permita el monitoreo en tiempo real de las condiciones ambientales de almacenamiento de medicamentos, entonces el personal encargado podrá tomar decisiones oportunas para evitar el deterioro de los productos farmacéuticos.
+**Creemos que lograremos** una mejora significativa en la toma de decisiones del personal encargado de almacenes farmacéuticos para evitar el deterioro de los productos farmacéuticos  
+**Si** el personal encargado de almacenes farmacéuticos tiene acceso a una plataforma web con monitoreo en tiempo real de las condiciones de almacenamiento de medicamentos  
+**Alcanzan** la capacidad de tomar decisiones oportunas para evitar el deterioro de los productos farmacéuticos  
+**Con** el sistema de monitoreo en tiempo real de las condiciones de almacenamiento y alertas automáticas sobre temperatura, humedad y exposición a la luz
 
-- **Hipótesis 2:**  
-  Si las entidades de salud cuentan con un sistema que genere alertas automáticas ante variaciones de temperatura, humedad o luz, entonces podrán reducir riesgos asociados al almacenamiento inadecuado y mejorar la seguridad de los medicamentos.
+> Sabremos que esto es verdad cuando observemos una mejora del 30% en la reducción de incidentes relacionados con el deterioro de medicamentos durante los primeros 3 meses de uso de la plataforma.
 
-- **Hipótesis 3:**  
-  Si los usuarios pueden visualizar datos históricos y reportes sobre las condiciones de almacenamiento, entonces podrán mejorar la trazabilidad y cumplir con las normativas sanitarias de manera más eficiente.
+---
 
-- **Hipótesis 4:**  
-  Si se implementa el uso de sensores IoT integrados a una plataforma digital, entonces se reducirá la dependencia de procesos manuales y se minimizarán los errores humanos en el control de condiciones ambientales.
+**Hipótesis 2**
 
-- **Hipótesis 5:**  
-  Si las entidades de salud utilizan un sistema centralizado para gestionar múltiples almacenes o sedes, entonces podrán optimizar la gestión de recursos, reducir pérdidas económicas y mejorar la eficiencia operativa.
+**Creemos que lograremos** una mejora significativa en la seguridad de los medicamentos al reducir los riesgos asociados al almacenamiento inadecuado  
+**Si** las entidades de salud cuentan con un sistema que genere alertas automáticas ante variaciones de temperatura, humedad o luz  
+**Alcanzan** la capacidad de tomar decisiones rápidas ante variaciones críticas en las condiciones de almacenamiento  
+**Con** el sistema de alertas automáticas basado en sensores para monitoreo de temperatura, humedad y luz
 
-#### 1.2.2.4. Lean UX Canvas
+> Sabremos que esto es verdad cuando observemos una mejora del 25% en la reducción de incidentes de deterioro de medicamentos durante los primeros 3 meses de uso del sistema de alertas.--
 
-**1. Business Problem**  
-La gestión del almacenamiento de medicamentos en el sistema de salud presenta deficiencias debido a la falta de monitoreo en tiempo real y el uso de procesos manuales. Esto provoca que variables críticas como la temperatura, humedad y exposición a la luz no sean controladas adecuadamente, generando riesgos en la calidad de los medicamentos tanto en almacenes como durante su transporte.
+---
 
+**Hipótesis 3**
+
+**Creemos que lograremos** una mejora significativa en la trazabilidad y cumplimiento de las normativas sanitarias  
+**Si** los usuarios pueden visualizar datos históricos y reportes sobre las condiciones de almacenamiento  
+**Alcanzan** la capacidad de mejorar la trazabilidad y cumplir con las normativas sanitarias de manera más eficiente  
+**Con** la funcionalidad para visualizar datos históricos y generar reportes automáticos sobre las condiciones de almacenamiento
+
+> Sabremos que esto es verdad cuando observemos una mejora del 20% en la eficiencia de auditorías y cumplimiento normativo durante los primeros 3 meses de uso del sistema de reportes.
+
+---
+
+**Hipótesis 4**
+
+**Creemos que lograremos** una reducción significativa en la dependencia de procesos manuales y los errores humanos  
+**Si** se implementa el uso de sensores IoT integrados a una plataforma digital  
+**Alcanzan** la capacidad de reducir la carga operativa y mejorar la precisión del monitoreo de las condiciones ambientales  
+**Con** los sensores IoT integrados para monitoreo continuo de las condiciones ambientales, con registro automático de datos
+
+> Sabremos que esto es verdad cuando observemos una mejora del 25% en la precisión del monitoreo y una reducción del 30% en los errores operativos durante los primeros 3 meses de uso del sistema.
+
+---
+
+**Hipótesis 5**
+
+**Creemos que lograremos** una optimización significativa en la gestión de recursos y eficiencia operativa  
+**Si** las entidades de salud utilizan un sistema centralizado para gestionar múltiples almacenes o sedes  
+**Alcanzan** la capacidad de optimizar la gestión de recursos, reducir pérdidas económicas y mejorar la eficiencia operativa  
+**Con** una plataforma centralizada para la gestión de almacenes y distribución de medicamentos, con acceso a datos en tiempo real
+
+> Sabremos que esto es verdad cuando observemos una mejora del 30% en la eficiencia operativa y una reducción del 20% en pérdidas económicas durante los primeros 6 meses de uso del sistema centralizado.
+
+### 1.2.2.4. Lean UX Canvas
+
+**1. Business Problem**
+
+La gestión del almacenamiento de medicamentos en el sistema de salud fue diseñada para conservar los productos farmacéuticos en condiciones seguras y garantizar su calidad durante el almacenamiento y transporte. Sin embargo, hemos observado que la falta de monitoreo en tiempo real y el uso de procesos manuales están afectando la eficacia de este sistema. Variables críticas como temperatura, humedad y exposición a la luz no están siendo controladas adecuadamente, lo que genera riesgos en la calidad de los medicamentos, tanto en los almacenes como durante su transporte.
+
+¿Cómo podríamos mejorar el sistema de gestión de almacenamiento de medicamentos para que las entidades de salud sean más exitosas, evidenciado por una reducción del 30% en incidentes relacionados con el deterioro de los medicamentos, una mejora en la respuesta a desviaciones de condiciones ambientales y un aumento en el cumplimiento de las normativas de conservación?
+
+---
 **2. Business Outcomes**
-- Reducir la pérdida de medicamentos por condiciones inadecuadas de almacenamiento.
-- Mejorar la eficiencia en la gestión de almacenes farmacéuticos.
-- Disminuir el tiempo de respuesta ante incidencias relacionadas con condiciones ambientales.
-- Asegurar el cumplimiento de normativas sanitarias en almacenamiento de medicamentos.
-- Optimizar la trazabilidad y control de los productos farmacéuticos en múltiples sedes.
 
+**1.** **Nuestro producto** fue diseñado para lograr **[estos objetivos de negocio/cliente y entregar este valor]**.
+- **Contexto**: El sistema fue diseñado para garantizar la conservación y trazabilidad de los medicamentos en condiciones óptimas dentro de los almacenes farmacéuticos, mejorando la eficiencia operativa y asegurando el cumplimiento de las normativas sanitarias.
+
+**2.** **Hemos observado [de estas maneras]** que el producto/servicio no está cumpliendo estos objetivos, lo que está causando **[este efecto/adversidad]** en nuestro negocio.
+- **Observación**: Hemos notado que el almacenamiento inadecuado y la falta de monitoreo en tiempo real están llevando a un aumento en las pérdidas económicas por medicamentos deteriorados, incumplimiento de las normativas de conservación y baja eficiencia en la gestión de los almacenes, lo que también afecta la trazabilidad y el control en múltiples sedes.
+
+**3.** **¿Cómo podríamos mejorar [el servicio/producto]** para que nuestros clientes sean más exitosos, según **[estos cambios medibles en su comportamiento]**?
+- **Resultado de negocio 1**: **Reducir la pérdida de medicamentos** por condiciones inadecuadas de almacenamiento en un 30%.
+- **Resultado de negocio 2**: **Mejorar la eficiencia en la gestión de almacenes farmacéuticos**, alcanzando una reducción del 20% en los tiempos de gestión operativa dentro de los primeros 6 meses.
+- **Resultado de negocio 3**: **Disminuir el tiempo de respuesta** ante incidencias relacionadas con condiciones ambientales de 15 a 10 minutos, mejorando la capacidad de reacción ante problemas críticos.
+- **Resultado de negocio 4**: **Asegurar el cumplimiento del 100% de las normativas sanitarias** relacionadas con el almacenamiento de medicamentos dentro de los primeros 6 meses de uso.
+- **Resultado de negocio 5**: **Optimizar la trazabilidad y control de los productos farmacéuticos** en múltiples sedes, garantizando que el 80% de los almacenes estén conectados y monitorizados en tiempo real.
+
+---
 **3. Users**
-- Personal encargado de almacenes farmacéuticos (operarios, técnicos y responsables de control).
-- Farmacéuticos y administradores de hospitales.
-- Entidades del sector salud como el MINSA y centros de distribución (ej. almacenes de Lurín).
+
+1. **Personal encargado de almacenes farmacéuticos**
+  - **¿Quién compra el producto?**  
+    Los **hospitales, clínicas y centros de distribución** que necesitan una solución para optimizar el almacenamiento y monitoreo de medicamentos.
+  - **¿Quién usa el producto?**  
+    El **personal operativo de los almacenes farmacéuticos**, incluyendo operarios, técnicos y encargados de la gestión de los productos.
+  - **¿Quién configura el producto?**  
+    Los **administradores** de las entidades de salud y personal de soporte técnico en los almacenes.
+
+2. **Personal de salud (farmacéuticos, administradores hospitalarios)**
+  - **¿Quién compra el producto?**  
+    **Hospitales, farmacias y clínicas** que necesitan asegurar la conservación de medicamentos en condiciones óptimas.
+  - **¿Quién usa el producto?**  
+    Los **farmacéuticos** y **administradores hospitalarios** que supervisan la distribución de medicamentos y deben asegurarse de que los productos sean almacenados correctamente.
+  - **¿Quién configura el producto?**  
+    Los **técnicos y administradores** encargados de configurar el sistema para supervisar y gestionar el almacenamiento.
+
+3. **Entidades regulatorias (MINSA y redes de salud)**
+  - **¿Quién compra el producto?**  
+    **Instituciones gubernamentales o entidades regulatorias** encargadas de supervisar las normativas sanitarias de almacenamiento y distribución de medicamentos.
+  - **¿Quién usa el producto?**  
+    Las **entidades gubernamentales** que monitorean el cumplimiento de las normativas en centros de salud y almacenes farmacéuticos.
+  - **¿Quién configura el producto?**  
+    Los **administradores de las redes de salud** que supervisan y regulan el cumplimiento de las normativas sanitarias a nivel nacional.
+
+---
 
 **4. User Benefits**
-- Monitoreo en tiempo real de condiciones ambientales.
-- Alertas automáticas ante variaciones críticas.
-- Acceso a datos históricos para auditorías y toma de decisiones.
-- Reducción de procesos manuales y errores humanos.
-- Mejora en la seguridad y calidad de los medicamentos.
+1. **Personal encargado de almacenes farmacéuticos**
+  - **¿Por qué buscan nuestro producto?**  
+    Necesitan una **solución eficiente** para monitorear las condiciones de almacenamiento de medicamentos y evitar la pérdida de productos debido a condiciones inadecuadas.
+  - **¿Qué beneficio obtienen de usarlo?**  
+    Reducción de la **pérdida de medicamentos** y mejora de la **eficiencia operativa** en la gestión de almacenes.
+  - **Cambio de comportamiento observable**:  
+    El personal adoptará prácticas más **diligentes y sistemáticas** en el monitoreo de las condiciones ambientales, registrando y respondiendo de manera oportuna ante desviaciones.
 
+2. **Personal de salud (farmacéuticos, administradores hospitalarios)**
+  - **¿Por qué buscan nuestro producto?**  
+    Buscan una **herramienta confiable** para asegurar que los medicamentos se almacenen correctamente, respetando las normativas sanitarias y evitando riesgos para los pacientes.
+  - **¿Qué beneficio obtienen de usarlo?**  
+    Aseguran que los medicamentos estén en condiciones óptimas, **cumpliendo con las normativas** y mejorando la **seguridad de los pacientes**.
+  - **Cambio de comportamiento observable**:  
+    El personal usará el sistema para **verificar condiciones ambientales en tiempo real**, asegurando que los productos farmacéuticos no se deterioren y se mantengan dentro de los parámetros establecidos.
+
+3. **Entidades regulatorias (MINSA y redes de salud)**
+  - **¿Por qué buscan nuestro producto?**  
+    Necesitan garantizar que las **normativas sanitarias** se sigan de manera efectiva en los centros de salud y almacenes farmacéuticos.
+  - **¿Qué beneficio obtienen de usarlo?**  
+    Mejora del **cumplimiento normativo** a nivel nacional, con la capacidad de auditar y verificar de manera sencilla si se están cumpliendo las condiciones de almacenamiento.
+  - **Cambio de comportamiento observable**:  
+    Las entidades podrán **verificar y reportar el cumplimiento de normativas** en tiempo real, evitando sanciones y mejorando la supervisión de los centros de salud.
+
+4. **Pacientes**
+  - **¿Por qué buscan nuestro producto?**  
+    Aunque no usan el producto directamente, los **pacientes se benefician indirectamente** al recibir medicamentos que han sido almacenados y distribuidos bajo condiciones controladas.
+  - **¿Qué beneficio obtienen de usarlo?**  
+    Garantía de que los **medicamentos sean efectivos** y **seguros** al ser almacenados adecuadamente.
+  - **Cambio de comportamiento observable**:  
+    El **impacto indirecto** se verá reflejado en una mayor **confianza en la seguridad de los medicamentos** que los pacientes consumen.
+
+---
 **5. Solutions**
-- Plataforma web con dashboards para visualizar condiciones ambientales en tiempo real.
-- Integración con sensores IoT para capturar datos de temperatura, humedad y luz.
-- Sistema de alertas automáticas ante condiciones fuera de rango.
-- Módulo de reportes y almacenamiento de datos históricos.
-- Gestión centralizada para múltiples almacenes o sedes.
+1. **Plataforma web con dashboards para visualizar condiciones ambientales en tiempo real**  
+   Desarrollar una **plataforma web** que permita a los usuarios visualizar, en tiempo real, las condiciones de almacenamiento de medicamentos, como temperatura, humedad y exposición a la luz, con un **dashboard fácil de usar** para el monitoreo continuo.
+
+2. **Integración con sensores IoT para capturar datos de temperatura, humedad y luz**  
+   Utilizar **sensores IoT** para **medir y registrar en tiempo real** las condiciones ambientales críticas de los almacenes farmacéuticos, garantizando la conservación adecuada de los medicamentos.
+
+3. **Sistema de alertas automáticas ante condiciones fuera de rango**  
+   Implementar un **sistema de alertas automáticas** que notifique a los usuarios cuando las condiciones ambientales (temperatura, humedad, luz) se desvíen de los parámetros establecidos, mejorando la **capacidad de respuesta rápida** ante cualquier incidente.
+
+4. **Módulo de reportes y almacenamiento de datos históricos**  
+   Incluir un **módulo de reportes** que permita a los usuarios generar informes detallados sobre las condiciones de almacenamiento a lo largo del tiempo, con el fin de facilitar las **auditorías** y el **cumplimiento normativo**.
+
+5. **Gestión centralizada para múltiples almacenes o sedes**  
+   Crear un sistema de **gestión centralizada** que permita monitorear **todos los almacenes y sedes** de manera integrada, ofreciendo visibilidad completa y en tiempo real sobre las condiciones de almacenamiento en toda la organización.
+
+---
 
 **6. Hypotheses**
-- Si implementamos un sistema de monitoreo en tiempo real, el personal podrá detectar problemas antes de que afecten los medicamentos.
-- Si se automatizan las alertas, se reducirá el riesgo de deterioro por falta de respuesta oportuna.
-- Si centralizamos la información de múltiples almacenes, las entidades de salud mejorarán su control y eficiencia operativa.
-- Si se digitalizan los registros de almacenamiento, se reducirá el error humano y se mejorará la trazabilidad.
-- Si el sistema es fácil de usar, el personal adoptará la tecnología y reemplazará los métodos manuales.
+
+1. **Creemos que** la reducción del deterioro de medicamentos se logrará si el personal encargado de almacenes farmacéuticos detecta problemas antes de que afecten los medicamentos con un sistema de monitoreo en tiempo real.
+
+2. **Creemos que** la reducción del riesgo de deterioro se logrará si el personal encargado de almacenes farmacéuticos recibe alertas automáticas ante condiciones críticas, lo que reducirá la falta de respuesta oportuna con un sistema de alertas automatizadas.
+
+3. **Creemos que** la mejora del control y eficiencia operativa se logrará si las entidades de salud centralizan la información de múltiples almacenes y mejoran la visibilidad de las condiciones de almacenamiento con una plataforma centralizada de monitoreo.
+
+4. **Creemos que** la reducción de errores humanos y la mejora de la trazabilidad se logrará si las entidades de salud digitalizan los registros de almacenamiento y optimizarán el seguimiento histórico con un sistema de registro digitalizado.
+
+5. **Creemos que** la adopción de la tecnología se logrará si el personal de almacenes farmacéuticos encuentra fácil de usar el sistema y reemplaza los métodos manuales con una interfaz de usuario intuitiva y accesible.
+
+---
 
 **7. What’s the most important thing we need to learn first?**  
 Primero necesitamos entender si el personal encargado de almacenes y las entidades de salud están dispuestos a adoptar una solución tecnológica para el monitoreo en tiempo real, así como sus necesidades específicas y limitaciones en el uso de estas herramientas.
 
-**8. What’s the least amount of work we need to do to learn the next most important thing?**  
-Realizar entrevistas con personal de almacenes y profesionales de salud, además de pruebas de prototipos simples (mockups o dashboards básicos) para validar la utilidad del monitoreo en tiempo real y la aceptación del sistema.
-
 ---
 
-## 1.3. Segmentos objetivo
+**8. What’s the least amount of work we need to do to learn the next most important thing?**  
+### 8. What’s the least amount of work we need to do to learn the next most important thing?
+
+Realizar entrevistas con personal de almacenes y profesionales de salud, además de pruebas de prototipos simples, como mockups o dashboards básicos, para validar la utilidad del monitoreo en tiempo real y la aceptación del sistema. También se debe crear una landing page para obtener retroalimentación sobre el interés en la solución propuesta.## 1.3. Segmentos objetivo
 
 ### 1.3. Segmentos objetivo
 

@@ -80,6 +80,8 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 ## Desarrollo de Landing Page
 
+![Desarrollo_landing_2](assets/Desarrolo%20landing%202.png)
+
 ## Desarrollo del Frontend
 
 ![Desarrollo_frontend](assets/Desarrollo%20del%20frontend.png)

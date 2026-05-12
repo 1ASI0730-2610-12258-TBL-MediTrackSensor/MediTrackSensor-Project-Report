@@ -21,10 +21,10 @@
   </tr>
   <tr>
     <td colspan="2">Logo</td>
-    <td><img src="assets/MediTrack.png" alt="MediTrack"/></td>
-    <td><img src="assets/Sensitech.png" alt="Sensitech"/></td>
-    <td><img src="assets/Monnit.jpg" alt="Monnit"/></td>
-    <td><img src="assets/MOCREO.png" alt="MOCREO"/></td>
+    <td><img src="../assets/MediTrack.png" alt="MediTrack"/></td>
+    <td><img src="../assets/Sensitech.png" alt="Sensitech"/></td>
+    <td><img src="../assets/Monnit.jpg" alt="Monnit"/></td>
+    <td><img src="../assets/MOCREO.png" alt="MOCREO"/></td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
@@ -234,7 +234,7 @@ Preguntas complementarias:
 * Browser: Google Chrome
 * Device : Computadora de escritorio
 
-![Entrevista](./assets/segmento01-entrevista.png)
+![Entrevista](../assets/segmento01-entrevista.png)
 Dolores Álvarez Cabeza, de 62 años y residente en San Martín de Porres, se desempeña como personal de salud asistencial y utiliza una computadora de escritorio con Google Chrome para registrar la temperatura de los medicamentos en hojas de Excel. Señala que existen distintos tipos de medicamentos con requerimientos específicos de conservación, especialmente en lo relacionado a la temperatura; por ejemplo, en el caso de medicamentos destinados a recién nacidos, es fundamental mantener condiciones cercanas a los 24 °C para garantizar su eficacia y seguridad. Actualmente, el monitoreo se realiza de forma manual cada 6 horas, lo que implica un proceso repetitivo y propenso a errores humanos. Además, menciona que durante su experiencia en el Hospital San José, al ser una institución pública, en ocasiones no contaban con los recursos necesarios para asegurar un monitoreo adecuado de las condiciones de almacenamiento.
 
 ---
@@ -247,7 +247,7 @@ Dolores Álvarez Cabeza, de 62 años y residente en San Martín de Porres, se de
 * Browser: Google Chrome
 * Device : Computadora de escritorio
 
-![Entrevista](./assets/segmento02-entrevista.png)
+![Entrevista](../assets/segmento02-entrevista.png)
 
 Dayana Quispe, de 25 años y residente en La Molina, realiza prácticas farmacéuticas y utiliza una computadora de escritorio del hospital con Google Chrome en sus actividades. Durante sus prácticas, comenta que el monitoreo de temperatura y humedad se realiza de forma manual, registrando los datos en un cuaderno con apoyo de termómetros e hidrómetros, generalmente dos o tres veces al día dependiendo del turno asignado. Señala que este proceso puede ser riesgoso, ya que no permite un seguimiento continuo; por ejemplo, menciona que en una ocasión falló inesperadamente el módulo donde se almacenaban vacunas, lo que ocasionó la pérdida de algunas de ellas. Además, explica que, si la temperatura se registra correctamente en un momento dado pero el sistema se avería horas después, no se detectarían cambios a tiempo, ya que se asumiría que las condiciones siguen siendo adecuadas.
 

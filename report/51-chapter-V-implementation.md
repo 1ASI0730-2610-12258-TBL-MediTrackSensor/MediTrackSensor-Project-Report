@@ -541,7 +541,51 @@ En conjunto, la colaboración del Sprint 2 reflejó una distribución equilibrad
 
 ### 5.3.1. Diseño de Entrevistas
 
+Para validar la propuesta de valor de MediTrack Sensor y comprender las necesidades específicas de los usuarios finales, se llevaron a cabo entrevistas estructuradas con dos segmentos principales: personal operativo de almacenes farmacéuticos y gestores/responsables de farmacias en instituciones de salud. La metodología utilizada incluyó entrevistas presenciales y semiestructuradas, enfocadas en características objetivas (datos demográficos, dispositivos, experiencia) y subjetivas (percepciones, frustraciones, expectativas).
+
 ### 5.3.2. Registro de Entrevistas
+
+### Segmento 01: Personal operativo de almacenes farmacéuticos
+**(Entrevistados: Luis Mendoza – hospital público, Jorge Pérez – clínica privada)**
+
+#### Características objetivas:
+* **Registro manual de condiciones ambientales:** 100% realizan control con termómetros/higrómetros y anotaciones en cuadernos o Excel.
+* **Frecuencia de registro limitada:** 100% registran entre 2–3 veces al día, sin monitoreo continuo.
+* **Uso de dispositivos:** 100% utilizan computadora y celular en su trabajo.
+* **Browser más usado:** 100% mencionan Google Chrome.
+* **Experiencia laboral:** Ambos tienen más de 6 años en el área (100%).
+
+#### Características subjetivas:
+* **Frustración con el proceso manual:** 100% lo consideran tedioso, repetitivo y propenso a errores.
+* **Casos de pérdida de medicamentos por fallas ambientales:** 100% han experimentado deterioro de lotes por variaciones no detectadas.
+* **Valoración de alertas automáticas:** 100% consideran que una solución digital con notificaciones inmediatas sería una mejora significativa.
+* **Disposición a aprender nuevas tecnologías:** 100% están abiertos a capacitación si la herramienta es sencilla.
+* **Disposición institucional a pagar por soluciones:** 100% creen que sus instituciones estarían interesadas, siempre que el costo sea razonable.
+
+> **Conclusión del segmento:** El personal operativo se caracteriza por depender de procesos manuales, con registros limitados y alta exposición a errores. Existe frustración generalizada y experiencias negativas por pérdidas de medicamentos. Valoran la simplicidad tecnológica y muestran apertura a soluciones digitales, siempre que sean fáciles de usar y económicamente viables. Este segmento representa usuarios que necesitan automatización básica, alertas inmediatas y facilidad de uso.
+
+---
+
+### Segmento 02: Gestores y responsables de farmacia en instituciones de salud
+**(Entrevistado: Omar Ruiz – hospital público)**
+
+#### Características objetivas:
+* **Supervisión de múltiples almacenes:** 100% supervisa más de un almacén (tres en total).
+* **Registro manual delegado:** 100% depende de reportes en papel entregados por personal operativo.
+* **Uso de dispositivos:** 100% prefiere computadora para reportes y celular para consultas rápidas.
+* **Browser más usado:** 100% utiliza Google Chrome.
+* **Experiencia profesional:** Más de 20 años en el área farmacéutica (deducido por edad y cargo).
+
+#### Características subjetivas:
+* **Dificultad de visibilidad en tiempo real:** 100% señala que depende de reportes manuales y carece de monitoreo simultáneo.
+* **Problemas de incumplimiento normativo:** 100% ha enfrentado observaciones por registros incompletos.
+* **Importancia de datos históricos:** 100% considera fundamental contar con historial para auditorías y evitar sanciones.
+* **Evaluación de soluciones tecnológicas previas:** 100% probó una solución importada, pero el costo y el idioma fueron barreras.
+* **Obstáculos institucionales:** 100% identifica presupuesto limitado y procesos administrativos lentos como principales trabas.
+* **Funcionalidad indispensable:** 100% prioriza alertas en tiempo real accesibles desde celular.
+* **Viabilidad económica:** 100% considera que un costo mensual entre 100–200 soles sería aceptable si se justifica.
+
+> **Conclusión del segmento:** Los gestores farmacéuticos enfrentan el reto de supervisar múltiples almacenes con procesos manuales poco confiables. La visibilidad en tiempo real y los datos históricos son críticos para cumplir normativas y evitar sanciones. Valoran soluciones digitales que ofrezcan alertas inmediatas, reportes históricos y accesibilidad móvil, pero enfrentan barreras de presupuesto y burocracia. Este segmento representa usuarios que necesitan control centralizado, cumplimiento normativo y justificación de costo-beneficio.
 
 ### 5.3.3. Evaluaciones según heurísticas
 

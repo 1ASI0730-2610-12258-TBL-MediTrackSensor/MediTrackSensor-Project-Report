@@ -1198,17 +1198,93 @@ En conjunto, estos mockups consolidan la identidad visual de MediTrack Sensor de
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-A continuación, se muestra el User Flow Diagram estructurado en base a los objetivos 
-principales del usuario. Cada sección del flujo corresponde a una meta funcional
-específica, mostrando los recorridos posibles mediante mockups de alta fidelidad.
+Los User Flow Diagrams de la aplicación web de MediTrack Sensor representan la visualización estructurada de los recorridos que realizan los usuarios dentro del sistema para cumplir objetivos específicos. Estos diagramas permiten comprender la secuencia de acciones, decisiones y transiciones entre pantallas, facilitando el análisis de la experiencia de usuario y la validación de la lógica de navegación implementada.
 
-<img src="./../assets/userFlowEditarPerfilEntidades.png" alt="User Flow" width="700">
-<img src="./../assets/userFlowEditarPerfilPersonal.png" alt="User Flow" width="700">
-<img src="./../assets/userFlowLoginEntidades.png" alt="User Flow" width="700">
-<img src="./../assets/userFlowLoginPersonal.png" alt="User Flow" width="700">
+El diseño de los flujos está basado en los objetivos principales de cada tipo de usuario, asegurando que cada recorrido sea claro, eficiente y coherente con su rol dentro del sistema. De esta manera, se optimiza la interacción, se reducen pasos innecesarios y se mejora la usabilidad general de la plataforma.
 
+Los User Flow Diagrams cumplen una función fundamental en el proceso de diseño, ya que permiten:
+
+- Visualizar el camino completo desde el ingreso hasta la acción final.
+- Identificar puntos de decisión dentro del sistema.
+- Validar la estructura de navegación.
+- Detectar posibles mejoras en la experiencia.
+- Garantizar coherencia entre mockups y funcionalidad.
+- Asegurar una experiencia diferenciada por tipo de usuario.
+
+En MediTrack Sensor, los flujos están organizados principalmente en torno a procesos clave como autenticación y edición de perfil, tanto para Entidades como para Personal Operativo. Estos recorridos representan acciones esenciales dentro del uso cotidiano de la plataforma.
 
 ---
+
+### 🔹 User Flow – Login Entidades
+
+<img src="./../assets/userFlowLoginEntidades.png" alt="User Flow" width="700">
+
+Este flujo describe el proceso de inicio de sesión para usuarios pertenecientes al perfil de entidades (instituciones de salud). El recorrido inicia desde la pantalla de acceso, continúa con la validación de credenciales y finaliza en el acceso al panel principal.
+
+El diagrama permite visualizar:
+
+- Ingreso de credenciales.
+- Validación del sistema.
+- Acceso exitoso al dashboard institucional.
+- Manejo de posibles errores de autenticación.
+
+Este flujo garantiza seguridad, control de acceso y separación de roles dentro de la plataforma.
+
+---
+
+### 🔹 User Flow – Login Personal
+
+<img src="./../assets/userFlowLoginPersonal.png" alt="User Flow" width="700">
+
+Este diagrama representa el proceso de autenticación para el personal operativo. El flujo sigue una estructura similar al de entidades, pero dirigido a usuarios encargados del monitoreo diario y la gestión técnica de dispositivos.
+
+El recorrido incluye:
+
+- Pantalla de inicio de sesión.
+- Validación de datos.
+- Acceso al panel operativo.
+- Gestión de posibles errores o credenciales incorrectas.
+
+Este flujo asegura que únicamente usuarios autorizados puedan acceder a funciones de monitoreo y administración técnica.
+
+---
+
+### 🔹 User Flow – Editar Perfil Entidades
+
+<img src="./../assets/userFlowEditarPerfilEntidades.png" alt="User Flow" width="700">
+
+Este flujo describe el proceso mediante el cual los usuarios institucionales pueden modificar su información de perfil. El recorrido inicia desde el panel principal y conduce a la sección de configuración de cuenta.
+
+Incluye:
+
+- Acceso a la sección de perfil.
+- Visualización de datos actuales.
+- Edición de información.
+- Confirmación de cambios.
+- Actualización exitosa del sistema.
+
+Este flujo garantiza que las instituciones puedan mantener su información actualizada de manera segura y controlada.
+
+---
+
+### 🔹 User Flow – Editar Perfil Personal
+
+<img src="./../assets/userFlowEditarPerfilPersonal.png" alt="User Flow" width="700">
+
+Este diagrama representa el proceso de actualización de datos para usuarios del perfil personal operativo. El recorrido es similar al de entidades, pero adaptado a las funcionalidades disponibles para este tipo de usuario.
+
+El flujo contempla:
+
+- Acceso al perfil.
+- Modificación de datos personales.
+- Validación de información.
+- Confirmación de cambios.
+
+Este proceso mejora la autonomía del usuario y mantiene la integridad de la información dentro del sistema.
+
+---
+
+En conjunto, los User Flow Diagrams permiten validar la estructura lógica de la aplicación web, asegurando que cada acción del usuario tenga una ruta clara y definida dentro del sistema. Estos diagramas fortalecen la planificación del diseño, mejoran la coherencia entre pantallas y garantizan una experiencia de usuario organizada, intuitiva y alineada con los objetivos funcionales de MediTrack Sensor.
 
 ## 4.5. Web Applications Prototyping
 

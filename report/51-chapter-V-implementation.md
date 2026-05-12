@@ -469,7 +469,7 @@ En esta sección se evidencia la colaboración del equipo durante el Sprint 2 en
 - **Subscriptions - Mateo Sebastián Urviola Condori:** desarrolló la lógica y presentación de las vistas asociadas a planes y suscripción, asegurando claridad en la interacción con las opciones disponibles.
 - **Monitoring - Tomás Alessandro Paredes Díaz:** participó en la construcción del módulo de monitoreo y seguimiento, orientando la visualización de indicadores y estados del sistema.
 - **Establishment - Dhilsen Armil Mallqui Vilca y Pilsen:** implementaron las vistas y la lógica relacionadas con establecimientos, cuidando la navegación y la consistencia funcional del módulo.
-- **Logistics - Pilsen:** apoyó la implementación de la parte operativa vinculada a logística, estructurando información y flujos relacionados con el movimiento y gestión de recursos.
+- **Logistics - Dhilsen:** apoyó la implementación de la parte operativa vinculada a logística, estructurando información y flujos relacionados con el movimiento y gestión de recursos.
 - **Frontend - Franco Diego Rioja Nuñez:** contribuyó en la implementación general del frontend, incluyendo la coherencia visual, la adaptación responsive y la integración de los componentes principales de la interfaz.
 
 **Repositorio del Reporte:** MediTrackSensor-Project-Report

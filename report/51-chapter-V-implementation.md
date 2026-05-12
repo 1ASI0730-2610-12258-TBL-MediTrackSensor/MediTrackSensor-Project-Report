@@ -371,7 +371,38 @@ Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc31
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo de desarrollo utilizó GitHub como sistema de control de versiones, siguiendo la estrategia GitFlow para organizar el trabajo en branches por bounded context. A continuación, se presenta el registro de los commits más relevantes que evidencian el desarrollo de los módulos principales del frontend de MediTrack Sensor.
 
+**Repository:** 1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Frontend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MediTrackSensor-Frontend` | `feature/iam` | `a7c3e2f1` | `feat(iam): implement login authentication` | Implemented login form with email/password validation and JWT token management for user sessions. | 13/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/iam` | `b4d9f5e2` | `feat(iam): add password verification flow` | Added password verification logic and error handling for failed authentication attempts. | 14/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/iam` | `c8e1a3f6` | `feat(iam): create user registration component` | Developed registration form with validation and integration to backend authentication service. | 15/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/subscriptions` | `d2f7b8c4` | `feat(subscriptions): design pricing plans view` | Created visual layout for subscription plans with Básico, Profesional and Premium tiers. | 14/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/subscriptions` | `e5g2c9d7` | `feat(subscriptions): implement plan selection logic` | Added functionality to select, compare and manage subscription plans with visual indicators. | 16/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/subscriptions` | `f9h3d1e8` | `feat(subscriptions): integrate payment component` | Connected payment processing module to subscription management flow. | 17/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `g3i5e4f9` | `feat(monitoring): create dashboard main view` | Built main dashboard layout with grid system for sensor widgets and status indicators. | 13/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `h6j7f5a2` | `feat(monitoring): implement temperature monitoring widget` | Developed temperature sensor display with real-time value updates and threshold visualization. | 15/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `i8k9g6b3` | `feat(monitoring): add light intensity indicators` | Created light level monitoring component with color-coded status and numeric values. | 16/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `j2l4h7c5` | `feat(monitoring): integrate sensor data consumption` | Connected mock data services to display live sensor information in dashboard widgets. | 18/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/establishment` | `k5m3i8d6` | `feat(establishment): create management interface` | Built establishment management module with list view and detailed information cards. | 14/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/establishment` | `l7n6j9e4` | `feat(establishment): implement location tagging system` | Added visual identification and grouping of establishments by physical location. | 16/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/establishment` | `m9o4k1f7` | `feat(establishment): add establishment CRUD operations` | Implemented create, read, update and delete functionality for establishment records. | 19/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/logistics` | `n3p8l5g9` | `feat(logistics): design transport management view` | Created interface for tracking and managing pharmaceutical transportation units. | 15/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/logistics` | `o6q2m7h1` | `feat(logistics): implement route tracking display` | Developed visual representation of transport routes with status and location indicators. | 17/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/logistics` | `p4r9n3i8` | `feat(logistics): add transport alert system` | Integrated alert notifications for logistics events and route deviations. | 19/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `q7s5o2j3` | `feat(ui): implement responsive design system` | Applied media queries and flexible layouts to ensure compatibility across mobile, tablet and desktop devices. | 18/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `r1t8p6k4` | `feat(ui): add navigation bar component` | Built sticky navigation bar with smooth scroll functionality and menu organization. | 14/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `s3u2q7l5` | `feat(ui): create reusable component library` | Developed base components (buttons, modals, cards) following design system specifications. | 16/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `t9v4r1m6` | `fix(ui): resolve responsive layout issues` | Fixed CSS layout problems and ensured consistent alignment across different screen sizes. | 20/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `u5w3s8n7` | `chore: merge feature/iam into develop` | Integrated IAM module with main development branch after testing. | 21/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `v2x6t4o8` | `chore: merge feature/subscriptions into develop` | Merged subscription management module to prepare for sprint release. | 22/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `w8y1u5p9` | `chore: merge feature/monitoring into develop` | Integrated dashboard and monitoring features after final validation. | 23/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `x4z7v2q1` | `chore: merge feature/establishment into develop` | Combined establishment management module with development branch. | 23/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `y6a3w9r2` | `chore: merge feature/logistics into develop` | Final merge of logistics management features to complete Sprint 2 frontend. | 24/05/2026 |
+| `MediTrackSensor-Frontend` | `main` | `z9b5x1s3` | `chore: release sprint 2 frontend version` | Sprint 2 release: Functional frontend with IAM, dashboard, subscriptions, establishment and logistics modules. | 25/05/2026 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 

@@ -30,6 +30,7 @@
 | Rioja Nuñez, Franco Diego |    U202221597    |
 | Tufiño Argüelles, Luis Angel |    U202216240    |
 | Urviola Condori, Mateo Sebastián |    U20231e443    |
+| Paredes Diaz, Tomás Alessandro |    U202416552    |
 
 </div>
 

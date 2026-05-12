@@ -53,6 +53,8 @@
 | 1.07 | 19/04/2026 | Mallqui Vilca, Dhilsen Armil | Implementación de estilos responsivos y despliegue continuo (CD) en la plataforma Vercel. |
 | 1.08 | 23/04/2026 | Rioja Nuñez, Franco Diego | Redacción de la documentación técnica del despliegue y evidencias de colaboración. |
 | 1.09 | 24/04/2026 | Rioja Nuñez, Franco Diego | Cierre del AV1. |
+| 1.10 | 05/05/2026 | Paredes Diaz, Tomás Alessandro | Refactorización y optimización del Capítulo 4: Software Architecture, ajustando diagramas y descripciones técnicas según feedback docente. |
+| 1.11 | 10/05/2026 | Paredes Diaz, Tomás Alessandro | Desarrollo técnico de la capa Frontend del módulo de Monitoreo, implementando el dashboard operacional y la vista de dispositivos IoT. |
 ---
 
 # Project Report Collaboration Insights

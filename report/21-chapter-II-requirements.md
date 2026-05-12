@@ -349,13 +349,10 @@ Esta sección representa los principales perfiles de usuario que fueron creados 
 Para ello seleccionamos los siguientes perfiles:
 
 User Persona 1
-
-![UserPersona] (../assets/UserPersona1_Luis _Lucho_ Mendoza.png)
+![User Persona 1](../assets/UserPersona1_Luis%20_Lucho_%20Mendoza.png)
 
 User Persona 2
-<img src="../assets/UserPersona1_Luis%20_Lucho_%20Mendoza.png" alt="User Persona 1" />
-
-<img src="../assets/UserPersona2_Omar%20Ruiz.png" alt="User Persona 2" />
+![User Persona 2](../assets/UserPersona2_Omar%20Ruiz.png)
 
 Las siguientes matrices detallan las tareas críticas identificadas para cada arquetipo de usuario. La prioridad de desarrollo se establece mediante el cruce de importancia y frecuencia, permitiendo al equipo técnico identificar las funcionalidades de mayor impacto (Core Features).
 
@@ -393,20 +390,20 @@ Las siguientes matrices detallan las tareas críticas identificadas para cada ar
 ### 2.3.3. User Journey Mapping
 
 User Persona 1
-<img src="../assets/User%20Persona%201%20Journey%20map.png"/>
+![User Persona 1 Journey map](../assets/User%20Persona%201%20Journey%20map.png)
 
 User Persona 2
-<img src="../assets/User%20persona%202%20Journey%20map.png"/>
+![User Persona 2 Journey map](../assets/User%20persona%202%20Journey%20map.png)
 
 ### 2.3.4. Empathy Mapping
 
 Empathy map 1
 
-<img src="../assets/empathy%20map%201.jpeg" alt="Empathy map 1"/>
+![Empathy map 1](../assets/empathy%20map%201.jpeg)
 
 Empathy map 2
 
-<img src="../assets/Empathy%20map%202.png" alt="Empathy map 2"/>
+![Empathy map 2](../assets/Empathy%20map%202.png)
 
 ---
 
@@ -414,7 +411,7 @@ Empathy map 2
 
 Event Storming
 
-<img src="../assets/EventStorming.png" alt="Event Storming"/>
+![Event Storming](../assets/EventStorming.png)
 
 
 ## 2.5. Ubiquitous Language

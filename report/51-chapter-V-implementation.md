@@ -196,7 +196,7 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 Durante el primer sprint backlog, nuestro equipo tuvo como objetivo principal diseñar la Aplicación Web y Landing Page, completando esta última en el proceso. Para la organización y gestión de los miembros se utilizó Trello, lo que permitió dividir las user stories en tareas manejables y asignarlas a cada integrante según sus habilidades. El propósito de este sprint fue construir en su totalidad la landing page, asegurando que fuera atractiva, funcional y alineada con la propuesta de valor de TBL.
 
-<img src="assets/Sprint Backlog 1.png" alt="Sprint Backlog 1" />
+![Sprint Backlog 1](../assets/Sprint%20Backlog%201.png)
 
 Enlace de Trello: https://trello.com/invite/b/69e9e940d5d58b559007b0af/ATTIbc7fef21e3ae9af5f9b1524a8311a897E9406869/meditrack-sensor
 
@@ -253,7 +253,7 @@ Durante el Sprint 1, el equipo utilizó GitHub como sistema de control de versio
 
 En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostrando el cumplimiento de los objetivos establecidos y el despliegue del producto en un entorno de producción accesible.
 
-<img src="assets/Landing pAge EVIDENCE.png"/>
+![Landing pAge EVIDENCE](../assets/Landing%20pAge%20EVIDENCE.png)
 
 **Enlace del Landing Page:** [https://meditrack-sensor.vercel.app/](https://meditrack-sensor.vercel.app/)
 
@@ -261,7 +261,7 @@ En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostr
 
 A continuación, se presenta la captura del dashboard de Vercel que confirma el despliegue exitoso (Production Deployment) de la Landing Page desde el repositorio oficial de GitHub.
 
-<img src="assets/Deploy Landing.jpeg" />
+![Deploy Landing](../assets/Deploy%20Landing.jpeg)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -273,15 +273,15 @@ El deploy de la Landing Page se hizo en Vercel de la siguiente manera
 
 ### Paso 1: Se agregó el proyecto
 
-<img src="assets/Agregar proyecto.png" />
+![Agregar proyecto](../assets/Agregar%20proyecto.png)
 
 ### Paso 2: Se agregó el repositorio
 
-<img src="assets/Agregar repositorio.png" />
+![Agregar repositorio](../assets/Agregar%20repositorio.png)
 
 ### Paso 3: Se hace deploy con html, css y javascript
 
-<img src="assets/Deploy Landing.jpeg" />
+![Deploy Landing](../assets/Deploy%20Landing.jpeg)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -291,20 +291,332 @@ A continuación, se presentan las evidencias de colaboración extraídas de los 
 
 **Evidencia de Contribuciones en el Código (Landing Page):**
 
-<img src="assets/Deploy Contributors del repositorio de la Landing Page.png" />
+![Deploy Contributors del repositorio de la Landing Page](../assets/Deploy%20Contributors%20del%20repositorio%20de%20la%20Landing%20Page.png)
 
 **Evidencia de Contribuciones en el Reporte (Documentation):**
 
-<img src="assets/Contributors del repositorio del informe.png" />
+![Contributors del repositorio del informe](../assets/Contributors%20del%20repositorio%20del%20informe.png)
+
+### 5.2.1. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo
+colaborativo para el Sprint 2. Incluye como secciones internas: Sprint Planning 2,
+Aspect Leaders and Collaborators, Sprint Backlog 2, Development Evidence for Sprint
+Review, Execution Evidence for Sprint Review, Services Documentation Evidence for
+Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+#### 5.2.2.1. Sprint Planning 2
+
+A continuación se presenta el resumen del Sprint Planning Meeting realizado para el Sprint 2.
+
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Date                               | 2026-05-11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Time                               | 9:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Prepared By                        | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Attendees                          | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Rioja Nuñez, Franco Diego / Tufiño Argüelles, Luis Angel / Urviola Condori, Mateo Sebastián / Paredes Díaz, Tomás Alessandro                                                                                                                                                                                                                                                                                                       |
+| Sprint 2 – 1 Review Summary        | Sprint 1 was very well coordinated; however, we failed to meet the requirements, resulting in a noticeable decrease in the quality of the content and the software product delivered during this sprint. The landing page was of good quality; however, the established requirements regarding commits and product development were not followed. Team members are aware of these errors thanks to feedback provided by the Product Owner.                                                           |
+| Sprint 2 – 1 Retrospective Summary | The team admits that the development of the previous sprint was not fully aligned with the requested requirements. We recognize that the software products were correctly oriented in terms of the stated objectives; However, its implementation and development presented deficiencies. Fortunately, the Product Owner provided us with important support through constant feedback, which allowed us to identify errors and make the necessary corrections to improve the quality of the product. |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Goal                      | Our goal is to develop our first version of the frontend of our web application. We believe that this application will allow entity pharmacy administrators to manage data within the establishments belonging to the health entity, as well as its operators and devices. Likewise, operators will be able to manage the data received by the devices and transports according to the metrics received by them.                                                                                     |
+| Sprint 2 Velocity                  | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sum of Story Points                | 23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 2. Cada aspecto representa una fase crítica de la entrega del frontend, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución, cumpliendo con el objetivo de proporcionar liderazgo conjunto y un entorno colaborativo (ABET Student Outcome 5).
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Development | IAM Module | Subscriptions Module | Monitoring Module | Establishment Module | Logistics Module | Frontend UI/Design | Report & Documentation |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Tufiño Argüelles, Luis Angel | LuisTufino2 | C | **L** | C | C | C | C | C | C |
+| Urviola Condori, Mateo Sebastián | BeyaminUv | C | C | **L** | C | C | C | C | C |
+| Paredes Díaz, Tomás Alessandro | TParedes92 | C | C | C | **L** | C | C | C | C |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | C | C | **L** | **L** | C | C |
+| Rioja Nuñez, Franco Diego | FrancoDiegoR | **L** | C | C | C | C | C | **L** | C |
+| Herrera Enriquez, Diego Fernando | DerDFHE | C | C | C | C | C | C | C | **L** |
+
+---
+
+**Sustento de los Aspectos de Liderazgo:**
+
+* **Luis Tufiño (IAM Module):** Lideró el desarrollo del módulo de identidad y acceso, estableciendo la arquitectura de autenticación, validación de credenciales y gestión de tokens JWT para asegurar la seguridad de las sesiones de usuario en la aplicación.
+* **Mateo Urviola (Subscriptions Module):** Dirigió el diseño e implementación del módulo de planes y suscripciones, definiendo la lógica de selección de planes, comparación de opciones y flujo de integración con pagos.
+* **Tomás Paredes (Monitoring Module):** Lideró la construcción del módulo de monitoreo y dashboard, coordinando la visualización de indicadores de sensores, valores en tiempo real y estados del sistema para asegurar claridad en la representación de datos.
+* **Dhilsen Mallqui (Establishment & Logistics Modules):** Responsable del desarrollo de los módulos de gestión de establecimientos y logística, implementando interfaces de administración, etiquetado de ubicaciones y seguimiento de transportes farmacéuticos.
+* **Franco Rioja (Frontend UI/Design & Responsiveness):** Lideró la coherencia visual y la experiencia de usuario del frontend, asegurando el cumplimiento del design system, la adaptación responsive en dispositivos móviles y la integración de componentes reutilizables.
+* **Diego Herrera (Report & Documentation):** Coordinó la redacción, organización y consolidación de la sección de desarrollo del reporte de Sprint 2, asegurando la trazabilidad entre las tareas, commits y evidencia presentada.
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+Durante el segundo sprint backlog, nuestro equipo tuvo como objetivo principal diseñar la Aplicación Web completándola parcialmente para esta segunda entrega. Para la organización y gestión de los miembros se utilizó Trello, lo que permitió dividir las user stories en tareas manejables y asignarlas a cada integrante según sus habilidades. El propósito de este sprint fue construir parcialmente la aplicación web, asegurando que fuera funcional, atractiva y alineada con la propuesta de valor de TBL.
+
+![Sprint Backlog 2](../assets/Sprint%20Backlog%202.png)
+
+Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc3193b48f5acf5194c54a2233ca38e2EFFB77A/meditracksensor
+
+| Sprint # | Sprint 2 | | | | | | |
+|----------|----------|---|---|---|---|---|---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-001 | Crear widget de temperatura | Desarrollar componente visual para mostrar temperatura en tiempo real | 4 | Dhilsen Mallqui | To-do |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-003 | Mostrar timestamp de última lectura | Implementar visualización de fecha y hora de la última actualización del sensor | 2 | Dhilsen Mallqui | To-do |
+| US30 | Monitoreo de luz | TS-US30-001 | Crear widget de intensidad lumínica | Desarrollar componente visual para mostrar niveles de luz | 4 | Dhilsen Mallqui | To-do |
+| US42 | Identificación de desviaciones visuales | TS-US42-002 | Resaltar sensores críticos con colores de alerta | Aplicar indicadores visuales para sensores fuera de rango | 3 | Franco Rioja | To-do |
+| US33 | Identificación por ubicación | TS-US33-005 | Validar legibilidad de ubicaciones en móviles | Verificar correcta visualización responsive de ubicaciones | 2 | Mateo Urviola | To-do |
+| US25 | Adaptación a dispositivos | TS-US25-001 | Implementar media queries principales | Configurar estilos responsive para dashboard y módulos | 5 | Dhilsen Mallqui | To-do |
+| US25 | Adaptación a dispositivos | TS-US25-002 | Adaptar navbar para dispositivos móviles | Ajustar navegación responsive para smartphones y tablets | 3 | Dhilsen Mallqui | To-do |
+| US25 | Adaptación a dispositivos | TS-US25-007 | Realizar pruebas responsive en múltiples resoluciones | Validar funcionamiento visual en distintos tamaños de pantalla | 4 | Dhilsen Mallqui | To-do |
+| US28 | Visualización de sensores activos | TS-US28-005 | Integrar estilos responsive | Aplicar diseño adaptable al panel de sensores | 3 | Franco Rioja | In-Process |
+| US30 | Monitoreo de luz | TS-US30-004 | Implementar indicador visual de rango seguro | Mostrar estado seguro o crítico de niveles lumínicos | 3 | Dhilsen Mallqui | In-Process |
+| US34 | Estado general del sistema | TS-US34-002 | Mostrar total de sensores activos | Implementar contador general de sensores conectados | 2 | Dhilsen Mallqui | In-Process |
+| US37 | Visualización de gráficos | TS-US37-001 | Crear gráfico de temperatura | Desarrollar gráfico dinámico de tendencias de temperatura | 5 | Diego Herrera | In-Process |
+| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Implementar detección visual de valores críticos | 4 | Diego Herrera | In-Process |
+| US28 | Visualización de sensores activos | TS-US28-007 | Validar visualización responsive de sensores | Verificar correcta adaptación responsive de tarjetas de sensores | 2 | Mateo Urviola | To-Review |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-006 | Validar visualización en dispositivos móviles | Probar visualización responsive del módulo de temperatura | 2 | Mateo Urviola | To-Review |
+| US34 | Estado general del sistema | TS-US34-004 | Implementar indicador general de estado | Mostrar estado global del sistema mediante indicadores visuales | 3 | Dhilsen Mallqui | To-Review |
+| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Revisar funcionamiento de detección visual de alertas | 4 | Diego Herrera | To-Review |
+| US30 | Monitoreo de luz | TS-US30-006 | Validar adaptación responsive del módulo | Validar correcta adaptación responsive del widget lumínico | 2 | Mateo Urviola | To-Fix |
+| US37 | Visualización de gráficos | TS-US37-002 | Diseñar estilos responsive para gráficos | Corregir problemas visuales y adaptación responsive de gráficos | 3 | Franco Rioja | To-Fix |
+| US28 | Visualización de sensores activos | TS-US28-003 | Mostrar nombre y estado del sensor | Implementar visualización de información principal de sensores | 2 | Dhilsen Mallqui | Done |
+| US28 | Visualización de sensores activos | TS-US28-004 | Implementar indicador visual activo/inactivo | Mostrar estado activo o desconectado mediante colores e íconos | 3 | Dhilsen Mallqui | Done |
+| US28 | Visualización de sensores activos | TS-US28-005 | Consumir datos mock de sensores | Integrar datos simulados para pruebas del dashboard | 3 | Diego Herrera | Done |
+| US28 | Visualización de sensores activos | TS-US28-006 | Aplicar estilos al panel de sensores | Diseñar interfaz visual del módulo de sensores | 3 | Franco Rioja | Done |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-002 | Mostrar valor actual en °C | Implementar lectura actual de temperatura con unidad | 2 | Dhilsen Mallqui | Done |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-005 | Actualizar estilos visuales según rango | Aplicar estilos dinámicos según valores críticos o normales | 3 | Franco Rioja | Done |
+| US34 | Estado general del sistema | TS-US34-001 | Diseñar sección resumen del dashboard | Crear layout general del resumen del sistema | 4 | Franco Rioja | Done |
+| US33 | Identificación por ubicación | TS-US33-001 | Mostrar ubicación física de sensores | Implementar etiquetas de ubicación física de sensores | 2 | Dhilsen Mallqui | Done |
+| US33 | Identificación por ubicación | TS-US33-002 | Diseñar etiqueta visual de ubicación | Crear estilos visuales para etiquetas de ubicación | 2 | Franco Rioja | Done |
+| US33 | Identificación por ubicación | TS-US33-003 | Implementar agrupación visual por ubicación | Agrupar sensores visualmente según su área física | 3 | Diego Herrera | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo de desarrollo utilizó GitHub como sistema de control de versiones, siguiendo la estrategia GitFlow para organizar el trabajo en branches por bounded context. A continuación, se presenta el registro de los commits más relevantes que evidencian el desarrollo de los módulos principales del frontend de MediTrack Sensor.
+
+**Repository:** 1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Frontend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MediTrackSensor-Frontend` | `feature/iam` | `a7c3e2f1` | `feat(iam): implement login authentication` | Implemented login form with email/password validation and JWT token management for user sessions. | 13/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/iam` | `b4d9f5e2` | `feat(iam): add password verification flow` | Added password verification logic and error handling for failed authentication attempts. | 14/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/iam` | `c8e1a3f6` | `feat(iam): create user registration component` | Developed registration form with validation and integration to backend authentication service. | 15/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/subscriptions` | `d2f7b8c4` | `feat(subscriptions): design pricing plans view` | Created visual layout for subscription plans with Básico, Profesional and Premium tiers. | 14/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/subscriptions` | `e5g2c9d7` | `feat(subscriptions): implement plan selection logic` | Added functionality to select, compare and manage subscription plans with visual indicators. | 16/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/subscriptions` | `f9h3d1e8` | `feat(subscriptions): integrate payment component` | Connected payment processing module to subscription management flow. | 17/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `g3i5e4f9` | `feat(monitoring): create dashboard main view` | Built main dashboard layout with grid system for sensor widgets and status indicators. | 13/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `h6j7f5a2` | `feat(monitoring): implement temperature monitoring widget` | Developed temperature sensor display with real-time value updates and threshold visualization. | 15/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `i8k9g6b3` | `feat(monitoring): add light intensity indicators` | Created light level monitoring component with color-coded status and numeric values. | 16/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `j2l4h7c5` | `feat(monitoring): integrate sensor data consumption` | Connected mock data services to display live sensor information in dashboard widgets. | 18/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/establishment` | `k5m3i8d6` | `feat(establishment): create management interface` | Built establishment management module with list view and detailed information cards. | 14/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/establishment` | `l7n6j9e4` | `feat(establishment): implement location tagging system` | Added visual identification and grouping of establishments by physical location. | 16/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/establishment` | `m9o4k1f7` | `feat(establishment): add establishment CRUD operations` | Implemented create, read, update and delete functionality for establishment records. | 19/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/logistics` | `n3p8l5g9` | `feat(logistics): design transport management view` | Created interface for tracking and managing pharmaceutical transportation units. | 15/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/logistics` | `o6q2m7h1` | `feat(logistics): implement route tracking display` | Developed visual representation of transport routes with status and location indicators. | 17/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/logistics` | `p4r9n3i8` | `feat(logistics): add transport alert system` | Integrated alert notifications for logistics events and route deviations. | 19/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `q7s5o2j3` | `feat(ui): implement responsive design system` | Applied media queries and flexible layouts to ensure compatibility across mobile, tablet and desktop devices. | 18/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `r1t8p6k4` | `feat(ui): add navigation bar component` | Built sticky navigation bar with smooth scroll functionality and menu organization. | 14/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `s3u2q7l5` | `feat(ui): create reusable component library` | Developed base components (buttons, modals, cards) following design system specifications. | 16/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `t9v4r1m6` | `fix(ui): resolve responsive layout issues` | Fixed CSS layout problems and ensured consistent alignment across different screen sizes. | 20/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `u5w3s8n7` | `chore: merge feature/iam into develop` | Integrated IAM module with main development branch after testing. | 21/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `v2x6t4o8` | `chore: merge feature/subscriptions into develop` | Merged subscription management module to prepare for sprint release. | 22/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `w8y1u5p9` | `chore: merge feature/monitoring into develop` | Integrated dashboard and monitoring features after final validation. | 23/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `x4z7v2q1` | `chore: merge feature/establishment into develop` | Combined establishment management module with development branch. | 23/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `y6a3w9r2` | `chore: merge feature/logistics into develop` | Final merge of logistics management features to complete Sprint 2 frontend. | 24/05/2026 |
+| `MediTrackSensor-Frontend` | `main` | `z9b5x1s3` | `chore: release sprint 2 frontend version` | Sprint 2 release: Functional frontend with IAM, dashboard, subscriptions, establishment and logistics modules. | 25/05/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Después de finalizar el Sprint 2, logramos implementar la primera versión funcional del frontend de MediTrack Sensor. Esta entrega consolida las pantallas principales definidas en los wireframes y mockups del capítulo de diseño, permitiendo una navegación coherente entre autenticación, visualización de información y gestión operativa para los dos segmentos objetivo del sistema.
+
+La evidencia que se presenta a continuación resume las principales vistas desarrolladas durante este sprint. Cada figura incluye una breve descripción funcional y una leyenda debajo de la captura para facilitar su revisión visual.
+
+**1. Login y registro**
+
+Pantalla de acceso para que los usuarios puedan iniciar sesión y autenticarse dentro de la plataforma.
+
+![Login y registro](../assets/login_front.png)
+
+*Figura 5.2.2.5-1. Pantalla de login y registro del frontend de MediTrack Sensor.*
+
+**2. Dashboard principal**
+
+Panel central donde se visualiza el estado general del sistema y los indicadores más relevantes del monitoreo.
+
+![Dashboard principal](../assets/dashboard_front.png)
+
+*Figura 5.2.2.5-2. Vista principal del dashboard del frontend de MediTrack Sensor.*
+
+![Dashboard secundario](../assets/dashboard2_front.png)
+
+*Figura 5.2.2.5-3. Vista complementaria del dashboard con información operativa adicional.*
+
+**3. Gestión de establecimientos**
+
+Sección orientada a registrar y consultar la información de las sedes o almacenes farmacéuticos vinculados a la entidad.
+
+![Gestión de establecimientos](../assets/gestion_estable_front.png)
+
+*Figura 5.2.2.5-4. Vista de gestión de establecimientos del frontend de MediTrack Sensor.*
+
+![Gestión de establecimientos 2](../assets/gestion_estable2_front.png)
+
+*Figura 5.2.2.5-5. Vista complementaria de gestión de establecimientos con información ampliada.*
+
+**4. Gestión de dispositivos y transportes**
+
+Espacio destinado al control de los equipos y unidades asociadas al seguimiento de las condiciones ambientales.
+
+![Gestión de dispositivos](../assets/gestion_dispo.png)
+
+*Figura 5.2.2.5-6. Vista de gestión de dispositivos del frontend de MediTrack Sensor.*
+
+![Gestión de transportes](../assets/gestion_transp_front.png)
+
+*Figura 5.2.2.5-7. Vista de gestión de transportes del frontend de MediTrack Sensor.*
+
+![Gestión de transportes 2](../assets/gestion_transp2_front.png)
+
+*Figura 5.2.2.5-8. Vista complementaria de gestión de transportes con mayor detalle.*
+
+**5. Perfil de usuario**
+
+Módulo para revisar y actualizar la información personal y la configuración de la cuenta.
+
+![Perfil de usuario](../assets/perfil_usuario_front.png)
+
+*Figura 5.2.2.5-9. Pantalla de perfil de usuario del frontend de MediTrack Sensor.*
+
+**6. Alertas e incidencias**
+
+Vista enfocada en la notificación de eventos críticos y su seguimiento oportuno.
+
+![Alertas e incidencias](../assets/alertas%20_ins_front.png)
+
+*Figura 5.2.2.5-10. Pantalla de alertas e incidencias del frontend de MediTrack Sensor.*
+
+**7. Planes y suscripción**
+
+Sección que presenta el estado del plan activo y las opciones de suscripción disponibles.
+
+![Planes y suscripción](../assets/planes_suscrip_front.png)
+
+*Figura 5.2.2.5-11. Pantalla principal de planes y suscripción del frontend de MediTrack Sensor.*
+
+![Planes y suscripción 2](../assets/planes_suscrip2_front.png)
+
+*Figura 5.2.2.5-12. Vista complementaria de planes y suscripción del frontend de MediTrack Sensor.*
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección se evidencia la colaboración del equipo durante el Sprint 2 en el desarrollo de la primera versión del frontend de MediTrack Sensor, así como en la coordinación del reporte y la continuidad del Landing Page. La organización del trabajo se distribuyó por bounded contexts y permitió mantener coherencia entre diseño, implementación y documentación.
+
+**Repositorio de Frontend:** MediTrackSensor-Frontend
+
+- **IAM - Luis Angel Tufiño Argüelles:** implementó la lógica y estructura del módulo de identidad y acceso, contribuyendo en los flujos de autenticación y organización de la experiencia inicial del usuario.
+- **Subscriptions - Mateo Sebastián Urviola Condori:** desarrolló la lógica y presentación de las vistas asociadas a planes y suscripción, asegurando claridad en la interacción con las opciones disponibles.
+- **Monitoring - Tomás Alessandro Paredes Díaz:** participó en la construcción del módulo de monitoreo y seguimiento, orientando la visualización de indicadores y estados del sistema.
+- **Establishment - Dhilsen Armil Mallqui Vilca y Pilsen:** implementaron las vistas y la lógica relacionadas con establecimientos, cuidando la navegación y la consistencia funcional del módulo.
+- **Logistics - Dhilsen:** apoyó la implementación de la parte operativa vinculada a logística, estructurando información y flujos relacionados con el movimiento y gestión de recursos.
+- **Frontend - Franco Diego Rioja Nuñez:** contribuyó en la implementación general del frontend, incluyendo la coherencia visual, la adaptación responsive y la integración de los componentes principales de la interfaz.
+
+**Repositorio del Reporte:** MediTrackSensor-Project-Report
+
+- **Diego Fernando Herrera Enriquez:** lideró la redacción, organización y consolidación de la sección de desarrollo del reporte, asegurando trazabilidad entre el sprint y la evidencia presentada.
+
+**Repositorio del Landing Page:** MediTrackSensor-Landing-Page
+
+- **Dhilsen Armil Mallqui Vilca:** lideró la implementación y el despliegue del Landing Page, manteniendo la base visual del producto y su publicación continua.
+
+En conjunto, la colaboración del Sprint 2 reflejó una distribución equilibrada de responsabilidades, donde el trabajo por bounded contexts permitió avanzar de forma ordenada en el frontend y sostener la documentación del proyecto.
+
 ---
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
 
+Para validar la propuesta de valor de MediTrack Sensor y comprender las necesidades específicas de los usuarios finales, se llevaron a cabo entrevistas estructuradas con dos segmentos principales: personal operativo de almacenes farmacéuticos y gestores/responsables de farmacias en instituciones de salud. La metodología utilizada incluyó entrevistas presenciales y semiestructuradas, enfocadas en características objetivas (datos demográficos, dispositivos, experiencia) y subjetivas (percepciones, frustraciones, expectativas).
+
 ### 5.3.2. Registro de Entrevistas
 
+### Segmento 01: Personal operativo de almacenes farmacéuticos
+**(Entrevistados: Luis Mendoza – hospital público, Jorge Pérez – clínica privada)**
+
+#### Características objetivas:
+* **Registro manual de condiciones ambientales:** 100% realizan control con termómetros/higrómetros y anotaciones en cuadernos o Excel.
+* **Frecuencia de registro limitada:** 100% registran entre 2–3 veces al día, sin monitoreo continuo.
+* **Uso de dispositivos:** 100% utilizan computadora y celular en su trabajo.
+* **Browser más usado:** 100% mencionan Google Chrome.
+* **Experiencia laboral:** Ambos tienen más de 6 años en el área (100%).
+
+#### Características subjetivas:
+* **Frustración con el proceso manual:** 100% lo consideran tedioso, repetitivo y propenso a errores.
+* **Casos de pérdida de medicamentos por fallas ambientales:** 100% han experimentado deterioro de lotes por variaciones no detectadas.
+* **Valoración de alertas automáticas:** 100% consideran que una solución digital con notificaciones inmediatas sería una mejora significativa.
+* **Disposición a aprender nuevas tecnologías:** 100% están abiertos a capacitación si la herramienta es sencilla.
+* **Disposición institucional a pagar por soluciones:** 100% creen que sus instituciones estarían interesadas, siempre que el costo sea razonable.
+
+> **Conclusión del segmento:** El personal operativo se caracteriza por depender de procesos manuales, con registros limitados y alta exposición a errores. Existe frustración generalizada y experiencias negativas por pérdidas de medicamentos. Valoran la simplicidad tecnológica y muestran apertura a soluciones digitales, siempre que sean fáciles de usar y económicamente viables. Este segmento representa usuarios que necesitan automatización básica, alertas inmediatas y facilidad de uso.
+
+---
+
+### Segmento 02: Gestores y responsables de farmacia en instituciones de salud
+**(Entrevistado: Omar Ruiz – hospital público)**
+
+#### Características objetivas:
+* **Supervisión de múltiples almacenes:** 100% supervisa más de un almacén (tres en total).
+* **Registro manual delegado:** 100% depende de reportes en papel entregados por personal operativo.
+* **Uso de dispositivos:** 100% prefiere computadora para reportes y celular para consultas rápidas.
+* **Browser más usado:** 100% utiliza Google Chrome.
+* **Experiencia profesional:** Más de 20 años en el área farmacéutica (deducido por edad y cargo).
+
+#### Características subjetivas:
+* **Dificultad de visibilidad en tiempo real:** 100% señala que depende de reportes manuales y carece de monitoreo simultáneo.
+* **Problemas de incumplimiento normativo:** 100% ha enfrentado observaciones por registros incompletos.
+* **Importancia de datos históricos:** 100% considera fundamental contar con historial para auditorías y evitar sanciones.
+* **Evaluación de soluciones tecnológicas previas:** 100% probó una solución importada, pero el costo y el idioma fueron barreras.
+* **Obstáculos institucionales:** 100% identifica presupuesto limitado y procesos administrativos lentos como principales trabas.
+* **Funcionalidad indispensable:** 100% prioriza alertas en tiempo real accesibles desde celular.
+* **Viabilidad económica:** 100% considera que un costo mensual entre 100–200 soles sería aceptable si se justifica.
+
+> **Conclusión del segmento:** Los gestores farmacéuticos enfrentan el reto de supervisar múltiples almacenes con procesos manuales poco confiables. La visibilidad en tiempo real y los datos históricos son críticos para cumplir normativas y evitar sanciones. Valoran soluciones digitales que ofrezcan alertas inmediatas, reportes históricos y accesibilidad móvil, pero enfrentan barreras de presupuesto y burocracia. Este segmento representa usuarios que necesitan control centralizado, cumplimiento normativo y justificación de costo-beneficio.
+
 ### 5.3.3. Evaluaciones según heurísticas
+
+Para complementar los hallazgos de entrevistas, se realizó una evaluación heurística focalizada de la primera versión del frontend de MediTrack Sensor, aplicando las heurísticas 2, 4 y 5 de Nielsen por su relación directa con el alcance funcional del Sprint 2. El objetivo fue validar la calidad de uso en los flujos críticos implementados.
+
+**Escala utilizada (criterio de evaluación):**
+- 1 = Cumplimiento muy bajo (requiere rediseño)
+- 2 = Cumplimiento bajo (requiere correcciones mayores)
+- 3 = Cumplimiento aceptable (requiere mejoras)
+- 4 = Cumplimiento bueno (ajustes menores)
+- 5 = Cumplimiento completo (sin observaciones críticas)
+
+**Aplicación de la escala en esta evaluación:**
+- Heurísticas evaluadas: 2, 4 y 5.
+- Resultado obtenido: 5/5 en todas las heurísticas evaluadas.
+
+| Heurística (Nielsen) | Hallazgo principal | Evidencia observada | Puntaje (1-5) | Severidad | Acción recomendada |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| 2. Relación entre el sistema y el mundo real | La terminología y estructura del frontend se alinean con el flujo operativo del dominio farmacéutico. | Los entrevistados identifican con claridad los módulos y comprenden su propósito funcional. | 5 | Baja | Mantener la nomenclatura actual y documentar el estándar para siguientes módulos. |
+| 4. Consistencia y estándares | La interfaz mantiene coherencia visual, de navegación y de comportamiento entre pantallas principales. | Evidencia de componentes reutilizables y patrones de diseño homogéneos en el Sprint 2. | 5 | Baja | Continuar aplicando la guía de estilos y checklist de consistencia antes de cada release. |
+| 5. Prevención de errores | Los flujos críticos evaluados incluyen validaciones y restricciones suficientes para evitar errores frecuentes de operación. | En las pruebas funcionales y revisión del frontend no se observaron fallos críticos en acciones principales. | 5 | Baja | Sostener las validaciones implementadas y ampliar cobertura en nuevos formularios. |
+
+**Resultado general de la evaluación heurística:**
+- **Promedio de cumplimiento:** 5.0 / 5
+- **Fortalezas identificadas:** Alineación con el lenguaje del usuario, consistencia de interfaz y prevención de errores en flujos críticos.
+- **Brechas prioritarias:** No se identificaron brechas críticas en las heurísticas evaluadas (2, 4 y 5).
+
+**Priorización de mejora para próximos Sprints:**
+1. Mantener la calidad lograda en heurísticas 2, 4 y 5 con revisiones de usabilidad por sprint.
+2. Extender la evaluación al resto de heurísticas de Nielsen en futuras iteraciones.
+3. Consolidar evidencia de pruebas con matriz comparativa entre sprints para trazabilidad académica.
 
 ---
 

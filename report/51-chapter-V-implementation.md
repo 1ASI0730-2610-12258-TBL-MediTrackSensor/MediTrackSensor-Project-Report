@@ -371,7 +371,89 @@ Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc31
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+Después de finalizar el Sprint 2, logramos implementar la primera versión funcional del frontend de MediTrack Sensor. Esta entrega consolida las pantallas principales definidas en los wireframes y mockups del capítulo de diseño, permitiendo una navegación coherente entre autenticación, visualización de información y gestión operativa para los dos segmentos objetivo del sistema.
+
+La evidencia que se presenta a continuación resume las principales vistas desarrolladas durante este sprint. Cada figura incluye una breve descripción funcional y una leyenda debajo de la captura para facilitar su revisión visual.
+
+**1. Login y registro**
+
+Pantalla de acceso para que los usuarios puedan iniciar sesión y autenticarse dentro de la plataforma.
+
+![Login y registro](../assets/login_front.png)
+
+*Figura 5.2.2.5-1. Pantalla de login y registro del frontend de MediTrack Sensor.*
+
+**2. Dashboard principal**
+
+Panel central donde se visualiza el estado general del sistema y los indicadores más relevantes del monitoreo.
+
+![Dashboard principal](../assets/dashboard_front.png)
+
+*Figura 5.2.2.5-2. Vista principal del dashboard del frontend de MediTrack Sensor.*
+
+![Dashboard secundario](../assets/dashboard2_front.png)
+
+*Figura 5.2.2.5-3. Vista complementaria del dashboard con información operativa adicional.*
+
+**3. Gestión de establecimientos**
+
+Sección orientada a registrar y consultar la información de las sedes o almacenes farmacéuticos vinculados a la entidad.
+
+![Gestión de establecimientos](../assets/gestion_estable_front.png)
+
+*Figura 5.2.2.5-4. Vista de gestión de establecimientos del frontend de MediTrack Sensor.*
+
+![Gestión de establecimientos 2](../assets/gestion_estable2_front.png)
+
+*Figura 5.2.2.5-5. Vista complementaria de gestión de establecimientos con información ampliada.*
+
+**4. Gestión de dispositivos y transportes**
+
+Espacio destinado al control de los equipos y unidades asociadas al seguimiento de las condiciones ambientales.
+
+![Gestión de dispositivos](../assets/gestion_dispo.png)
+
+*Figura 5.2.2.5-6. Vista de gestión de dispositivos del frontend de MediTrack Sensor.*
+
+![Gestión de transportes](../assets/gestion_transp_front.png)
+
+*Figura 5.2.2.5-7. Vista de gestión de transportes del frontend de MediTrack Sensor.*
+
+![Gestión de transportes 2](../assets/gestion_transp2_front.png)
+
+*Figura 5.2.2.5-8. Vista complementaria de gestión de transportes con mayor detalle.*
+
+**5. Perfil de usuario**
+
+Módulo para revisar y actualizar la información personal y la configuración de la cuenta.
+
+![Perfil de usuario](../assets/perfil_usuario_front.png)
+
+*Figura 5.2.2.5-9. Pantalla de perfil de usuario del frontend de MediTrack Sensor.*
+
+**6. Alertas e incidencias**
+
+Vista enfocada en la notificación de eventos críticos y su seguimiento oportuno.
+
+![Alertas e incidencias](../assets/alertas%20_ins_front.png)
+
+*Figura 5.2.2.5-10. Pantalla de alertas e incidencias del frontend de MediTrack Sensor.*
+
+**7. Planes y suscripción**
+
+Sección que presenta el estado del plan activo y las opciones de suscripción disponibles.
+
+![Planes y suscripción](../assets/planes_suscrip_front.png)
+
+*Figura 5.2.2.5-11. Pantalla principal de planes y suscripción del frontend de MediTrack Sensor.*
+
+![Planes y suscripción 2](../assets/planes_suscrip2_front.png)
+
+*Figura 5.2.2.5-12. Vista complementaria de planes y suscripción del frontend de MediTrack Sensor.*
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 

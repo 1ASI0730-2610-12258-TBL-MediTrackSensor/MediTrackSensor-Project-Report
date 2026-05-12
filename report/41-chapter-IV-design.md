@@ -688,174 +688,297 @@ la precisión y la confiabilidad en el sector salud.
 
 ### 4.3.1. Landing Page Wireframe
 
-El wireframe de la página de inicio funciona como un mapa visual que define la estructura, 
-jerarquía y flujo de la información. Este esquema asegura una disposición lógica de los componentes
-, facilitando la navegación y destacando la propuesta de valor de MediTrack Sensor. Las secciones
-están diseñadas para guiar al usuario desde la comprensión del problema hasta el interés por la solución.
+El wireframe de la página de inicio funciona como un mapa visual que define la estructura, jerarquía, distribución y flujo de la información dentro de la plataforma. Este esquema no solo organiza los elementos gráficos, sino que establece las bases funcionales de la experiencia de usuario, asegurando coherencia entre diseño, navegación y objetivos estratégicos del sistema.
+
+En MediTrack Sensor, el wireframe está diseñado bajo principios de usabilidad, claridad estructural y enfoque en la conversión. Cada sección cumple un propósito específico dentro del recorrido del usuario, guiándolo desde la comprensión inicial del problema hasta la interacción directa con la solución. La estructura general prioriza la propuesta de valor, la confianza institucional y la accesibilidad de la información.
+
+El diseño sigue un enfoque modular y jerárquico, permitiendo que cada bloque de contenido sea independiente, escalable y fácilmente adaptable a futuras mejoras o ampliaciones del sistema.
+
+---
 
 **Nav y Hero**
 
-La sección inicial presenta el logotipo de MediTrack Sensor junto con un eslogan orientado a la precisión 
-y el control en el almacenamiento de medicamentos. La barra de navegación permite acceder a secciones
-clave como Tecnología, Sectores, Nosotros y Planes. El área principal comunica de forma inmediata el
-propósito del sistema: monitorear variables críticas como temperatura, humedad y luz en tiempo real.
-Se incluye un llamado a la acción visible que incentiva al usuario a obtener más información o 
-establecer contacto. Un recurso visual relacionado al entorno farmacéutico refuerza el contexto del producto.
+La sección inicial representa el punto de entrada principal de la plataforma y tiene como objetivo generar impacto inmediato. Aquí se establece la identidad visual de MediTrack Sensor mediante la incorporación del logotipo y un mensaje introductorio que comunica precisión, control y monitoreo inteligente en el almacenamiento de medicamentos.
+
+La barra de navegación superior permite acceder de manera directa a las secciones clave del sitio, asegurando una experiencia fluida y organizada. Entre las opciones disponibles se incluyen Tecnología, Beneficios, Sectores, Nosotros, Planes y Contacto. Esta estructura facilita la exploración progresiva del contenido sin generar sobrecarga informativa.
+
+El área Hero destaca la propuesta de valor principal del sistema: el monitoreo en tiempo real de variables críticas como temperatura, humedad y luz. Además, incorpora un llamado a la acción visible que orienta al usuario hacia la obtención de información adicional o el contacto directo con el equipo.
+
+El uso de un recurso visual relacionado al entorno farmacéutico refuerza el contexto del producto y genera una conexión inmediata con el sector salud.
 
 <img src="../assets/navYHero.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
+---
+
 **Tecnología (How It Works)**
 
-En esta sección se explica el funcionamiento del sistema, destacando la integración de sensores IoT
-con la plataforma web. Se presentan las variables monitoreadas (temperatura, humedad y luz), así 
-como el flujo de datos hacia dashboards en tiempo real. La información se organiza de manera clara 
-para que el usuario comprenda cómo el sistema captura, procesa y presenta los datos.
+Esta sección explica el funcionamiento del sistema de manera estructurada y comprensible. Su objetivo es detallar cómo los sensores IoT integrados capturan datos ambientales y los transmiten hacia la plataforma web para su procesamiento y visualización en tiempo real.
+
+Se presentan las variables monitoreadas:
+
+- Temperatura  
+- Humedad  
+- Luz  
+
+El contenido está organizado en bloques informativos que describen el flujo completo del sistema, desde la recolección de datos hasta su representación en dashboards interactivos. Esta estructura permite que el usuario comprenda claramente la arquitectura funcional sin necesidad de conocimientos técnicos avanzados.
 
 <img src="../assets/tecnologia.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
+---
 
 **Beneficios del sistema**
 
-Esta sección describe el valor que ofrece MediTrack Sensor, enfocándose en la reducción de pérdidas 
-por deterioro de medicamentos, la mejora en la trazabilidad y el cumplimiento de normativas sanitarias.
-Se resaltan beneficios como alertas automáticas, acceso a información en tiempo real y disponibilidad 
-de datos históricos para auditorías y toma de decisiones.
+En esta sección se resaltan los principales valores agregados de MediTrack Sensor. El objetivo es demostrar cómo la plataforma contribuye a la reducción de pérdidas, mejora la trazabilidad y fortalece el cumplimiento de normativas sanitarias.
+
+Entre los beneficios destacados se incluyen:
+
+- Alertas automáticas ante variaciones críticas.  
+- Acceso a datos en tiempo real.  
+- Historial de registros para auditorías.  
+- Mejora en la toma de decisiones.  
+- Supervisión centralizada.  
+- Prevención de deterioro de medicamentos.  
+
+La organización visual de esta sección permite una lectura clara y rápida, reforzando el impacto del sistema dentro del sector salud.
 
 <img src="../assets/sobrePlataforma.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
 <img src="../assets/comoFunciona.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
+---
 
 **Sectores (Aplicación del sistema)**
 
-Aquí se presentan los distintos contextos donde el sistema puede ser aplicado, como hospitales, clínicas,
-farmacias y centros de distribución. Cada segmento se describe brevemente, permitiendo que el usuario
-identifique rápidamente cómo el producto se adapta a su entorno.
+Esta sección demuestra la adaptabilidad y escalabilidad del sistema, mostrando los distintos contextos donde puede ser implementado.
+
+Los principales sectores incluyen:
+
+- Hospitales  
+- Clínicas  
+- Farmacias  
+- Centros de distribución  
+- Almacenes farmacéuticos  
+
+Cada segmento está presentado de manera breve y clara, permitiendo que el usuario identifique rápidamente la relevancia del sistema en su entorno operativo. Esto refuerza la flexibilidad del producto y su capacidad de integración en diferentes instituciones.
 
 <img src="../assets/paraQuien.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
+---
 
 **Sobre el Equipo (Nosotros)**
 
-Esta sección muestra al equipo detrás de MediTrack Sensor, incluyendo información relevante sobre sus 
-integrantes. Su objetivo es generar confianza y credibilidad, humanizando la solución y mostrando el 
-compromiso del equipo con el desarrollo del producto.
+Esta sección tiene como finalidad generar confianza y credibilidad institucional. Presenta al equipo responsable del desarrollo de MediTrack Sensor, destacando el compromiso con la innovación tecnológica y la mejora de procesos en el sector salud.
+
+La inclusión de esta sección humaniza la solución y fortalece la percepción profesional del proyecto, elemento clave en plataformas tecnológicas orientadas a instituciones sanitarias.
 
 <img src="../assets/quienesSomos.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
+---
 
 **Planes (Pricing)**
 
-La sección de planes presenta las opciones de suscripción del sistema, organizadas según el número de 
-sedes y funcionalidades disponibles. Se describen características como monitoreo en tiempo real, alertas,
-acceso a historial y gestión centralizada, permitiendo al usuario identificar la opción más adecuada
-según sus necesidades.
+La sección de planes está diseñada para facilitar la comparación entre las diferentes opciones de suscripción disponibles.
+
+Incluye información sobre:
+
+- Número de sedes permitidas.  
+- Acceso a monitoreo en tiempo real.  
+- Gestión centralizada.  
+- Reportes históricos.  
+- Sistema de alertas.  
+- Funcionalidades adicionales según el plan.  
+
+El diseño estructurado permite que el usuario evalúe rápidamente cuál opción se adapta mejor a sus necesidades operativas y presupuestarias.
 
 <img src="../assets/planesPagos.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
+---
 
 **Contacto**
 
-En esta sección, los usuarios pueden establecer contacto directo con el equipo de MediTrack Sensor
-para solicitar información adicional, resolver dudas o explorar oportunidades de implementación 
-en sus instituciones. Se busca ofrecer un canal claro, accesible y confiable que facilite la comunicación
-y permita a los interesados dar el siguiente paso hacia la adopción de una solución de monitoreo 
-eficiente y adaptada al sector salud.
+La sección de contacto facilita la comunicación directa entre los interesados y el equipo de MediTrack Sensor. Su objetivo es permitir que instituciones puedan solicitar información adicional, demostraciones del sistema o propuestas de implementación.
+
+Se busca ofrecer un canal claro, accesible y confiable que apoye el proceso de adopción tecnológica dentro del sector salud.
 
 <img src="../assets/contacto.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
+---
 
 **Footer**
 
-El pie de página incluye enlaces a información relevante como términos de servicio, políticas de privacidad
-y medios de contacto. Este elemento proporciona un cierre estructurado a la página, permitiendo acceso 
-rápido a información adicional sin afectar la claridad del diseño principal.
+El pie de página cumple una función estructural y de cierre dentro del diseño. Incluye enlaces relevantes como términos de servicio, políticas de privacidad y medios de contacto.
+
+Este elemento permite acceder rápidamente a información complementaria sin afectar la jerarquía principal del contenido, manteniendo una experiencia organizada y profesional.
 
 <img src="../assets/footer.png" alt="Landing Page Wireframe" style="max-width: 100%; height: auto;">
 
+---
 
-Este wireframe establece las bases para un diseño que no solo comunica la propuesta de valor de manera
-efectiva, sino que también guía al usuario a través de una experiencia clara, funcional y alineada 
-con las necesidades del sector salud.
+Este wireframe establece una estructura sólida que garantiza claridad, coherencia y orientación estratégica dentro de la Landing Page. Su diseño permite comunicar eficazmente la propuesta de valor de MediTrack Sensor, guiando al usuario de manera progresiva desde la comprensión del problema hasta la interacción con la solución tecnológica.
 
 ### 4.3.2. Landing Page Mock-up
 
-Los mockups de MediTrack Sensor representan la versión visual de alta fidelidad de la Landing Page, 
-incorporando la identidad gráfica, paleta de colores y estilo visual del producto. La propuesta utiliza
-como colores principales el azul oscuro #1B304C, asociado a confianza y estabilidad, y el naranja #E87239,
-utilizado para resaltar información importante y llamados a la acción.
+Los mockups de MediTrack Sensor representan la versión visual de alta fidelidad de la Landing Page, incorporando la identidad gráfica, la paleta de colores definida en el sistema de diseño y el estilo visual final del producto. A diferencia del wireframe, que establece la estructura funcional, el mockup incorpora elementos reales de diseño como tipografía, colores, iconografía, imágenes y jerarquía visual definitiva.
 
-Asimismo, se incorporan imágenes relacionadas al entorno farmacéutico y al monitoreo de medicamentos, 
-reforzando visualmente el enfoque del sistema en la seguridad, supervisión y control dentro del sector salud.
+La propuesta utiliza como colores principales el azul oscuro #1B304C, asociado a confianza, estabilidad y profesionalismo, y el naranja #E87239, utilizado estratégicamente para resaltar información importante, botones de acción y llamados a la conversión. Esta combinación cromática refuerza la identidad institucional del sistema y mantiene coherencia con el enfoque tecnológico y del sector salud.
+
+Asimismo, se incorporan imágenes relacionadas al entorno farmacéutico y al monitoreo de medicamentos, reforzando visualmente el propósito del sistema en la seguridad, supervisión y control dentro del almacenamiento de productos sensibles. La composición visual busca transmitir modernidad, precisión y confiabilidad.
+
+Los mockups permiten validar aspectos como:
+
+- Distribución final de los componentes.
+- Contraste visual y legibilidad.
+- Jerarquía tipográfica.
+- Ubicación estratégica de los CTAs.
+- Coherencia estética entre secciones.
+- Experiencia visual en distintos dispositivos.
+
+De esta manera, esta etapa representa la transición del diseño estructural a la experiencia visual completa del usuario.
+
+---
 
 **Nav y Hero**
 
-La sección principal presenta una interfaz moderna y limpia que comunica rápidamente la propuesta de valor 
-de MediTrack Sensor. Se prioriza un mensaje claro sobre el monitoreo en tiempo real y se utiliza un llamado 
-a la acción visible acompañado de elementos visuales relacionados al almacenamiento farmacéutico.
+La sección principal presenta una interfaz moderna, limpia y visualmente equilibrada que comunica de forma inmediata la propuesta de valor de MediTrack Sensor. Se prioriza un mensaje claro orientado al monitoreo en tiempo real, acompañado de un llamado a la acción visible y destacado mediante el color de marca.
+
+El diseño del Hero incluye:
+
+- Imagen contextual del sector farmacéutico.
+- Mensaje principal con jerarquía tipográfica destacada.
+- Botón de acción con alto contraste.
+- Espaciado adecuado para mejorar la lectura.
+- Distribución visual centrada en conversión.
+
+Este diseño busca captar la atención del usuario en los primeros segundos de interacción y facilitar la comprensión inmediata del sistema.
 
 <img src="../assets/navMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
 
+---
+
 **Tecnología (How It Works)**
 
-El mockup de esta sección muestra de forma visual el funcionamiento del sistema y la integración con sensores
-IoT. Se utilizan íconos, tarjetas informativas y una estructura clara para facilitar la comprensión del flujo 
-de monitoreo y procesamiento de datos.
+El mockup de esta sección muestra de forma visual el funcionamiento del sistema y la integración con sensores IoT. Se utilizan tarjetas informativas, íconos representativos y una estructura organizada que facilita la comprensión del flujo de datos.
+
+La representación visual permite identificar claramente:
+
+- Captura de datos mediante sensores.
+- Transmisión de información.
+- Procesamiento en la plataforma.
+- Visualización en dashboards.
+- Generación de alertas automáticas.
+
+El diseño refuerza la claridad técnica sin sobrecargar la interfaz, manteniendo un equilibrio entre información y estética.
 
 <img src="../assets/tecMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
 
+---
 
 **Beneficios del sistema**
 
-Esta sección resalta los beneficios principales mediante elementos visuales organizados y fáciles de identificar.
-El diseño enfatiza conceptos como monitoreo continuo, alertas automáticas y trazabilidad de información.
+Esta sección resalta los beneficios principales mediante elementos visuales estructurados que permiten una lectura rápida y clara. El diseño enfatiza conceptos como monitoreo continuo, alertas automáticas, trazabilidad digital y cumplimiento normativo.
+
+Se destacan ventajas como:
+
+- Supervisión en tiempo real.
+- Prevención de pérdidas.
+- Acceso a historial de datos.
+- Soporte para auditorías.
+- Gestión centralizada.
+- Mayor eficiencia operativa.
+
+El uso de tarjetas y bloques diferenciados facilita la comprensión del valor agregado del sistema.
 
 <img src="../assets/sobrePlataformaMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
 
 <img src="../assets/comoFuncionaMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
 
+---
 
 **Sectores (Aplicación del sistema)**
 
-El diseño presenta los diferentes entornos donde MediTrack Sensor puede ser implementado, utilizando imágenes y 
-bloques visuales que ayudan a identificar rápidamente cada sector objetivo.
+El diseño presenta los diferentes entornos donde MediTrack Sensor puede ser implementado, utilizando imágenes representativas y bloques visuales organizados.
+
+Esta sección permite identificar claramente la adaptabilidad del sistema en:
+
+- Hospitales.
+- Clínicas.
+- Farmacias.
+- Centros de distribución.
+- Almacenes farmacéuticos.
+
+El objetivo visual es demostrar escalabilidad y flexibilidad del producto dentro del sector salud.
 
 <img src="../assets/paraQuienMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
 
+---
 
 **Sobre el Equipo (Nosotros)**
 
-Esta sección utiliza un diseño cercano y profesional para presentar a los integrantes del equipo. Se busca 
-transmitir confianza y compromiso mediante fotografías y descripciones breves.
+Esta sección adopta un diseño profesional y cercano para presentar al equipo responsable del desarrollo del sistema. Se busca fortalecer la confianza institucional mediante una presentación visual clara y coherente con la identidad del proyecto.
+
+El mockup incluye:
+
+- Fotografías o representaciones del equipo.
+- Descripciones breves.
+- Diseño alineado con la identidad de marca.
+- Espacios bien definidos para generar orden visual.
+
+Este componente refuerza la credibilidad del producto.
 
 <img src="../assets/quienesSomosMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
 
+---
 
 **Planes (Pricing)**
 
-El mockup de planes organiza la información de manera clara y visualmente diferenciada, permitiendo comparar 
-características y funcionalidades entre las distintas opciones de suscripción.
+El mockup de planes organiza la información de manera estructurada y visualmente diferenciada, facilitando la comparación entre las distintas opciones de suscripción.
+
+El diseño permite visualizar claramente:
+
+- Características incluidas en cada plan.
+- Número de sedes.
+- Nivel de funcionalidades.
+- Acceso a reportes.
+- Sistema de alertas.
+- Opciones de gestión centralizada.
+
+La estructura está pensada para mejorar la toma de decisiones del usuario y orientar la conversión.
 
 <img src="../assets/planesPagosMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
 
+---
 
 **Contacto**
 
-La sección de contacto presenta un diseño accesible y ordenado que facilita la comunicación entre los usuarios 
-y el equipo de MediTrack Sensor, manteniendo coherencia visual con el resto de la plataforma.
+La sección de contacto presenta un diseño accesible, ordenado y coherente con el resto de la plataforma. Su objetivo es facilitar la comunicación directa entre los usuarios interesados y el equipo de MediTrack Sensor.
+
+Incluye:
+
+- Formulario estructurado.
+- Información de contacto.
+- Elementos visuales consistentes.
+- Distribución limpia y profesional.
+
+Esta sección cumple una función estratégica dentro del flujo de conversión.
 
 <img src="../assets/contactoMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
 
+---
 
 **Footer**
 
-El footer mantiene una estructura limpia y funcional, integrando accesos rápidos a información relevante, 
-enlaces de soporte y elementos de identidad institucional.
+El footer mantiene una estructura limpia y funcional, integrando accesos rápidos a información relevante como términos de servicio, políticas de privacidad y enlaces institucionales.
+
+Su diseño asegura:
+
+- Cierre visual equilibrado.
+- Acceso a información legal.
+- Consistencia con la identidad gráfica.
+- Organización clara de enlaces secundarios.
+
+Este elemento completa la experiencia visual de la Landing Page, manteniendo coherencia y profesionalismo en todo el diseño.
 
 <img src="../assets/footerMU.png" alt="Landing Page Mock Up" style="max-width: 100%; height: auto;">
-
-
----
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -898,46 +1021,180 @@ acceden a datos históricos, analizan tendencias y apoyan la toma de decisiones.
 
 ### 4.4.3. Web Applications Mock-ups
 
-Esta sección presenta los mockups de la aplicación web de MediTrack Sensor, diseñados para 
-ofrecer una experiencia visual coherente con la identidad gráfica del producto y adaptada a 
-las necesidades de los usuarios. Los mockups reflejan la estructura, paleta de colores y estilo 
-visual definidos en la Landing Page, asegurando una transición fluida entre ambos entornos
-dedicados a ambos sectores objetivos.
+Esta sección presenta los mockups de la aplicación web de MediTrack Sensor, diseñados para ofrecer una experiencia visual coherente con la identidad gráfica del producto y adaptada a las necesidades operativas de los usuarios. Los mockups representan la fase de diseño de alta fidelidad, donde se integran completamente la paleta de colores, la tipografía definida, los componentes UI y la estructura funcional establecida en los wireframes.
 
-<img src="./../assets/cancelarPlan.png" alt="Mockups" width="700">
-<img src="./../assets/confirmarCancelar.png" alt="Mockups" width="700">
-<img src="./../assets/entidadDeviceInfo.png" alt="Mockups" width="700">
-<img src="./../assets/entidadEditProfile.png" alt="Mockups" width="700">
-<img src="./../assets/entidadesAddEstablishment.png" alt="Mockups" width="700">
-<img src="./../assets/entidadesAssistingOperator.png" alt="Mockups" width="700">
-<img src="./../assets/entidadesEstablisments.png" alt="Mockups" width="700">
-<img src="./../assets/entidadesLogin.png" alt="Mockups" width="700">
-<img src="./../assets/entidadesSignIn.png" alt="Mockups" width="700">
-<img src="./../assets/entidadEstablishmentInfo.png" alt="Mockups" width="700">
-<img src="./../assets/entidadEstablishmentOperatorAdvices.png" alt="Mockups" width="700">
-<img src="./../assets/entidadHome.png" alt="Mockups" width="700">
-<img src="./../assets/entidadMap.png" alt="Mockups" width="700">
-<img src="./../assets/entidadOperatorInfo.png" alt="Mockups" width="700">
-<img src="./../assets/entidadProfileBasic.png" alt="Mockups" width="700">
-<img src="./../assets/entidadProfilePremiun.png" alt="Mockups" width="700">
+Cada pantalla ha sido diseñada considerando los dos perfiles principales del sistema: Personal Operativo y Entidades de Salud, asegurando que cada usuario acceda únicamente a las funcionalidades relevantes para su rol.
+
+---
+
+### 🔹 Mockups de Autenticación y Gestión de Cuenta
+
 <img src="./../assets/login.png" alt="Mockups" width="700">
-<img src="./../assets/pagarPlan.png" alt="Mockups" width="700">
-<img src="./../assets/personalAddDevice.png" alt="Mockups" width="700">
-<img src="./../assets/personalAddTransport.png" alt="Mockups" width="700">
-<img src="./../assets/personalEditProfile.png" alt="Mockups" width="700">
-<img src="./../assets/personalEditProfile.png" alt="Mockups" width="700">
-<img src="./../assets/personalHome.png" alt="Mockups" width="700">
-<img src="./../assets/personalListDevices.png" alt="Mockups" width="700">
-<img src="./../assets/personalNoStablishment.png" alt="Mockups" width="700">
-<img src="./../assets/personalOLogin.png" alt="Mockups" width="700">
-<img src="./../assets/personalOperatorInfo.png" alt="Mockups" width="700">
+
+**Login:**  
+Pantalla de inicio de sesión que permite el acceso seguro al sistema mediante credenciales. Incluye validación de datos y diseño centrado en simplicidad y seguridad.
+
+<img src="./../assets/entidadesLogin.png" alt="Mockups" width="700">
+
+**Login Entidades:**  
+Versión del inicio de sesión adaptada al perfil de entidades de salud, manteniendo coherencia visual y diferenciación funcional.
+
+<img src="./../assets/entidadesSignIn.png" alt="Mockups" width="700">
+
+**Registro de Entidades:**  
+Formulario de creación de cuenta para instituciones, estructurado de manera clara para facilitar el proceso de registro.
+
 <img src="./../assets/personalOSignin.png" alt="Mockups" width="700">
-<img src="./../assets/personalProfile.png" alt="Mockups" width="700">
+
+**Registro Personal Operativo:**  
+Pantalla destinada al registro del personal operativo, permitiendo la creación de usuarios con permisos específicos.
+
+<img src="./../assets/personalOLogin.png" alt="Mockups" width="700">
+
+**Login Personal Operativo:**  
+Acceso específico para usuarios encargados del monitoreo diario de dispositivos y almacenes.
+
+---
+
+### 🔹 Mockups del Dashboard y Home
+
+<img src="./../assets/entidadHome.png" alt="Mockups" width="700">
+
+**Home Entidades:**  
+Panel principal para gestores, donde se muestra una vista general del estado de múltiples sedes y métricas institucionales.
+
+<img src="./../assets/personalHome.png" alt="Mockups" width="700">
+
+**Home Personal Operativo:**  
+Vista principal enfocada en dispositivos activos, alertas y monitoreo en tiempo real.
+
+---
+
+### 🔹 Gestión de Dispositivos y Sensores
+
+<img src="./../assets/personalAddDevice.png" alt="Mockups" width="700">
+
+**Agregar Dispositivo:**  
+Permite registrar nuevos sensores IoT en el sistema, vinculándolos a un almacén específico.
+
 <img src="./../assets/personalViewDevice.png" alt="Mockups" width="700">
-<img src="./../assets/personalViewsTransport.png" alt="Mockups" width="700">
+
+**Vista de Dispositivo:**  
+Muestra información detallada del sensor, incluyendo estado, lecturas y configuración.
+
+<img src="./../assets/personalListDevices.png" alt="Mockups" width="700">
+
+**Listado de Dispositivos:**  
+Pantalla que organiza todos los sensores registrados para facilitar su administración.
+
+---
+
+### 🔹 Gestión de Transporte
+
+<img src="./../assets/personalAddTransport.png" alt="Mockups" width="700">
+
+**Agregar Transporte:**  
+Permite registrar unidades de transporte utilizadas en distribución de medicamentos con monitoreo ambiental.
+
 <img src="./../assets/personalViewTransports.png" alt="Mockups" width="700">
+
+**Lista de Transportes:**  
+Visualiza todos los medios de transporte monitoreados por el sistema.
+
+<img src="./../assets/personalViewsTransport.png" alt="Mockups" width="700">
+
+**Detalle de Transporte:**  
+Presenta información específica del vehículo y sus condiciones ambientales registradas.
+
+---
+
+### 🔹 Gestión de Sedes e Instituciones
+
+<img src="./../assets/entidadesAddEstablishment.png" alt="Mockups" width="700">
+
+**Agregar Establecimiento:**  
+Permite a entidades registrar nuevas sedes o almacenes dentro del sistema.
+
+<img src="./../assets/entidadesEstablisments.png" alt="Mockups" width="700">
+
+**Listado de Establecimientos:**  
+Muestra todas las sedes asociadas a una institución.
+
+<img src="./../assets/entidadEstablishmentInfo.png" alt="Mockups" width="700">
+
+**Información del Establecimiento:**  
+Detalle completo de una sede específica, incluyendo estado y dispositivos vinculados.
+
+---
+
+### 🔹 Perfil y Configuración
+
+<img src="./../assets/entidadEditProfile.png" alt="Mockups" width="700">
+
+**Editar Perfil Entidades:**  
+Permite actualizar información institucional y datos de contacto.
+
+<img src="./../assets/personalEditProfile.png" alt="Mockups" width="700">
+
+**Editar Perfil Personal:**  
+Pantalla para modificar datos del usuario operativo.
+
+<img src="./../assets/entidadProfileBasic.png" alt="Mockups" width="700">
+
+**Perfil Básico:**  
+Vista de información estándar de la cuenta institucional.
+
+<img src="./../assets/entidadProfilePremiun.png" alt="Mockups" width="700">
+
+**Perfil Premium:**  
+Muestra beneficios adicionales según el plan contratado.
+
+---
+
+### 🔹 Planes y Pagos
+
 <img src="./../assets/planes.png" alt="Mockups" width="700">
 
+**Planes:**  
+Presenta las opciones de suscripción disponibles con sus características diferenciadas.
+
+<img src="./../assets/pagarPlan.png" alt="Mockups" width="700">
+
+**Pagar Plan:**  
+Pantalla destinada al proceso de pago y activación del servicio.
+
+<img src="./../assets/cancelarPlan.png" alt="Mockups" width="700">
+
+**Cancelar Plan:**  
+Permite gestionar la cancelación de suscripción de manera controlada.
+
+<img src="./../assets/confirmarCancelar.png" alt="Mockups" width="700">
+
+**Confirmación de Cancelación:**  
+Modal de validación para evitar acciones accidentales.
+
+---
+
+### 🔹 Gestión Operativa y Supervisión
+
+<img src="./../assets/entidadMap.png" alt="Mockups" width="700">
+
+**Mapa de Sedes:**  
+Visualización geográfica de establecimientos para supervisión centralizada.
+
+<img src="./../assets/entidadDeviceInfo.png" alt="Mockups" width="700">
+
+**Información de Dispositivo (Entidad):**  
+Detalle técnico de sensores asociados a la institución.
+
+<img src="./../assets/personalNoStablishment.png" alt="Mockups" width="700">
+
+**Sin Establecimiento:**  
+Pantalla que informa cuando el usuario aún no tiene sedes registradas.
+
+---
+
+En conjunto, estos mockups consolidan la identidad visual de MediTrack Sensor dentro de la aplicación web, garantizando coherencia estética, claridad funcional y una experiencia optimizada para ambos segmentos de usuarios. Cada pantalla ha sido diseñada para cumplir un objetivo específico dentro del flujo operativo del sistema, reforzando la usabilidad, la organización y la eficiencia en el monitoreo de condiciones ambientales.
 
 ### 4.4.4. Web Applications User Flow Diagrams
 

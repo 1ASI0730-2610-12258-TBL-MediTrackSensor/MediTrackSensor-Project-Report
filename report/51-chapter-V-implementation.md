@@ -296,6 +296,54 @@ A continuación, se presentan las evidencias de colaboración extraídas de los 
 **Evidencia de Contribuciones en el Reporte (Documentation):**
 
 <img src="assets/Contributors del repositorio del informe.png" />
+
+### 5.2.1. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo
+colaborativo para el Sprint 2. Incluye como secciones internas: Sprint Planning 2,
+Aspect Leaders and Collaborators, Sprint Backlog 2, Development Evidence for Sprint
+Review, Execution Evidence for Sprint Review, Services Documentation Evidence for
+Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+#### 5.2.2.1. Sprint Planning 2
+
+A continuación se presenta el resumen del Sprint Planning Meeting realizado para el Sprint 2.
+
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Date                               | 2026-05-11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Time                               | 9:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Prepared By                        | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Attendees                          | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Rioja Nuñez, Franco Diego / Tufiño Argüelles, Luis Angel / Urviola Condori, Mateo Sebastián / Paredes Díaz, Tomás Alessandro                                                                                                                                                                                                                                                                                                       |
+| Sprint 2 – 1 Review Summary        | Sprint 1 was very well coordinated; however, we failed to meet the requirements, resulting in a noticeable decrease in the quality of the content and the software product delivered during this sprint. The landing page was of good quality; however, the established requirements regarding commits and product development were not followed. Team members are aware of these errors thanks to feedback provided by the Product Owner.                                                           |
+| Sprint 2 – 1 Retrospective Summary | The team admits that the development of the previous sprint was not fully aligned with the requested requirements. We recognize that the software products were correctly oriented in terms of the stated objectives; However, its implementation and development presented deficiencies. Fortunately, the Product Owner provided us with important support through constant feedback, which allowed us to identify errors and make the necessary corrections to improve the quality of the product. |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Goal                      | Our goal is to develop our first version of the frontend of our web application. We believe that this application will allow entity pharmacy administrators to manage data within the establishments belonging to the health entity, as well as its operators and devices. Likewise, operators will be able to manage the data received by the devices and transports according to the metrics received by them.                                                                                     |
+| Sprint 2 Velocity                  | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sum of Story Points                | 23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+Durante el segundo sprint backlog, nuestro equipo tuvo como objetivo principal diseñar la Aplicación Web completándola parcialmente para esta segunda entrega. Para la organización y gestión de los miembros se utilizó Trello, lo que permitió dividir las user stories en tareas manejables y asignarlas a cada integrante según sus habilidades. El propósito de este sprint fue construir parcialmente la aplicación web, asegurando que fuera funcional, atractiva y alineada con la propuesta de valor de TBL.
+
+<img src="assets/Sprint Backlog 2.png" alt="Sprint Backlog 1" />
+
+Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc3193b48f5acf5194c54a2233ca38e2EFFB77A/meditracksensor
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
 ---
 
 ## 5.3. Validation Interviews

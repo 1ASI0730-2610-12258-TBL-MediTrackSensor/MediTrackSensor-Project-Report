@@ -164,7 +164,7 @@ realizado para el Sprint 1.
 | Time | 04:30 PM                                                                                                                                                                                                                                                                                                                             |
 | Location | Reunión virtual vía Google Meet                                                                                                                                                                                                                                                                                                      |
 | Prepared By | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                            |
-| Attendees | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Rioja Nuñez, Franco Diego / Tufiño Argüelles, Luis Angel / Urviola Condori, Mateo Sebastián                                                                                                                                                                        |
+| Attendees | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Rioja Nuñez, Franco Diego / Urviola Condori, Mateo Sebastián                                                                                                                                                                        |
 | **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                      |
 | Sprint 1 Goal | Our goal is to lay the groundwork for the project and launch the first version of the landing page. We believe this page will allow healthcare providers and pharmacy managers to better understand MediTrack Sensor, which measures the status of medications in their storage environment. This will be confirmed once the landing page is live and contains relevant content for both target groups. |
 | Sprint 1 Velocity | 21                                                                                                                                                                                                                                                                                                                                   |
@@ -176,7 +176,6 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 | Team Member (Last Name, First Name) | GitHub Username | Idea de Negocio y Bases | Diseño de App Web (Figma) | Contenido y Despliegue Landing | User Stories y Funciones | Análisis de Usuario y Needfinding |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| Tufiño Argüelles, Luis Angel | LuisTufino2 | **L** | C | C | C | C |
 | Rioja Nuñez, Franco Diego | FrancoDiegoR | C | **L** | C | C | C |
 | Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | **L** | C | C |
 | Herrera Enriquez, Diego Fernando | DerDFHE | C | C | C | **L** | C |
@@ -186,7 +185,6 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 **Sustento de los Aspectos de Liderazgo:**
 
-* **Luis Tufiño (Idea de Negocio y Bases):** Proporcionó liderazgo en la fase de concepción, estableciendo la visión estratégica de MediTrack Sensor y definiendo el modelo de negocio inicial que guía el proyecto.
 * **Franco Rioja (Diseño de App Web):** Lideró la arquitectura visual y experiencia de usuario del software, siendo responsable de los prototipos de alta fidelidad en Figma para la plataforma web.
 * **Dhilsen Mallqui (Contenido y Despliegue Landing):** Responsable de la presencia web del producto, liderando la implementación técnica y el despliegue de la Landing Page en Vercel para la comunicación con los interesados.
 * **Diego Herrera (User Stories y Funciones):** Lideró la traducción de necesidades en requerimientos técnicos, definiendo las historias de usuario y el alcance funcional de la aplicación.
@@ -216,8 +214,8 @@ A continuación se presenta la descomposición de User Stories en tareas del Spr
 | US21 | Información de monitoreo | T08 | Implementar dashboard IoT simulado | Desarrollar tarjetas con datos simulados de temperatura, humedad y luz | 6 | Dhilsen Mallqui | Done |
 | US02 | Acceso a sección de tecnología | T09 | Desarrollar sección tecnología | Crear sección con explicación del sistema y features | 4 | Dhilsen Mallqui | Done |
 | US03 | Acceso a sectores | T10 | Desarrollar sección sectores | Implementar cards de hospitales, distribución y farmacias | 5 | Dhilsen Mallqui | Done |
-| US16 | Contenido para almacenes | T11 | Redactar contenido segmento operativo | Escribir textos orientados a personal de almacén | 3 | Luis Tufiño / Dhilsen Mallqui | Done |
-| US17 | Contenido para entidades | T12 | Redactar contenido segmento gestores | Escribir textos orientados a entidades de salud | 3 | Luis Tufiño / Dhilsen Mallqui | Done |
+| US16 | Contenido para almacenes | T11 | Redactar contenido segmento operativo | Escribir textos orientados a personal de almacén | 3 | Dhilsen Mallqui | Done |
+| US17 | Contenido para entidades | T12 | Redactar contenido segmento gestores | Escribir textos orientados a entidades de salud | 3 | Dhilsen Mallqui | Done |
 | US07 | Identificación del problema | T13 | Desarrollar sección problema | Implementar floating cards con problemática | 4 | Dhilsen Mallqui | Done |
 | US04 | Información del equipo | T14 | Desarrollar sección nosotros | Crear sección con misión, visión y equipo TechnoByteLambders | 4 | Dhilsen Mallqui | Done |
 | US22 | Incentivo a contacto | T15 | Implementar planes de suscripción | Desarrollar pricing cards con planes Básico, Profesional y Premium | 5 | Dhilsen Mallqui | Done |
@@ -228,7 +226,7 @@ A continuación se presenta la descomposición de User Stories en tareas del Spr
 | US14 | Información estructurada | T20 | Organizar contenido | Estructurar secciones en orden lógico y jerarquía visual | 3 | Dhilsen Mallqui | Done |
 | - | - | T21 | Configurar despliegue en Vercel | Conectar repositorio y configurar deployment automático | 2 | Dhilsen Mallqui | Done |
 | - | - | T22 | Definir User Stories | Documentar 27 User Stories con criterios de aceptación | 6 | Diego Herrera | Done |
-| - | - | T23 | Realizar entrevistas | Conducir entrevistas con ambos segmentos objetivo | 8 | Franco Rioja / Luis Tufiño / Dhilsen Mallqui | Done |
+| - | - | T23 | Realizar entrevistas | Conducir entrevistas con ambos segmentos objetivo | 8 | Franco Rioja / Dhilsen Mallqui | Done |
 | - | - | T24 | Elaborar User Personas | Crear arquetipos basados en entrevistas | 4 | Mateo Urviola | Done |
 | - | - | T25 | Crear Journey Maps | Mapear experiencia de usuarios | 4 | Mateo Urviola | Done |
 
@@ -316,7 +314,7 @@ A continuación se presenta el resumen del Sprint Planning Meeting realizado par
 | Time                               | 9:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Prepared By                        | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Attendees                          | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Rioja Nuñez, Franco Diego / Tufiño Argüelles, Luis Angel / Urviola Condori, Mateo Sebastián / Paredes Díaz, Tomás Alessandro                                                                                                                                                                                                                                                                                                       |
+| Attendees                          | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Rioja Nuñez, Franco Diego / Urviola Condori, Mateo Sebastián / Paredes Díaz, Tomás Alessandro                                                                                                                                                                                                                                                                                                       |
 | Sprint 2 – 1 Review Summary        | Sprint 1 was very well coordinated; however, we failed to meet the requirements, resulting in a noticeable decrease in the quality of the content and the software product delivered during this sprint. The landing page was of good quality; however, the established requirements regarding commits and product development were not followed. Team members are aware of these errors thanks to feedback provided by the Product Owner.                                                           |
 | Sprint 2 – 1 Retrospective Summary | The team admits that the development of the previous sprint was not fully aligned with the requested requirements. We recognize that the software products were correctly oriented in terms of the stated objectives; However, its implementation and development presented deficiencies. Fortunately, the Product Owner provided us with important support through constant feedback, which allowed us to identify errors and make the necessary corrections to improve the quality of the product. |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -331,7 +329,6 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 | Team Member (Last Name, First Name) | GitHub Username | Frontend Development | IAM Module | Subscriptions Module | Monitoring Module | Establishment Module | Logistics Module | Frontend UI/Design | Report & Documentation |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Tufiño Argüelles, Luis Angel | LuisTufino2 | C | **L** | C | C | C | C | C | C |
 | Urviola Condori, Mateo Sebastián | BeyaminUv | C | C | **L** | C | C | C | C | C |
 | Paredes Díaz, Tomás Alessandro | TParedes92 | C | C | C | **L** | C | C | C | C |
 | Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | C | C | **L** | **L** | C | C |
@@ -342,7 +339,6 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 **Sustento de los Aspectos de Liderazgo:**
 
-* **Luis Tufiño (IAM Module):** Lideró el desarrollo del módulo de identidad y acceso, estableciendo la arquitectura de autenticación, validación de credenciales y gestión de tokens JWT para asegurar la seguridad de las sesiones de usuario en la aplicación.
 * **Mateo Urviola (Subscriptions Module):** Dirigió el diseño e implementación del módulo de planes y suscripciones, definiendo la lógica de selección de planes, comparación de opciones y flujo de integración con pagos.
 * **Tomás Paredes (Monitoring Module):** Lideró la construcción del módulo de monitoreo y dashboard, coordinando la visualización de indicadores de sensores, valores en tiempo real y estados del sistema para asegurar claridad en la representación de datos.
 * **Dhilsen Mallqui (Establishment & Logistics Modules):** Responsable del desarrollo de los módulos de gestión de establecimientos y logística, implementando interfaces de administración, etiquetado de ubicaciones y seguimiento de transportes farmacéuticos.
@@ -522,7 +518,6 @@ En esta sección se evidencia la colaboración del equipo durante el Sprint 2 en
 
 **Repositorio de Frontend:** MediTrackSensor-Frontend
 
-- **IAM - Luis Angel Tufiño Argüelles:** implementó la lógica y estructura del módulo de identidad y acceso, contribuyendo en los flujos de autenticación y organización de la experiencia inicial del usuario.
 - **Subscriptions - Mateo Sebastián Urviola Condori:** desarrolló la lógica y presentación de las vistas asociadas a planes y suscripción, asegurando claridad en la interacción con las opciones disponibles.
 - **Monitoring - Tomás Alessandro Paredes Díaz:** participó en la construcción del módulo de monitoreo y seguimiento, orientando la visualización de indicadores y estados del sistema.
 - **Establishment - Dhilsen Armil Mallqui Vilca y Pilsen:** implementaron las vistas y la lógica relacionadas con establecimientos, cuidando la navegación y la consistencia funcional del módulo.

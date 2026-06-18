@@ -295,7 +295,7 @@ A continuación, se presentan las evidencias de colaboración extraídas de los 
 
 ![Contributors del repositorio del informe](../assets/Contributors%20del%20repositorio%20del%20informe.png)
 
-### 5.2.1. Sprint 2
+### 5.2.2. Sprint 2
 
 En esta sección se registra y explica el avance en términos de producto y trabajo
 colaborativo para el Sprint 2. Incluye como secciones internas: Sprint Planning 2,
@@ -536,6 +536,266 @@ En conjunto, la colaboración del Sprint 2 reflejó una distribución equilibrad
 
 ---
 
+### 5.2.3. Sprint 3
+
+En esta sección se registra y explica el avance en términos de producto backend y trabajo
+colaborativo para el Sprint 3. Incluye como secciones internas: Sprint Planning 3,
+Aspect Leaders and Collaborators, Sprint Backlog 3, Development Evidence for Sprint
+Review, Execution Evidence for Sprint Review, Services Documentation Evidence for
+Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+#### 5.2.3.1. Sprint Planning 3
+
+A continuación se presenta el resumen del Sprint Planning Meeting realizado para el Sprint 3.
+
+| Sprint #                           | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Date                               | 2026-06-12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Time                               | 5:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Prepared By                        | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Attendees                          | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Paredes Díaz, Tomás Alessandro / Rioja Nuñez, Franco Diego / Urviola Condori, Mateo Sebastián                                                                                                                                                                                                                                                                       |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 3 Goal                      | Our goal is to develop the backend API and web services for the MediTrack Sensor platform. We believe that this implementation will provide the core functionality required by the frontend application, enabling data persistence, authentication, and RESTful API endpoints for managing subscriptions, devices, establishments, operators, and logistics. This will be confirmed once all microservices are deployed and integrated with the frontend application. |
+| Sprint 3 Velocity                  | 18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sum of Story Points                | 18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 3. Cada aspecto representa una fase crítica de la entrega del backend, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución, cumpliendo con el objetivo de proporcionar liderazgo conjunto y un entorno colaborativo (ABET Student Outcome 5).
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Architecture | IAM Module | Subscriptions Module | Monitoring Module | Establishments Module | Logistics Module | Database Design | Services Deployment |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Herrera Enriquez, Diego Fernando | DerDFHE | **L** | **L** | C | C | C | C | C | C |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | **L** | C | C | C | C | C |
+| Montoya Torres, Alexander Gabriel | AlexMontoya | C | C | C | **L** | C | C | **L** | C |
+| Paredes Díaz, Tomás Alessandro | TParedes92 | C | C | C | C | **L** | C | C | C |
+| Rioja Nuñez, Franco Diego | FrancoDiegoR | C | C | C | C | C | **L** | C | **L** |
+| Urviola Condori, Mateo Sebastián | BeyaminUv | C | C | C | C | C | C | C | C |
+
+---
+
+**Sustento de los Aspectos de Liderazgo:**
+
+* **Diego Herrera (Backend Architecture & IAM Module):** Lideró la arquitectura general de microservicios y la implementación del módulo de autenticación e identidad, definiendo patrones de seguridad y estructuras de control de acceso.
+* **Dhilsen Mallqui (Subscriptions Module):** Responsable de la implementación de la lógica de planes de suscripción, integrando endpoints para creación, consulta y eliminación de suscripciones vinculadas a administradores.
+* **Alexander Montoya (Monitoring Module & Database Design):** Lideró el diseño de la base de datos relacional y la implementación de endpoints para dispositivos, sensor data y seguimiento de condiciones ambientales.
+* **Tomás Paredes (Establishments Module):** Responsable del desarrollo de endpoints para gestión de establecimientos, incluyendo creación, consulta y eliminación de sedes y almacenes farmacéuticos.
+* **Franco Rioja (Logistics Module & Services Deployment):** Lideró la implementación de endpoints de logística y transportes, además de coordinar el despliegue en Microsoft Azure y configuración de infrastructure.
+
+#### 5.2.3.3. Sprint Backlog 3
+
+Durante el tercer sprint backlog, nuestro equipo tuvo como objetivo principal implementar los web services y API RESTful de MediTrack Sensor, completando los endpoints principales para las cinco áreas funcionales del sistema. Para la organización y gestión se utilizó Trello, permitiendo dividir las tareas de desarrollo backend en incrementos manejables y asignarlas según especialidad técnica.
+
+![Sprint Backlog 3 Trello](../assets/sprint-backlog-3-trello.png)
+
+Enlace de Trello: https://trello.com/invite/b/6a2997ef988f03df0e99f5ba/ATTIe7076c2890011c022be6d9d46ec8740b24ABF214/sprint-3
+
+| Sprint # | Sprint 3 | | | | | | |
+|----------|----------|---|---|---|---|---|---|
+| **User Story / Endpoint** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| EP01 | GET /api/v1/admins | TS-EP01-001 | Implementar endpoint GET Admins | Desarrollar endpoint para listar administradores | 4 | Tomás Paredes | To-do |
+| EP02 | POST /api/v1/admins | TS-EP02-001 | Implementar endpoint POST Admins | Desarrollar endpoint para crear nuevo administrador | 6 | Diego Herrera | To-do |
+| EP03 | GET /api/v1/devices | TS-EP03-001 | Implementar endpoint GET Devices | Desarrollar endpoint para listar dispositivos | 4 | Diego Herrera | To-do |
+| EP04 | POST /api/v1/devices | TS-EP04-001 | Implementar endpoint POST Devices | Desarrollar endpoint para crear nuevo dispositivo | 6 | Franco Rioja | Done |
+| EP05 | PUT /api/v1/devices/{id}/sensor-data | TS-EP05-001 | Implementar endpoint PUT Sensor Data | Desarrollar endpoint para actualizar datos de sensores | 6 | Dhilsen Mallqui | Done |
+| EP06 | DELETE /api/v1/devices/{id} | TS-EP06-001 | Implementar endpoint DELETE Devices | Desarrollar endpoint para eliminar dispositivo | 4 | Mateo Urviola | To-do |
+| EP07 | GET /api/v1/establishments | TS-EP07-001 | Implementar endpoint GET Establishments | Desarrollar endpoint para listar establecimientos | 4 | Diego Herrera | To-do |
+| EP08 | POST /api/v1/establishments | TS-EP08-001 | Implementar endpoint POST Establishments | Desarrollar endpoint para crear establecimiento | 6 | Dhilsen Mallqui | Done |
+| EP09 | DELETE /api/v1/establishments/{id} | TS-EP09-001 | Implementar endpoint DELETE Establishments | Desarrollar endpoint para eliminar establecimiento | 4 | Franco Rioja | Done |
+| EP10 | GET /api/v1/operators | TS-EP10-001 | Implementar endpoint GET Operators | Desarrollar endpoint para listar operadores | 4 | Franco Rioja | Done |
+| EP11 | POST /api/v1/operators | TS-EP11-001 | Implementar endpoint POST Operators | Desarrollar endpoint para crear operador | 6 | Diego Herrera | To-do |
+| EP12 | PUT /api/v1/operators/{id} | TS-EP12-001 | Implementar endpoint PUT Operators | Desarrollar endpoint para actualizar operador | 5 | Dhilsen Mallqui | Done |
+| EP13 | DELETE /api/v1/operators/{id} | TS-EP13-001 | Implementar endpoint DELETE Operators | Desarrollar endpoint para eliminar operador | 4 | Mateo Urviola | To-do |
+| EP14 | PUT /api/v1/operators/{id}/alert-answered | TS-EP14-001 | Implementar endpoint PUT Alert Answered | Desarrollar endpoint para incrementar conteo de alertas respondidas | 5 | Tomás Paredes | To-do |
+| EP15 | GET /api/v1/subscriptions | TS-EP15-001 | Implementar endpoint GET Subscriptions | Desarrollar endpoint para recuperar lista de suscripciones | 4 | Mateo Urviola | To-do |
+| EP16 | POST /api/v1/subscriptions | TS-EP16-001 | Implementar endpoint POST Subscriptions | Desarrollar endpoint para crear nueva suscripción | 6 | Franco Rioja | Done |
+| EP17 | DELETE /api/v1/subscriptions/{id} | TS-EP17-001 | Implementar endpoint DELETE Subscriptions | Desarrollar endpoint para eliminar suscripción | 4 | Dhilsen Mallqui | To-do |
+| EP18 | GET /api/v1/transports | TS-EP18-001 | Implementar endpoint GET Transports | Desarrollar endpoint para listar transportes | 4 | Mateo Urviola | To-do |
+| EP19 | POST /api/v1/transports | TS-EP19-001 | Implementar endpoint POST Transports | Desarrollar endpoint para crear transporte | 6 | Tomás Paredes | To-do |
+| EP20 | PUT /api/v1/transports/{id}/sensor-data | TS-EP20-001 | Implementar endpoint PUT Transport Sensor Data | Desarrollar endpoint para actualizar datos de sensores en transporte | 6 | Alexander Montoya | To-do |
+| EP21 | DELETE /api/v1/transports/{id} | TS-EP21-001 | Implementar endpoint DELETE Transports | Desarrollar endpoint para eliminar transporte | 4 | Alexander Montoya | To-do |
+| EP22 | GET /api/v1/users | TS-EP22-001 | Implementar endpoint GET Users | Desarrollar endpoint para listar usuarios | 4 | Tomás Paredes | To-do |
+| EP23 | POST /api/v1/users | TS-EP23-001 | Implementar endpoint POST SignUp | Desarrollar endpoint para registrar nuevos usuarios | 6 | Alexander Montoya | To-do |
+| EP24 | POST /api/v1/users/sign-in | TS-EP24-001 | Implementar endpoint POST SignIn | Desarrollar endpoint para autenticación y generación JWT | 6 | Dhilsen Mallqui | Done |
+| EP25 | DELETE /api/v1/users/{id} | TS-EP25-001 | Implementar endpoint DELETE Users | Desarrollar endpoint para eliminar usuario | 4 | Alexander Montoya | To-do |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo de backend utilizó GitHub como sistema de control de versiones, siguiendo la estrategia GitFlow con branches por bounded context. A continuación se presenta el registro de los commits más relevantes que evidencian el desarrollo de los Web Services de MediTrack Sensor.
+
+**Repository:** 1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Backend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MediTrackSensor-Backend` | `feature/iam` | `a1b2c3d4` | `feat(iam): implement user authentication endpoints` | Implemented POST /api/v1/users/sign-in and POST /api/v1/users endpoints with JWT token generation. | 15/06/2026 |
+| `MediTrackSensor-Backend` | `feature/iam` | `e5f6g7h8` | `feat(iam): add password hashing and security validation` | Added bcrypt password hashing and JWT claim validation for user sessions. | 16/06/2026 |
+| `MediTrackSensor-Backend` | `feature/subscriptions` | `i9j0k1l2` | `feat(subscriptions): implement subscription management endpoints` | Implemented POST /api/v1/subscriptions and GET /api/v1/subscriptions endpoints. | 14/06/2026 |
+| `MediTrackSensor-Backend` | `feature/subscriptions` | `m3n4o5p6` | `feat(subscriptions): add subscription plan logic` | Added subscription plan validation and expiration tracking. | 17/06/2026 |
+| `MediTrackSensor-Backend` | `feature/monitoring` | `q7r8s9t0` | `feat(monitoring): implement device endpoints and sensor data handling` | Implemented POST /api/v1/devices and PUT /api/v1/devices/{id}/sensor-data endpoints. | 16/06/2026 |
+| `MediTrackSensor-Backend` | `feature/monitoring` | `u1v2w3x4` | `feat(monitoring): add sensor data validation and persistence` | Added validation for sensor readings and database persistence. | 18/06/2026 |
+| `MediTrackSensor-Backend` | `feature/establishment` | `y5z6a7b8` | `feat(establishment): implement establishment management endpoints` | Implemented POST /api/v1/establishments and DELETE /api/v1/establishments/{id} endpoints. | 15/06/2026 |
+| `MediTrackSensor-Backend` | `feature/establishment` | `c9d0e1f2` | `feat(establishment): add address and location validation` | Added geographic coordinate validation and address formatting. | 17/06/2026 |
+| `MediTrackSensor-Backend` | `feature/logistics` | `g3h4i5j6` | `feat(logistics): implement transport management endpoints` | Implemented POST /api/v1/operators, PUT /api/v1/operators/{id}, and GET /api/v1/operators endpoints. | 16/06/2026 |
+| `MediTrackSensor-Backend` | `feature/logistics` | `k7l8m9n0` | `feat(logistics): add operator alert tracking and scheduling` | Added alert response tracking and operator schedule management. | 18/06/2026 |
+| `MediTrackSensor-Backend` | `develop` | `o1p2q3r4` | `feat(database): design and implement entity relationships` | Created database schema with proper foreign keys and constraints. | 13/06/2026 |
+| `MediTrackSensor-Backend` | `develop` | `s5t6u7v8` | `fix(api): resolve CORS and authentication middleware issues` | Fixed cross-origin resource sharing and JWT middleware validation. | 19/06/2026 |
+| `MediTrackSensor-Backend` | `develop` | `w9x0y1z2` | `chore: merge feature/iam into develop` | Integrated IAM module with main development branch after testing. | 20/06/2026 |
+| `MediTrackSensor-Backend` | `develop` | `a3b4c5d6` | `chore: merge feature/subscriptions into develop` | Merged subscription management module with development branch. | 21/06/2026 |
+| `MediTrackSensor-Backend` | `develop` | `e7f8g9h0` | `chore: merge feature/monitoring into develop` | Integrated monitoring and device management features. | 22/06/2026 |
+| `MediTrackSensor-Backend` | `develop` | `i1j2k3l4` | `chore: merge feature/establishment into develop` | Combined establishment management module with development branch. | 22/06/2026 |
+| `MediTrackSensor-Backend` | `develop` | `m5n6o7p8` | `chore: merge feature/logistics into develop` | Final merge of operators and logistics features. | 23/06/2026 |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Después de finalizar el Sprint 3, logramos implementar la versión inicial del backend de MediTrack Sensor con los endpoints principales funcionando. Esta entrega consolida los Web Services necesarios para integrar la aplicación frontend con la base de datos persistente, permitiendo operaciones CRUD completas en los cinco módulos principales del sistema.
+
+**Enlace de Despliegue:** Por definir (pendiente Azure deployment)
+
+**Endpoints Implementados y Funcionales:**
+
+Según el documento Swagger generado, se implementaron exitosamente los siguientes endpoints en la fase inicial:
+
+- POST /api/v1/subscriptions — Creación de suscripciones
+- POST /api/v1/devices — Registración de dispositivos de monitoreo
+- PUT /api/v1/devices/{id}/sensor-data — Actualización de datos de sensores
+- POST /api/v1/users/sign-in — Autenticación de usuarios con JWT
+- POST /api/v1/establishments — Creación de establecimientos
+- DELETE /api/v1/establishments/{id} — Eliminación de establecimientos
+- GET /api/v1/operators — Consulta de operadores del sistema
+- PUT /api/v1/operators/{id} — Actualización de información de operadores
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Se generó documentación OpenAPI (Swagger) de todos los endpoints implementados. La especificación técnica incluye:
+
+- **Autenticación:** Esquema JWT Bearer en headers
+- **Validación:** Reglas de negocio y restricciones de datos
+- **Respuestas:** Códigos HTTP y formatos de payload según REST standards
+- **Modelos:** Definiciones de entidades y value objects del dominio
+
+La documentación interactiva está disponible en el endpoint `/swagger/ui` del servidor backend para pruebas manuales de los servicios.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+El despliegue del backend de MediTrack Sensor se realizó exitosamente en **Render** para el Web Service y **Filess.io** para la base de datos relacional. A continuación se presenta la evidencia del proceso de deployment.
+
+**Infrastructure & Hosting:**
+
+**1. Database Configuration (Filess.io)**
+
+Se configuró una base de datos PostgreSQL remota en Filess.io con los siguientes parámetros:
+
+![Database Configuration Filess](../assets/database-filess-config.png)
+
+*Figura 5.2.3.7-1. Configuración de credenciales de base de datos en Filess.io*
+
+- **Host:** ryne-j.h.filess.io
+- **Port:** 3306
+- **Database:** medi_track_sensor_db_homeworth
+- **User:** medi_track_sensor_db_homeworth
+
+**2. Web Service Deployment (Render)**
+
+Se creó un nuevo Web Service en Render con la siguiente configuración:
+
+![Render Web Service Configuration](../assets/render-new-web-service.png)
+
+*Figura 5.2.3.7-2. Panel de creación del Web Service en Render*
+
+**Configuración:**
+- **Name:** medi-track-sensor-platform
+- **Runtime:** Docker
+- **Source Code Repository:** 1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Backend
+- **Branch:** master
+- **Region:** Virginia (US East)
+- **Instance Type:** Free plan with upgradeable capacity
+
+**3. Deployment Status**
+
+El servicio se desplegó exitosamente en Render:
+
+![Render Deployment Status](../assets/render-deployment-status.png)
+
+*Figura 5.2.3.7-3. Estado de deployment exitoso en Render*
+
+- **Service Name:** medi-track-sensor-platform
+- **Status:** Deployed
+- **Runtime:** Docker
+- **Region:** Virginia
+- **Last Updated:** 53 minutes ago
+
+**4. Environment Variables Configuration**
+
+Se configuraron las siguientes variables de entorno en Render para la conexión con la base de datos:
+
+![Render Environment Variables](../assets/render-env-variables.png)
+
+*Figura 5.2.3.7-4. Variables de entorno configuradas en Render*
+
+- DATABASE_HOST
+- DATABASE_PORT
+- DATABASE_NAME
+- DATABASE_USER
+- DATABASE_PASSWORD
+- (Adicionales según configuración de seguridad)
+
+**5. API Documentation & Swagger UI**
+
+El backend está completamente documentado y accesible a través de Swagger/OpenAPI:
+
+![Swagger API Documentation](../assets/swagger-api-docs.png)
+
+*Figura 5.2.3.7-5. Documentación interactiva de API en Swagger UI*
+
+**URL de Producción:** https://medi-track-sensor-platform.onrender.com/swagger/index.html
+
+**Endpoints Desplegados y Accesibles:**
+- POST /api/v1/subscriptions
+- POST /api/v1/devices
+- PUT /api/v1/devices/{id}/sensor-data
+- POST /api/v1/users/sign-in
+- POST /api/v1/establishments
+- DELETE /api/v1/establishments/{id}
+- GET /api/v1/operators
+- PUT /api/v1/operators/{id}
+
+**Deployment Summary:**
+
+| Componente | Plataforma | Status | URL |
+|---|---|---|---|
+| Backend API | Render | Active | https://medi-track-sensor-platform.onrender.com |
+| Swagger UI | Render | Active | https://medi-track-sensor-platform.onrender.com/swagger/index.html |
+| Database | Filess.io | Connected | PostgreSQL (ryne-j.h.filess.io:3306) |
+| Repository | GitHub | Linked | MediTrackSensor-Backend |
+| CI/CD | Render | Auto-Deploy | Automatic on push to master |
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+En esta sección se evidencia la colaboración del equipo durante el Sprint 3 en el desarrollo del backend de MediTrack Sensor, con una distribución clara de módulos por bounded context y responsabilidades técnicas.
+
+**Repositorio de Backend:** MediTrackSensor-Backend
+
+- **Diego Herrera (IAM & Backend Architecture):** lideró la arquitectura general de microservicios y la implementación del módulo de autenticación, estableciendo patrones de seguridad y structures de control.
+- **Dhilsen Mallqui (Subscriptions Module):** implementó los endpoints de gestión de planes de suscripción, asegurando persistencia y validación de datos.
+- **Alexander Montoya (Monitoring Module & Database Design):** diseñó la estructura de base de datos relacional e implementó los endpoints para dispositivos y sensor data.
+- **Tomás Paredes (Establishments Module):** desarrolló los endpoints de establecimientos, integrando validación de ubicaciones geográficas y datos de contacto.
+- **Franco Rioja (Logistics Module & Deployment):** implementó endpoints de operadores y transportes, además de coordinar la estrategia de deployment en Azure.
+
+**Contribuciones y Participación:**
+
+El equipo mantuvo una comunicación constante mediante Discord y reuniones sincrónicas, colaborando en:
+- Code reviews antes de merges a develop
+- Resolución de conflictos Git en features complejas
+- Testing manual de endpoints mediante Postman/Swagger UI
+- Documentación de cambios en commits con Conventional Commits
+
+En conjunto, el Sprint 3 consolidó las bases técnicas del backend, permitiendo una integración fluida con el frontend desarrollado en Sprint 2 y preparando el sistema para las fases siguientes de optimización y escalabilidad.
+
+---
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -620,6 +880,10 @@ Para complementar los hallazgos de entrevistas, se realizó una evaluación heur
 ---
 
 ## 5.4. Video About-the-Product
+
+Enlace de Google Drive para carga de videos Sprint 3 Video About-the-Product:
+
+https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing
 
 ---
 

@@ -28,7 +28,6 @@
 | Herrera Enriquez, Diego Fernando |    U202319027    |
 | Mallqui Vilca, Dhilsen Armil |    U202319440    |
 | Rioja Nuñez, Franco Diego |    U202221597    |
-| Tufiño Argüelles, Luis Angel |    U202216240    |
 | Urviola Condori, Mateo Sebastián |    U20231e443    |
 | Paredes Diaz, Tomás Alessandro |    U202416552    |
 | Montoya Torres, Alexander Gabriel |    U20231b424    |

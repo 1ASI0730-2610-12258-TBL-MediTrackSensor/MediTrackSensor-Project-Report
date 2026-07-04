@@ -2,33 +2,33 @@
 
 <img src="assets/upc_logo.png" alt="UPC Logo" width="120"/>
 
-<br><br>
+<br>
 
 Universidad Peruana de Ciencias Aplicadas
 
-<br>
+
 
 Carrera de Ingeniería de Software
 
-<br><br>
+<br>
 
 <strong>1ASI0730</strong>
 
 
 <strong>Aplicaciones Web</strong>
 
-<br><br>
+<br>
 
 NRC
 
 
 <strong>12258</strong>
 
-<br><br>
+<br>
 
 <strong>Informe del Trabajo Final</strong>
 
-<br><br>
+<br>
 
 Docente
 
@@ -36,20 +36,20 @@ Docente
 
 <strong>Velásquez Núñez, Ángel Augusto</strong>
 
-<br><br>
+<br>
 
 Equipo
 
 <strong>MediTrack</strong>
 
-<br><br>
+<br>
 
 Proyecto
 
 
 <strong>VITAL CARE</strong>
 
-<br><br>
+<br>
 
 <strong>Integrantes</strong>
 

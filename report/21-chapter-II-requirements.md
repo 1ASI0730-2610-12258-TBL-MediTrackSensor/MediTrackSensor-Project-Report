@@ -237,10 +237,8 @@ Preguntas complementarias:
 * Minuto de Fin : [6:45]
 ![Entrevista](../assets/segmento01-entrevista.png)
 
-<<<<<<< HEAD
+
 ![Entrevista](../assets/segmento01-entrevista.png)
-=======
->>>>>>> feature/chapter-2
 Dolores Álvarez Cabeza, de 62 años y residente en San Martín de Porres, se desempeña como personal de salud asistencial y utiliza una computadora de escritorio con Google Chrome para registrar la temperatura de los medicamentos en hojas de Excel. Señala que existen distintos tipos de medicamentos con requerimientos específicos de conservación, especialmente en lo relacionado a la temperatura; por ejemplo, en el caso de medicamentos destinados a recién nacidos, es fundamental mantener condiciones cercanas a los 24 °C para garantizar su eficacia y seguridad. Actualmente, el monitoreo se realiza de forma manual cada 6 horas, lo que implica un proceso repetitivo y propenso a errores humanos. Además, menciona que durante su experiencia en el Hospital San José, al ser una institución pública, en ocasiones no contaban con los recursos necesarios para asegurar un monitoreo adecuado de las condiciones de almacenamiento.
 
 * Nombre : Jorge Perez

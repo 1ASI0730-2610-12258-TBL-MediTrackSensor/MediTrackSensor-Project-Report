@@ -164,6 +164,8 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 ![Desarrollo_backend](assets/Desarrolo%20backend.png)
 
+## AV2
+
 
 ---
 

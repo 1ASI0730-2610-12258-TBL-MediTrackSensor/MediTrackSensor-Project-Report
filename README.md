@@ -1,40 +1,78 @@
 <div align="center">
-<img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<img src="assets/upc_logo.png" alt="UPC Logo" width="120"/>
 
-### Carrera: Ingeniería de Software
+<br><br>
 
-### Periodo: 2026-10
+Universidad Peruana de Ciencias Aplicadas
 
-### Nombre del curso: Aplicaciones Web (1ASI0730)
+<br>
 
-### NRC: 12258
+Carrera de Ingeniería de Software
 
-### Nombre del profesor: Angel Augusto Velasquez Nuñez
+<br><br>
 
-## Informe de Trabajo Final
+<strong>1ASI0730</strong>
 
-## Nombre del startup: MediTrack
 
-## Nombre del producto: VITAL CARE
+<strong>Aplicaciones Web</strong>
 
-### Relación de integrantes:
+<br><br>
 
-<div style="text-align: center;">
+NRC
 
-| Apellidos y Nombres | Código de Alumno |
-|:-------------------:|:----------------:|
-| Herrera Enriquez, Diego Fernando |    U202319027    |
-| Mallqui Vilca, Dhilsen Armil |    U202319440    |
-| Rioja Nuñez, Franco Diego |    U202221597    |
-| Urviola Condori, Mateo Sebastián |    U20231e443    |
-| Paredes Diaz, Tomás Alessandro |    U202416552    |
-| Montoya Torres, Alexander Gabriel |    U20231b424    |
 
-</div>
+<strong>12258</strong>
 
-### Abril, 2026
+<br><br>
+
+<strong>Informe del Trabajo Final</strong>
+
+<br><br>
+
+Docente
+
+
+
+<strong>Velásquez Núñez, Ángel Augusto</strong>
+
+<br><br>
+
+Equipo
+
+<strong>MediTrack</strong>
+
+<br><br>
+
+Proyecto
+
+
+<strong>VITAL CARE</strong>
+
+<br><br>
+
+<strong>Integrantes</strong>
+
+<br>
+
+| Código | Apellidos y Nombres |
+|:------:|:-------------------:|
+| u202319027 | Herrera Enriquez, Diego Fernando |
+| u202319440 | Mallqui Vilca, Dhilsen Armil |
+| u202221597 | Rioja Nuñez, Franco Diego |
+| u20231e443 | Urviola Condori, Mateo Sebastián |
+| u202416552 | Paredes Diaz, Tomás Alessandro |
+| u20231b424 | Montoya Torres, Alexander Gabriel |
+
+<br><br>
+
+<strong>Período 202610</strong>
+
+<br>
+
+<strong>Junio 2026</strong>
+
+<br><br>
 
 ---
 

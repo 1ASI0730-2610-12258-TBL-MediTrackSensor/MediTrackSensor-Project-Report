@@ -2,58 +2,45 @@
 
 <img src="assets/upc_logo.png" alt="UPC Logo" width="120"/>
 
-<br>
 
 Universidad Peruana de Ciencias Aplicadas
 
 
-
 Carrera de Ingeniería de Software
 
-<br>
 
 <strong>1ASI0730</strong>
 
-
 <strong>Aplicaciones Web</strong>
 
-<br>
 
 NRC
 
-
 <strong>12258</strong>
-
-<br>
 
 <strong>Informe del Trabajo Final</strong>
 
-<br>
 
 Docente
 
 
-
 <strong>Velásquez Núñez, Ángel Augusto</strong>
-
-<br>
 
 Equipo
 
 <strong>MediTrack</strong>
 
-<br>
 
 Proyecto
 
 
 <strong>VITAL CARE</strong>
 
-<br>
+
 
 <strong>Integrantes</strong>
 
-<br>
+
 
 | Código | Apellidos y Nombres |
 |:------:|:-------------------:|
@@ -64,19 +51,12 @@ Proyecto
 | u202416552 | Paredes Diaz, Tomás Alessandro |
 | u20231b424 | Montoya Torres, Alexander Gabriel |
 
-<br><br>
-
 <strong>Período 202610</strong>
 
-<br>
+<strong>Julio 2026</strong>
 
-<strong>Junio 2026</strong>
+<div style="page-break-after: always;"></div>
 
-<br><br>
-
----
-
-</div>
 
 # Registro de Versiones del Informe
 

@@ -124,7 +124,7 @@ Proyecto
 
 | Enlace del repositorio del informe del proyecto                                    |
 |------------------------------------------------------------------------------------|
-| https://github.com/1ASI0730-2610-12258-TBA-MediTrackSensor/MediTrackSensor-Proyect-Report.git |
+| https://github.com/1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Project-Report.git |
 
 A continuación, se brindará un mayor detalle sobre las actividades realizadas en cada entrega, la participación de cada miembro de la startup y las evidencias correspondientes.
 
@@ -178,7 +178,7 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 Durante la entrega TB2 (Sprint 4), el equipo de tres integrantes consolidó la integración full-stack y el cierre del ciclo de vida del proyecto.
 
-**Repositorio del informe:** [MediTrackSensor-Project-Report](https://github.com/1ASI0730-2610-12258-TBA-MediTrackSensor/MediTrackSensor-Proyect-Report)
+**Repositorio del informe:** [MediTrackSensor-Project-Report](https://github.com/1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Project-Report)
 
 | Integrante | Repositorio | Contribución principal |
 | :--- | :--- | :--- |
@@ -241,6 +241,8 @@ Durante la entrega TB2 (Sprint 4), el equipo de tres integrantes consolidó la i
     - [2.3.1. User Personas](report/21-chapter-II-requirements.md#231-user-personas)
     - [2.3.3. User Journey Mapping](report/21-chapter-II-requirements.md#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](report/21-chapter-II-requirements.md#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Maps](report/21-chapter-II-requirements.md#235-as-is-scenario-maps)
+    - [2.3.6. To-be Scenario Maps](report/21-chapter-II-requirements.md#236-to-be-scenario-maps)
   - [2.4. Big Picture EventStorming](report/21-chapter-II-requirements.md#24-big-picture-eventstorming)
   - [2.5. Ubiquitous Language](report/21-chapter-II-requirements.md#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](report/31-chapter-III-specifications.md)

@@ -502,7 +502,7 @@ Codigo de ejemplo del head con SEO y Meta Tags:
       <meta name="keywords" content="MediTrack Sensor, monitoreo farmacéutico, IoT salud, temperatura 
         medicamentos, humedad almacenes, conservación de medicamentos, hospitales, farmacias, sensores IoT">
     
-      <meta name="author" content="Equipo TechnoByteLambders">
+      <meta name="author" content="Equipo MediTrack">
     
       <!-- CSS & Icons -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">

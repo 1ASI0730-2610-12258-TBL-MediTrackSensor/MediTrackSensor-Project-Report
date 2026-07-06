@@ -26,7 +26,7 @@ Vue.js. (s. f.). Vue Style Guide. https://vuejs.org/style-guide/
 
 ## Anexo A. Recopilación de entrevistas de descubrimiento
 
-Recopilación de entrevistas por segmento objetivo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQC9LHfngiXQQo1Obij7K0OBAZVtMQiANyxRhhl0U5--0go?e=vBiJVb
+Recopilación de entrevistas por segmento objetivo: https://drive.google.com/drive/folders/1nH38g28IeEbZSu6ezcDFi0nh6URbGe9z?usp=sharing
 
 ## Anexo B. Videos de Exposiciones
 
@@ -37,6 +37,14 @@ Recopilación de entrevistas por segmento objetivo: https://upcedupe-my.sharepoi
 | AV2 | Exposición AV2 — Sprint Review | https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing |
 | TB2 | Exposición TB2 — Release Review Final | https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing |
 
+## Anexo D. Videos de entrevistas de validación (TB2)
+
+| Entrevistado | Segmento | Enlace | Duración |
+| :--- | :--- | :--- | :--- |
+| Luis Mendoza | Personal operativo de almacenes | https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing | 18 min |
+| Jorge Pérez | Personal operativo de almacenes | https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing | 16 min |
+| Omar Ruiz | Gestores de farmacia | https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing | 20 min |
+
 ## Anexo C. URLs de productos digitales en producción
 
 | Producto | URL |
@@ -44,4 +52,4 @@ Recopilación de entrevistas por segmento objetivo: https://upcedupe-my.sharepoi
 | Landing Page | https://meditrack-sensor.vercel.app/ |
 | Web Application | https://medi-track-sensor-frontend.vercel.app/login |
 | Backend API (Swagger) | https://medi-track-sensor-platform.onrender.com/swagger/index.html |
-| Repositorio del informe | https://github.com/1ASI0730-2610-12258-TBA-MediTrackSensor/MediTrackSensor-Proyect-Report |
+| Repositorio del informe | https://github.com/1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Project-Report |

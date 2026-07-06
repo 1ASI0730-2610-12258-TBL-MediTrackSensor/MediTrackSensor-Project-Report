@@ -427,6 +427,50 @@ Empathy map 2
 
 ![Empathy map 2](../assets/Empathy%20map%202.png)
 
+### 2.3.5. As-is Scenario Maps
+
+Los As-is Scenario Maps describen la experiencia actual de los usuarios **antes** de adoptar MediTrack Sensor, identificando puntos de dolor en el flujo operativo.
+
+**Persona 1 — Operario de almacén farmacéutico (Luis Mendoza)**
+
+| Paso | Acción del usuario | Pensamientos y emociones | Puntos de dolor |
+| :--- | :--- | :--- | :--- |
+| 1 | Revisa manualmente termómetros y registra temperatura en cuaderno | "Debo anotar cada lectura sin olvidar ninguna" | Riesgo de error humano y omisión de registros |
+| 2 | Compara valores con rangos permitidos mentalmente | "¿Está dentro del rango? No estoy seguro" | Sin alertas automáticas ante desviaciones |
+| 3 | Reporta anomalías al supervisor por WhatsApp o verbalmente | "Espero que el jefe lo vea a tiempo" | Comunicación lenta y sin trazabilidad |
+| 4 | Archiva registros en planillas Excel dispersas | "Buscar datos antiguos es tedioso" | Sin historial centralizado ni auditoría |
+
+**Persona 2 — Gestor farmacéutico (Omar Ruiz)**
+
+| Paso | Acción del usuario | Pensamientos y emociones | Puntos de dolor |
+| :--- | :--- | :--- | :--- |
+| 1 | Supervisa múltiples almacenes visitando cada sede | "No puedo estar en todos lados a la vez" | Falta de visibilidad remota multi-sede |
+| 2 | Solicita reportes manuales a cada operario | "Los datos llegan tarde y en formatos distintos" | Información fragmentada y no estandarizada |
+| 3 | Evalúa pérdidas por medicamentos deteriorados | "No sé cuánto perdemos realmente" | Sin métricas en tiempo real para decisiones |
+| 4 | Prepara documentación para auditorías regulatorias | "Reconstruir el historial consume días" | Trazabilidad insuficiente para cumplimiento normativo |
+
+### 2.3.6. To-be Scenario Maps
+
+Los To-be Scenario Maps proyectan la experiencia futura con MediTrack Sensor integrado.
+
+**Persona 1 — Operario de almacén farmacéutico**
+
+| Paso | Acción del usuario | Pensamientos y emociones | Beneficios |
+| :--- | :--- | :--- | :--- |
+| 1 | Inicia sesión en la Web Application y accede al dashboard | "Veo todo de un vistazo" | Monitoreo centralizado en tiempo real |
+| 2 | Observa widgets de temperatura y humedad con indicadores de color | "Sé al instante si algo está mal" | Alertas visuales automáticas |
+| 3 | Consulta estado de sensores activos por ubicación | "Puedo ir directo al área con problema" | Localización rápida de incidencias |
+| 4 | El sistema registra datos automáticamente sin intervención manual | "Ya no dependo del cuaderno" | Eliminación de errores de transcripción |
+
+**Persona 2 — Gestor farmacéutico**
+
+| Paso | Acción del usuario | Pensamientos y emociones | Beneficios |
+| :--- | :--- | :--- | :--- |
+| 1 | Accede al dashboard central desde cualquier dispositivo | "Superviso todas las sedes sin desplazarme" | Visibilidad multi-sede en una sola vista |
+| 2 | Revisa KPIs y gráficos de tendencias por establecimiento | "Tomo decisiones con datos actuales" | Información estandarizada y actualizada |
+| 3 | Gestiona establecimientos, operadores y dispositivos desde la plataforma | "Todo está conectado en un solo sistema" | Gestión integrada de recursos |
+| 4 | Consulta historial y exporta datos para auditorías | "La trazabilidad está lista cuando la necesito" | Cumplimiento normativo facilitado |
+
 ---
 
 ## 2.4. Big Picture EventStorming

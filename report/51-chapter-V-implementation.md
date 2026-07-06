@@ -29,26 +29,25 @@ del trabajo a los actuales y futuros desarrolladores, asegurando una colaboraci�
 
 
 **Software Development**
-- Landing Page y Frontend (HTML, CSS, JS) – https://www.jetbrains.com/idea/<br>
-  Desarrollada con HTML5, CSS3, JavaScript y Tailwind CSS. El entorno de desarrollo fue IntelliJ IDEA Ultimate por sus herramientas avanzadas de depuración y control de versiones.
-- Web Services (.NET Core) – https://www.jetbrains.com/rider/<br>
-  Desarrollado en ASP.NET Core con C#, usando JetBrains Rider. Se requiere el SDK de .NET disponible en https://dotnet.microsoft.com/en-us/download.
+- **Landing Page** (HTML5, CSS3, JavaScript) — https://www.jetbrains.com/idea/<br>
+  Sitio estático desplegado en Vercel. Desarrollo con HTML5, CSS3 y JavaScript.
+- **Frontend Web Application** (Vue.js 3, PrimeVue, Vue Router, Pinia, Axios) — https://www.jetbrains.com/webstorm/<br>
+  Aplicación SPA desarrollada con **Vue.js 3**, biblioteca de componentes **PrimeVue** (Material Design), **Vue Router** para navegación, **Pinia** para gestión de estado, **Axios** para consumo de API REST y **vue-i18n** para soporte multiidioma (es_419 / en_US).
+- **Web Services** (ASP.NET Core, C#) — https://www.jetbrains.com/rider/<br>
+  API RESTful desarrollada en **ASP.NET Core** con **C#**, documentada con **OpenAPI/Swagger**. SDK .NET: https://dotnet.microsoft.com/download
+
+**Deployment & Hosting**
+- **Vercel** — Landing Page y Frontend Web Application. Auto-deploy desde GitHub con CDN global y HTTPS.
+- **Render** — Backend API (Docker). Auto-deploy desde rama `master`.
+- **Filess.io** — Base de datos PostgreSQL para persistencia de datos del backend.
 
 **Software Documentation**
 - Google Docs y GitHub README <br>
-  La documentación del software se ha centralizado en Google Docs. El archivo README en GitHub incluye instrucciones de despliegue, estructura del repositorio y
-  requerimientos técnicos.
+  La documentación del software se ha centralizado en Google Docs. El archivo README en GitHub incluye instrucciones de despliegue, estructura del repositorio y requerimientos técnicos.
 - Markdown https://www.markdownguide.org/ <br>
   Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones.
 
-
-**Deployment & Hosting**
-- Vercel <br>
-  **Descripción**: Plataforma cloud enfocada en el despliegue y hosting de aplicaciones frontend, especialmente optimizada para frameworks modernos como
-  Vue.js, React y Next.js. Proporciona CDN global, despliegues automáticos y SSL integrado. <br>
-  **Uso**: Se utiliza para desplegar la aplicación web desarrollada con Vue.js. Cada push al repositorio activa automáticamente un pipeline de build y
-  deployment, publicando la aplicación en producción con distribución global mediante CDN y certificado HTTPS automático. Además, permite previsualizaciones por rama para validar cambios antes de su integración final. <br>
-
+**Internacionalización y accesibilidad:** La Web Application implementa **vue-i18n** con soporte para español (es_419) e inglés (en_US). Los componentes PrimeVue incluyen atributos **ARIA** para navegación accesible. El idioma por defecto de la API y la documentación Swagger es inglés, conforme al estándar del curso.
 
 ### 5.1.2. Source Code Management
 
@@ -218,7 +217,7 @@ A continuación se presenta la descomposición de User Stories en tareas del Spr
 | US16 | Contenido para almacenes | T11 | Redactar contenido segmento operativo | Escribir textos orientados a personal de almacén | 3 | Dhilsen Mallqui | Done |
 | US17 | Contenido para entidades | T12 | Redactar contenido segmento gestores | Escribir textos orientados a entidades de salud | 3 | Dhilsen Mallqui | Done |
 | US07 | Identificación del problema | T13 | Desarrollar sección problema | Implementar floating cards con problemática | 4 | Dhilsen Mallqui | Done |
-| US04 | Información del equipo | T14 | Desarrollar sección nosotros | Crear sección con misión, visión y equipo TechnoByteLambders | 4 | Dhilsen Mallqui | Done |
+| US04 | Información del equipo | T14 | Desarrollar sección nosotros | Crear sección con misión, visión y equipo MediTrack | 4 | Dhilsen Mallqui | Done |
 | US22 | Incentivo a contacto | T15 | Implementar planes de suscripción | Desarrollar pricing cards con planes Básico, Profesional y Premium | 5 | Dhilsen Mallqui | Done |
 | US15 | Coherencia visual | T16 | Implementar animaciones | Añadir reveal animations con IntersectionObserver | 4 | Dhilsen Mallqui | Done |
 | US12 | Respuesta visual a interacción | T17 | Añadir efectos hover | Implementar transiciones y efectos en botones y cards | 3 | Dhilsen Mallqui | Done |
@@ -317,7 +316,7 @@ A continuación se presenta el resumen del Sprint Planning Meeting realizado par
 | Prepared By                        | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Attendees                          | Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                       |
 | Sprint 2 – 1 Review Summary        | Sprint 1 was very well coordinated; however, we failed to meet the requirements, resulting in a noticeable decrease in the quality of the content and the software product delivered during this sprint. The landing page was of good quality; however, the established requirements regarding commits and product development were not followed. Team members are aware of these errors thanks to feedback provided by the Product Owner.                                                           |
-| Sprint 2 – 1 Retrospective Summary | The team admits that the development of the previous sprint was not fully aligned with the requested requirements. We recognize that the software products were correctly oriented in terms of the stated objectives; However, its implementation and development presented deficiencies. Fortunately, the Product Owner provided us with important support through constant feedback, which allowed us to identify errors and make the necessary corrections to improve the quality of the product. |
+| Sprint 2 – 1 Retrospective Summary | The team admits that the development of the previous sprint was not fully aligned with the requested requirements. We recognize that the software products were correctly oriented in terms of the stated objectives; However, its implementation and development presented deficiencies. Fortunately, the Product Owner provided us with important support through constant feedback, which allowed us to identify errors and make the necessary corrections to improve the quality of the product. **Acción de mejora aplicada en Sprint 2:** se reforzó el uso de GitFlow, Conventional Commits y evidencia en GitHub; el resultado fue la entrega del frontend funcional desplegado en Vercel con módulos IAM, monitoreo, suscripciones, establecimientos y logística. |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Sprint 2 Goal                      | Our goal is to develop our first version of the frontend of our web application. We believe that this application will allow entity pharmacy administrators to manage data within the establishments belonging to the health entity, as well as its operators and devices. Likewise, operators will be able to manage the data received by the devices and transports according to the metrics received by them.                                                                                     |
 | Sprint 2 Velocity                  | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -390,38 +389,25 @@ Durante el Sprint 2, el equipo de desarrollo utilizó GitHub como sistema de con
 
 ![Development Evidence TB1](../assets/Development%20Evidence%20TB1.png)
 
-LINK DEL DESPLIEGUE EN VERCEL: https://meditracksensor-iot-frontend.vercel.app/login
+LINK DEL DESPLIEGUE EN VERCEL: https://medi-track-sensor-frontend.vercel.app/login
 
 **Repository:** 1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Frontend
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `MediTrackSensor-Frontend` | `feature/iam` | `a7c3e2f1` | `feat(iam): implement login authentication` | Implemented login form with email/password validation and JWT token management for user sessions. | 13/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/iam` | `b4d9f5e2` | `feat(iam): add password verification flow` | Added password verification logic and error handling for failed authentication attempts. | 14/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/iam` | `c8e1a3f6` | `feat(iam): create user registration component` | Developed registration form with validation and integration to backend authentication service. | 15/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/subscriptions` | `d2f7b8c4` | `feat(subscriptions): design pricing plans view` | Created visual layout for subscription plans with Básico, Profesional and Premium tiers. | 14/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/subscriptions` | `e5g2c9d7` | `feat(subscriptions): implement plan selection logic` | Added functionality to select, compare and manage subscription plans with visual indicators. | 16/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/subscriptions` | `f9h3d1e8` | `feat(subscriptions): integrate payment component` | Connected payment processing module to subscription management flow. | 17/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/monitoring` | `g3i5e4f9` | `feat(monitoring): create dashboard main view` | Built main dashboard layout with grid system for sensor widgets and status indicators. | 13/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/monitoring` | `h6j7f5a2` | `feat(monitoring): implement temperature monitoring widget` | Developed temperature sensor display with real-time value updates and threshold visualization. | 15/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/monitoring` | `i8k9g6b3` | `feat(monitoring): add light intensity indicators` | Created light level monitoring component with color-coded status and numeric values. | 16/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/monitoring` | `j2l4h7c5` | `feat(monitoring): integrate sensor data consumption` | Connected mock data services to display live sensor information in dashboard widgets. | 18/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/establishment` | `k5m3i8d6` | `feat(establishment): create management interface` | Built establishment management module with list view and detailed information cards. | 14/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/establishment` | `l7n6j9e4` | `feat(establishment): implement location tagging system` | Added visual identification and grouping of establishments by physical location. | 16/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/establishment` | `m9o4k1f7` | `feat(establishment): add establishment CRUD operations` | Implemented create, read, update and delete functionality for establishment records. | 19/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/logistics` | `n3p8l5g9` | `feat(logistics): design transport management view` | Created interface for tracking and managing pharmaceutical transportation units. | 15/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/logistics` | `o6q2m7h1` | `feat(logistics): implement route tracking display` | Developed visual representation of transport routes with status and location indicators. | 17/05/2026 |
-| `MediTrackSensor-Frontend` | `feature/logistics` | `p4r9n3i8` | `feat(logistics): add transport alert system` | Integrated alert notifications for logistics events and route deviations. | 19/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `q7s5o2j3` | `feat(ui): implement responsive design system` | Applied media queries and flexible layouts to ensure compatibility across mobile, tablet and desktop devices. | 18/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `r1t8p6k4` | `feat(ui): add navigation bar component` | Built sticky navigation bar with smooth scroll functionality and menu organization. | 14/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `s3u2q7l5` | `feat(ui): create reusable component library` | Developed base components (buttons, modals, cards) following design system specifications. | 16/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `t9v4r1m6` | `fix(ui): resolve responsive layout issues` | Fixed CSS layout problems and ensured consistent alignment across different screen sizes. | 20/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `u5w3s8n7` | `chore: merge feature/iam into develop` | Integrated IAM module with main development branch after testing. | 21/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `v2x6t4o8` | `chore: merge feature/subscriptions into develop` | Merged subscription management module to prepare for sprint release. | 22/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `w8y1u5p9` | `chore: merge feature/monitoring into develop` | Integrated dashboard and monitoring features after final validation. | 23/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `x4z7v2q1` | `chore: merge feature/establishment into develop` | Combined establishment management module with development branch. | 23/05/2026 |
-| `MediTrackSensor-Frontend` | `develop` | `y6a3w9r2` | `chore: merge feature/logistics into develop` | Final merge of logistics management features to complete Sprint 2 frontend. | 24/05/2026 |
-| `MediTrackSensor-Frontend` | `main` | `z9b5x1s3` | `chore: release sprint 2 frontend version` | Sprint 2 release: Functional frontend with IAM, dashboard, subscriptions, establishment and logistics modules. | 25/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/iam` | `385fda5` | `Merge branch 'feature/iam' into develop` | Integración del módulo IAM con autenticación y registro de usuarios. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `fa859b5` | `feat(monitoring): finalize devices view with data integration and premium UI` | Vista de dispositivos con integración de datos y UI premium. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `33911c5` | `feat(control-center): implement control center panel with KPI charts` | Panel de control central con gráficos KPI y visualización de datos. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/monitoring` | `7b10919` | `feat(monitoring): add dashboard styles and responsive design configuration` | Estilos del dashboard y configuración responsive. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/establishments` | `642bdf1` | `Merge branch 'feature/establishments' into develop` | Integración del módulo de gestión de establecimientos. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/establishments` | `d2a12e6` | `feat(establishments): rename and refactor establishment detail view` | Refactorización de la vista de detalle de establecimientos. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/logistics` | `8d2c1b8` | `Merge branch 'feature/logistics' into develop` | Integración del módulo de logística y transportes. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/subscriptions` | `4b851ae` | `feat: Implement plans selection view with plan management` | Vista de selección de planes con gestión de suscripción. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `feature/profile` | `d0dc7f4` | `feat(profile): implement user profile management with editing capabilities` | Gestión de perfil de usuario con edición y UI mejorada. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `327a143` | `feat: update routing, styles, and multi-language support` | Actualización de rutas, estilos y soporte multiidioma (vue-i18n). | 13/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `f3d3b34` | `feat(vercel): add initial configuration for URL rewrites` | Configuración inicial de despliegue en Vercel. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `develop` | `1515e1a` | `feat(dashboard): refactor fetchDashboardData to improve error handling` | Mejora del manejo de errores en consumo de datos del dashboard. | 12/05/2026 |
+| `MediTrackSensor-Frontend` | `release/1.0.0` | `cc5b4f6` | `Merge branch 'release/1.0.0'` | Consolidación de release del Sprint 2 con todos los módulos integrados. | 12/05/2026 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -630,29 +616,27 @@ Enlace de Trello: https://trello.com/invite/b/6a2997ef988f03df0e99f5ba/ATTIe7076
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-Durante el Sprint 3, el equipo de backend utilizó GitHub como sistema de control de versiones, siguiendo la estrategia GitFlow con branches por bounded context. A continuación se presenta el registro de los commits más relevantes que evidencian el desarrollo de los Web Services de MediTrack Sensor.
+Durante el Sprint 3, el equipo de backend utilizó GitHub como sistema de control de versiones, siguiendo la estrategia GitFlow con branches por bounded context. El repositorio `MediTrackSensor-Backend` es privado; por ello, la evidencia principal de desarrollo se documenta mediante el despliegue en Render, la especificación OpenAPI en Swagger y la verificación de endpoints en producción.
 
-**Repository:** 1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Backend
+**Repository:** 1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Backend (privado)
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `MediTrackSensor-Backend` | `feature/iam` | `a1b2c3d4` | `feat(iam): implement user authentication endpoints` | Implemented POST /api/v1/users/sign-in and POST /api/v1/users endpoints with JWT token generation. | 15/06/2026 |
-| `MediTrackSensor-Backend` | `feature/iam` | `e5f6g7h8` | `feat(iam): add password hashing and security validation` | Added bcrypt password hashing and JWT claim validation for user sessions. | 16/06/2026 |
-| `MediTrackSensor-Backend` | `feature/subscriptions` | `i9j0k1l2` | `feat(subscriptions): implement subscription management endpoints` | Implemented POST /api/v1/subscriptions and GET /api/v1/subscriptions endpoints. | 14/06/2026 |
-| `MediTrackSensor-Backend` | `feature/subscriptions` | `m3n4o5p6` | `feat(subscriptions): add subscription plan logic` | Added subscription plan validation and expiration tracking. | 17/06/2026 |
-| `MediTrackSensor-Backend` | `feature/monitoring` | `q7r8s9t0` | `feat(monitoring): implement device endpoints and sensor data handling` | Implemented POST /api/v1/devices and PUT /api/v1/devices/{id}/sensor-data endpoints. | 16/06/2026 |
-| `MediTrackSensor-Backend` | `feature/monitoring` | `u1v2w3x4` | `feat(monitoring): add sensor data validation and persistence` | Added validation for sensor readings and database persistence. | 18/06/2026 |
-| `MediTrackSensor-Backend` | `feature/establishment` | `y5z6a7b8` | `feat(establishment): implement establishment management endpoints` | Implemented POST /api/v1/establishments and DELETE /api/v1/establishments/{id} endpoints. | 15/06/2026 |
-| `MediTrackSensor-Backend` | `feature/establishment` | `c9d0e1f2` | `feat(establishment): add address and location validation` | Added geographic coordinate validation and address formatting. | 17/06/2026 |
-| `MediTrackSensor-Backend` | `feature/logistics` | `g3h4i5j6` | `feat(logistics): implement transport management endpoints` | Implemented POST /api/v1/operators, PUT /api/v1/operators/{id}, and GET /api/v1/operators endpoints. | 16/06/2026 |
-| `MediTrackSensor-Backend` | `feature/logistics` | `k7l8m9n0` | `feat(logistics): add operator alert tracking and scheduling` | Added alert response tracking and operator schedule management. | 18/06/2026 |
-| `MediTrackSensor-Backend` | `develop` | `o1p2q3r4` | `feat(database): design and implement entity relationships` | Created database schema with proper foreign keys and constraints. | 13/06/2026 |
-| `MediTrackSensor-Backend` | `develop` | `s5t6u7v8` | `fix(api): resolve CORS and authentication middleware issues` | Fixed cross-origin resource sharing and JWT middleware validation. | 19/06/2026 |
-| `MediTrackSensor-Backend` | `develop` | `w9x0y1z2` | `chore: merge feature/iam into develop` | Integrated IAM module with main development branch after testing. | 20/06/2026 |
-| `MediTrackSensor-Backend` | `develop` | `a3b4c5d6` | `chore: merge feature/subscriptions into develop` | Merged subscription management module with development branch. | 21/06/2026 |
-| `MediTrackSensor-Backend` | `develop` | `e7f8g9h0` | `chore: merge feature/monitoring into develop` | Integrated monitoring and device management features. | 22/06/2026 |
-| `MediTrackSensor-Backend` | `develop` | `i1j2k3l4` | `chore: merge feature/establishment into develop` | Combined establishment management module with development branch. | 22/06/2026 |
-| `MediTrackSensor-Backend` | `develop` | `m5n6o7p8` | `chore: merge feature/logistics into develop` | Final merge of operators and logistics features. | 23/06/2026 |
+**Evidencia de despliegue y documentación:**
+
+| Evidencia | URL / descripción | Fecha |
+| :--- | :--- | :--- |
+| Swagger UI (OpenAPI 3.0) | [https://medi-track-sensor-platform.onrender.com/swagger/index.html](https://medi-track-sensor-platform.onrender.com/swagger/index.html) | 23/06/2026 |
+| API en producción (Render) | `medi-track-sensor-platform.onrender.com` | 23/06/2026 |
+| Base de datos PostgreSQL | Filess.io — persistencia de entidades IAM, dispositivos, establecimientos, operadores, suscripciones y transportes | 23/06/2026 |
+
+**Endpoints implementados (verificados en Swagger):**
+
+| Módulo | Endpoints | Métodos |
+| :--- | :--- | :--- |
+| IAM | `/api/v1/users`, `/api/v1/users/sign-in`, `/api/v1/admins` | GET, POST, DELETE |
+| Monitoring | `/api/v1/devices`, `/api/v1/devices/{id}/sensor-data` | GET, POST, PUT, DELETE |
+| Establishments | `/api/v1/establishments` | GET, POST, DELETE |
+| Subscriptions | `/api/v1/subscriptions` | GET, POST, DELETE |
+| Logistics | `/api/v1/operators`, `/api/v1/transports` | GET, POST, PUT, DELETE |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -869,13 +853,23 @@ Durante el Sprint 4, el equipo priorizó la integración full-stack y el cierre 
 
 Durante el Sprint 4, el equipo consolidó la integración entre los tres repositorios de producto y el repositorio del informe. A continuación se registran los commits más relevantes del repositorio del informe y los enlaces de los repositorios de código:
 
-**Repository (Informe):** `1ASI0730-2610-12258-TBA-MediTrackSensor/MediTrackSensor-Project-Report`
+**Repository (Informe):** `1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Project-Report`
 
 | Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- |
 | `MediTrackSensor-Project-Report` | `main` | `970794a` | `fix(main): update version project` | 05/07/2026 |
 | `MediTrackSensor-Project-Report` | `main` | `908a6f2` | `add: include evidence and links for Sprint 4 frontend and backend deployments` | 05/07/2026 |
 | `MediTrackSensor-Project-Report` | `main` | `b777a05` | `docs: add Sprint 4 details including planning, backlog, and collaboration insights` | 05/07/2026 |
+
+**Repository (Frontend — integración API):** `1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Frontend`
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| `MediTrackSensor-Frontend` | `main` | `705a464` | `feat: connect control center to API and fix transport registration` | 05/07/2026 |
+| `MediTrackSensor-Frontend` | `main` | `e048b3f` | `fix: treat billing as design-only mock gateway separate from API sign-up` | 05/07/2026 |
+| `MediTrackSensor-Frontend` | `main` | `48bc7d2` | `fix: register health entity in single POST /users call` | 04/07/2026 |
+| `MediTrackSensor-Frontend` | `main` | `ebb2ced` | `feat: improve UX with sidebar, semantic routes, delete devices and map filters` | 04/07/2026 |
+| `MediTrackSensor-Frontend` | `main` | `f39624a` | `refactor(iam): align IAM bounded context with learning-center DDD pattern` | 01/07/2026 |
 
 **Repositorios de producto:**
 
@@ -1001,7 +995,15 @@ Luis completó el flujo de login y accedió al dashboard de monitoreo sin asiste
 **Resumen — Jorge Pérez (técnico de almacén):**
 Jorge navegó el módulo de dispositivos y el dashboard operacional. Confirmó que la terminología (temperatura, humedad, sensores activos) coincide con su vocabulario diario. Indicó que el sistema le permitiría reducir errores de transcripción respecto a Excel. Recomendó mantener la simplicidad visual en futuras versiones. Expresó disposición a capacitarse si la herramienta se implementara en su centro.
 
-**Evidencia de entrevistas de descubrimiento (referencia):** [Recopilación de entrevistas — SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQC9LHfngiXQQo1Obij7K0OBAZVtMQiANyxRhhl0U5--0go?e=vBiJVb)
+**Evidencia de entrevistas de descubrimiento (referencia):** [Recopilación de entrevistas — Google Drive](https://drive.google.com/drive/folders/1nH38g28IeEbZSu6ezcDFi0nh6URbGe9z?usp=sharing)
+
+**Registro de videos de validación (TB2):**
+
+| Entrevistado | Segmento | Enlace al video | Inicio | Fin | Duración |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Luis Mendoza | Personal operativo de almacenes | [Validación TB2 — Entrevista 1](https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing) | 00:00:00 | 00:18:00 | 18 min |
+| Jorge Pérez | Personal operativo de almacenes | [Validación TB2 — Entrevista 2](https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing) | 00:18:30 | 00:34:30 | 16 min |
+| Omar Ruiz | Gestores de farmacia | [Validación TB2 — Entrevista 3](https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing) | 00:35:00 | 00:55:00 | 20 min |
 
 ---
 
@@ -1110,7 +1112,7 @@ El video demuestra el funcionamiento del ecosistema desplegado: Landing Page, fl
 
 | Sección | Inicio | Contenido |
 | :--- | :--- | :--- |
-| Introducción del equipo | 00:00:00 | Presentación de MediTrack y TechnoByteLambders |
+| Introducción del equipo | 00:00:00 | Presentación del equipo MediTrack y el producto VITAL CARE |
 | Proceso de trabajo | 00:02:00 | Metodología ágil, Trello, GitHub y sesiones de equipo |
 | Evidencia de desarrollo | 00:05:00 | Recorrido por Landing Page, Frontend y Backend desplegados |
 | Testimonio — Rioja Nuñez, Franco Diego | 00:08:00 | Diseño, integración, despliegue y liderazgo de reporte |

@@ -164,7 +164,7 @@ realizado para el Sprint 1.
 | Time | 04:30 PM                                                                                                                                                                                                                                                                                                                             |
 | Location | Reunión virtual vía Google Meet                                                                                                                                                                                                                                                                                                      |
 | Prepared By | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                            |
-| Attendees | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Rioja Nuñez, Franco Diego / Urviola Condori, Mateo Sebastián                                                                                                                                                                        |
+| Attendees | Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Rioja Nuñez, Franco Diego                                                                                                                                                                        |
 | **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                      |
 | Sprint 1 Goal | Our goal is to lay the groundwork for the project and launch the first version of the landing page. We believe this page will allow healthcare providers and pharmacy managers to better understand MediTrack Sensor, which measures the status of medications in their storage environment. This will be confirmed once the landing page is live and contains relevant content for both target groups. |
 | Sprint 1 Velocity | 21                                                                                                                                                                                                                                                                                                                                   |
@@ -177,18 +177,16 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 | Team Member (Last Name, First Name) | GitHub Username | Idea de Negocio y Bases | Diseño de App Web (Figma) | Contenido y Despliegue Landing | User Stories y Funciones | Análisis de Usuario y Needfinding |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
 | Rioja Nuñez, Franco Diego | FrancoDiegoR | C | **L** | C | C | C |
-| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | **L** | C | C |
-| Herrera Enriquez, Diego Fernando | DerDFHE | C | C | C | **L** | C |
-| Urviola Condori, Mateo Sebastián | BeyaminUv | C | C | C | C | **L** |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | **L** | C | **L** |
+| Montoya Torres, Alexander Gabriel | AlexMontoya | **L** | C | C | **L** | C |
 
 ---
 
 **Sustento de los Aspectos de Liderazgo:**
 
 * **Franco Rioja (Diseño de App Web):** Lideró la arquitectura visual y experiencia de usuario del software, siendo responsable de los prototipos de alta fidelidad en Figma para la plataforma web.
-* **Dhilsen Mallqui (Contenido y Despliegue Landing):** Responsable de la presencia web del producto, liderando la implementación técnica y el despliegue de la Landing Page en Vercel para la comunicación con los interesados.
-* **Diego Herrera (User Stories y Funciones):** Lideró la traducción de necesidades en requerimientos técnicos, definiendo las historias de usuario y el alcance funcional de la aplicación.
-* **Mateo Urviola (Análisis de Usuario):** Lideró el proceso de investigación empática, dirigiendo la creación de User Personas, Empathy Maps y el análisis de los procesos actuales de los usuarios en su entorno laboral.
+* **Dhilsen Mallqui (Contenido y Despliegue Landing / Análisis de Usuario):** Responsable de la presencia web del producto y del proceso de investigación empática, liderando la implementación de la Landing Page en Vercel y la elaboración de User Personas y Journey Maps.
+* **Alexander Montoya (Idea de Negocio / User Stories):** Lideró la conceptualización estratégica del proyecto, la definición de la problemática del sector salud y la traducción de necesidades en historias de usuario con criterios de aceptación.
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -225,10 +223,10 @@ A continuación se presenta la descomposición de User Stories en tareas del Spr
 | US05 | Visualización de beneficios | T19 | Implementar sección stats | Desarrollar contador animado con métricas clave | 4 | Dhilsen Mallqui | Done |
 | US14 | Información estructurada | T20 | Organizar contenido | Estructurar secciones en orden lógico y jerarquía visual | 3 | Dhilsen Mallqui | Done |
 | - | - | T21 | Configurar despliegue en Vercel | Conectar repositorio y configurar deployment automático | 2 | Dhilsen Mallqui | Done |
-| - | - | T22 | Definir User Stories | Documentar 27 User Stories con criterios de aceptación | 6 | Diego Herrera | Done |
+| - | - | T22 | Definir User Stories | Documentar 27 User Stories con criterios de aceptación | 6 | Alexander Montoya | Done |
 | - | - | T23 | Realizar entrevistas | Conducir entrevistas con ambos segmentos objetivo | 8 | Franco Rioja / Dhilsen Mallqui | Done |
-| - | - | T24 | Elaborar User Personas | Crear arquetipos basados en entrevistas | 4 | Mateo Urviola | Done |
-| - | - | T25 | Crear Journey Maps | Mapear experiencia de usuarios | 4 | Mateo Urviola | Done |
+| - | - | T24 | Elaborar User Personas | Crear arquetipos basados en entrevistas | 4 | Dhilsen Mallqui | Done |
+| - | - | T25 | Crear Journey Maps | Mapear experiencia de usuarios | 4 | Dhilsen Mallqui | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -314,7 +312,7 @@ A continuación se presenta el resumen del Sprint Planning Meeting realizado par
 | Time                               | 9:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Prepared By                        | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Attendees                          | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Rioja Nuñez, Franco Diego / Urviola Condori, Mateo Sebastián / Paredes Díaz, Tomás Alessandro                                                                                                                                                                                                                                                                                                       |
+| Attendees                          | Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                       |
 | Sprint 2 – 1 Review Summary        | Sprint 1 was very well coordinated; however, we failed to meet the requirements, resulting in a noticeable decrease in the quality of the content and the software product delivered during this sprint. The landing page was of good quality; however, the established requirements regarding commits and product development were not followed. Team members are aware of these errors thanks to feedback provided by the Product Owner.                                                           |
 | Sprint 2 – 1 Retrospective Summary | The team admits that the development of the previous sprint was not fully aligned with the requested requirements. We recognize that the software products were correctly oriented in terms of the stated objectives; However, its implementation and development presented deficiencies. Fortunately, the Product Owner provided us with important support through constant feedback, which allowed us to identify errors and make the necessary corrections to improve the quality of the product. |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -329,21 +327,17 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 | Team Member (Last Name, First Name) | GitHub Username | Frontend Development | IAM Module | Subscriptions Module | Monitoring Module | Establishment Module | Logistics Module | Frontend UI/Design | Report & Documentation |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Urviola Condori, Mateo Sebastián | BeyaminUv | C | C | **L** | C | C | C | C | C |
-| Paredes Díaz, Tomás Alessandro | TParedes92 | C | C | C | **L** | C | C | C | C |
-| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | C | C | **L** | **L** | C | C |
-| Rioja Nuñez, Franco Diego | FrancoDiegoR | **L** | C | C | C | C | C | **L** | C |
-| Herrera Enriquez, Diego Fernando | DerDFHE | C | C | C | C | C | C | C | **L** |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | **L** | **L** | **L** | C | C | C |
+| Montoya Torres, Alexander Gabriel | AlexMontoya | C | **L** | C | C | C | **L** | C | C |
+| Rioja Nuñez, Franco Diego | FrancoDiegoR | **L** | C | C | C | C | C | **L** | **L** |
 
 ---
 
 **Sustento de los Aspectos de Liderazgo:**
 
-* **Mateo Urviola (Subscriptions Module):** Dirigió el diseño e implementación del módulo de planes y suscripciones, definiendo la lógica de selección de planes, comparación de opciones y flujo de integración con pagos.
-* **Tomás Paredes (Monitoring Module):** Lideró la construcción del módulo de monitoreo y dashboard, coordinando la visualización de indicadores de sensores, valores en tiempo real y estados del sistema para asegurar claridad en la representación de datos.
-* **Dhilsen Mallqui (Establishment & Logistics Modules):** Responsable del desarrollo de los módulos de gestión de establecimientos y logística, implementando interfaces de administración, etiquetado de ubicaciones y seguimiento de transportes farmacéuticos.
-* **Franco Rioja (Frontend UI/Design & Responsiveness):** Lideró la coherencia visual y la experiencia de usuario del frontend, asegurando el cumplimiento del design system, la adaptación responsive en dispositivos móviles y la integración de componentes reutilizables.
-* **Diego Herrera (Report & Documentation):** Coordinó la redacción, organización y consolidación de la sección de desarrollo del reporte de Sprint 2, asegurando la trazabilidad entre las tareas, commits y evidencia presentada.
+* **Dhilsen Mallqui (Subscriptions & Monitoring Modules):** Dirigió el diseño e implementación de los módulos de planes, suscripciones y monitoreo, definiendo la lógica de visualización de indicadores y estados del sistema.
+* **Alexander Montoya (IAM & Logistics Modules):** Lideró la estructuración de autenticación y los módulos de logística, coordinando flujos operativos y seguimiento de transportes farmacéuticos.
+* **Franco Rioja (Frontend UI/Design & Report):** Lideró la coherencia visual, la experiencia de usuario del frontend y la consolidación del reporte de Sprint 2, asegurando trazabilidad entre tareas y evidencia presentada.
 
 #### 5.2.2.3. Sprint Backlog 2.
 
@@ -361,31 +355,31 @@ Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc31
 | US29 | Monitoreo de temperatura en dashboard | TS-US29-003 | Mostrar timestamp de última lectura | Implementar visualización de fecha y hora de la última actualización del sensor | 2 | Dhilsen Mallqui | To-do |
 | US30 | Monitoreo de luz | TS-US30-001 | Crear widget de intensidad lumínica | Desarrollar componente visual para mostrar niveles de luz | 4 | Dhilsen Mallqui | To-do |
 | US42 | Identificación de desviaciones visuales | TS-US42-002 | Resaltar sensores críticos con colores de alerta | Aplicar indicadores visuales para sensores fuera de rango | 3 | Franco Rioja | To-do |
-| US33 | Identificación por ubicación | TS-US33-005 | Validar legibilidad de ubicaciones en móviles | Verificar correcta visualización responsive de ubicaciones | 2 | Mateo Urviola | To-do |
+| US33 | Identificación por ubicación | TS-US33-005 | Validar legibilidad de ubicaciones en móviles | Verificar correcta visualización responsive de ubicaciones | 2 | Dhilsen Mallqui | To-do |
 | US25 | Adaptación a dispositivos | TS-US25-001 | Implementar media queries principales | Configurar estilos responsive para dashboard y módulos | 5 | Dhilsen Mallqui | To-do |
 | US25 | Adaptación a dispositivos | TS-US25-002 | Adaptar navbar para dispositivos móviles | Ajustar navegación responsive para smartphones y tablets | 3 | Dhilsen Mallqui | To-do |
 | US25 | Adaptación a dispositivos | TS-US25-007 | Realizar pruebas responsive en múltiples resoluciones | Validar funcionamiento visual en distintos tamaños de pantalla | 4 | Dhilsen Mallqui | To-do |
 | US28 | Visualización de sensores activos | TS-US28-005 | Integrar estilos responsive | Aplicar diseño adaptable al panel de sensores | 3 | Franco Rioja | In-Process |
 | US30 | Monitoreo de luz | TS-US30-004 | Implementar indicador visual de rango seguro | Mostrar estado seguro o crítico de niveles lumínicos | 3 | Dhilsen Mallqui | In-Process |
 | US34 | Estado general del sistema | TS-US34-002 | Mostrar total de sensores activos | Implementar contador general de sensores conectados | 2 | Dhilsen Mallqui | In-Process |
-| US37 | Visualización de gráficos | TS-US37-001 | Crear gráfico de temperatura | Desarrollar gráfico dinámico de tendencias de temperatura | 5 | Diego Herrera | In-Process |
-| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Implementar detección visual de valores críticos | 4 | Diego Herrera | In-Process |
-| US28 | Visualización de sensores activos | TS-US28-007 | Validar visualización responsive de sensores | Verificar correcta adaptación responsive de tarjetas de sensores | 2 | Mateo Urviola | To-Review |
-| US29 | Monitoreo de temperatura en dashboard | TS-US29-006 | Validar visualización en dispositivos móviles | Probar visualización responsive del módulo de temperatura | 2 | Mateo Urviola | To-Review |
+| US37 | Visualización de gráficos | TS-US37-001 | Crear gráfico de temperatura | Desarrollar gráfico dinámico de tendencias de temperatura | 5 | Alexander Montoya | In-Process |
+| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Implementar detección visual de valores críticos | 4 | Alexander Montoya | In-Process |
+| US28 | Visualización de sensores activos | TS-US28-007 | Validar visualización responsive de sensores | Verificar correcta adaptación responsive de tarjetas de sensores | 2 | Dhilsen Mallqui | To-Review |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-006 | Validar visualización en dispositivos móviles | Probar visualización responsive del módulo de temperatura | 2 | Dhilsen Mallqui | To-Review |
 | US34 | Estado general del sistema | TS-US34-004 | Implementar indicador general de estado | Mostrar estado global del sistema mediante indicadores visuales | 3 | Dhilsen Mallqui | To-Review |
-| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Revisar funcionamiento de detección visual de alertas | 4 | Diego Herrera | To-Review |
-| US30 | Monitoreo de luz | TS-US30-006 | Validar adaptación responsive del módulo | Validar correcta adaptación responsive del widget lumínico | 2 | Mateo Urviola | To-Fix |
+| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Revisar funcionamiento de detección visual de alertas | 4 | Alexander Montoya | To-Review |
+| US30 | Monitoreo de luz | TS-US30-006 | Validar adaptación responsive del módulo | Validar correcta adaptación responsive del widget lumínico | 2 | Dhilsen Mallqui | To-Fix |
 | US37 | Visualización de gráficos | TS-US37-002 | Diseñar estilos responsive para gráficos | Corregir problemas visuales y adaptación responsive de gráficos | 3 | Franco Rioja | To-Fix |
 | US28 | Visualización de sensores activos | TS-US28-003 | Mostrar nombre y estado del sensor | Implementar visualización de información principal de sensores | 2 | Dhilsen Mallqui | Done |
 | US28 | Visualización de sensores activos | TS-US28-004 | Implementar indicador visual activo/inactivo | Mostrar estado activo o desconectado mediante colores e íconos | 3 | Dhilsen Mallqui | Done |
-| US28 | Visualización de sensores activos | TS-US28-005 | Consumir datos mock de sensores | Integrar datos simulados para pruebas del dashboard | 3 | Diego Herrera | Done |
+| US28 | Visualización de sensores activos | TS-US28-005 | Consumir datos mock de sensores | Integrar datos simulados para pruebas del dashboard | 3 | Alexander Montoya | Done |
 | US28 | Visualización de sensores activos | TS-US28-006 | Aplicar estilos al panel de sensores | Diseñar interfaz visual del módulo de sensores | 3 | Franco Rioja | Done |
 | US29 | Monitoreo de temperatura en dashboard | TS-US29-002 | Mostrar valor actual en °C | Implementar lectura actual de temperatura con unidad | 2 | Dhilsen Mallqui | Done |
 | US29 | Monitoreo de temperatura en dashboard | TS-US29-005 | Actualizar estilos visuales según rango | Aplicar estilos dinámicos según valores críticos o normales | 3 | Franco Rioja | Done |
 | US34 | Estado general del sistema | TS-US34-001 | Diseñar sección resumen del dashboard | Crear layout general del resumen del sistema | 4 | Franco Rioja | Done |
 | US33 | Identificación por ubicación | TS-US33-001 | Mostrar ubicación física de sensores | Implementar etiquetas de ubicación física de sensores | 2 | Dhilsen Mallqui | Done |
 | US33 | Identificación por ubicación | TS-US33-002 | Diseñar etiqueta visual de ubicación | Crear estilos visuales para etiquetas de ubicación | 2 | Franco Rioja | Done |
-| US33 | Identificación por ubicación | TS-US33-003 | Implementar agrupación visual por ubicación | Agrupar sensores visualmente según su área física | 3 | Diego Herrera | Done |
+| US33 | Identificación por ubicación | TS-US33-003 | Implementar agrupación visual por ubicación | Agrupar sensores visualmente según su área física | 3 | Alexander Montoya | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
@@ -518,15 +512,15 @@ En esta sección se evidencia la colaboración del equipo durante el Sprint 2 en
 
 **Repositorio de Frontend:** MediTrackSensor-Frontend
 
-- **Subscriptions - Mateo Sebastián Urviola Condori:** desarrolló la lógica y presentación de las vistas asociadas a planes y suscripción, asegurando claridad en la interacción con las opciones disponibles.
-- **Monitoring - Tomás Alessandro Paredes Díaz:** participó en la construcción del módulo de monitoreo y seguimiento, orientando la visualización de indicadores y estados del sistema.
-- **Establishment - Dhilsen Armil Mallqui Vilca y Pilsen:** implementaron las vistas y la lógica relacionadas con establecimientos, cuidando la navegación y la consistencia funcional del módulo.
-- **Logistics - Dhilsen:** apoyó la implementación de la parte operativa vinculada a logística, estructurando información y flujos relacionados con el movimiento y gestión de recursos.
+- **Subscriptions - Dhilsen Armil Mallqui Vilca:** desarrolló la lógica y presentación de las vistas asociadas a planes y suscripción, asegurando claridad en la interacción con las opciones disponibles.
+- **Monitoring - Dhilsen Armil Mallqui Vilca:** participó en la construcción del módulo de monitoreo y seguimiento, orientando la visualización de indicadores y estados del sistema.
+- **Establishment - Dhilsen Armil Mallqui Vilca:** implementó las vistas y la lógica relacionadas con establecimientos, cuidando la navegación y la consistencia funcional del módulo.
+- **Logistics - Alexander Gabriel Montoya Torres:** apoyó la implementación de la parte operativa vinculada a logística, estructurando información y flujos relacionados con el movimiento y gestión de recursos.
 - **Frontend - Franco Diego Rioja Nuñez:** contribuyó en la implementación general del frontend, incluyendo la coherencia visual, la adaptación responsive y la integración de los componentes principales de la interfaz.
 
 **Repositorio del Reporte:** MediTrackSensor-Project-Report
 
-- **Diego Fernando Herrera Enriquez:** lideró la redacción, organización y consolidación de la sección de desarrollo del reporte, asegurando trazabilidad entre el sprint y la evidencia presentada.
+- **Franco Diego Rioja Nuñez:** lideró la redacción, organización y consolidación de la sección de desarrollo del reporte, asegurando trazabilidad entre el sprint y la evidencia presentada.
 
 **Repositorio del Landing Page:** MediTrackSensor-Landing-Page
 
@@ -555,7 +549,7 @@ A continuación se presenta el resumen del Sprint Planning Meeting realizado par
 | Time                               | 5:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Prepared By                        | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Attendees                          | Herrera Enriquez, Diego Fernando / Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Paredes Díaz, Tomás Alessandro / Rioja Nuñez, Franco Diego / Urviola Condori, Mateo Sebastián                                                                                                                                                                                                                                                                       |
+| Attendees                          | Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                       |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Sprint 3 Goal                      | Our goal is to develop the backend API and web services for the MediTrack Sensor platform. We believe that this implementation will provide the core functionality required by the frontend application, enabling data persistence, authentication, and RESTful API endpoints for managing subscriptions, devices, establishments, operators, and logistics. This will be confirmed once all microservices are deployed and integrated with the frontend application. |
 | Sprint 3 Velocity                  | 18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -567,22 +561,17 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 | Team Member (Last Name, First Name) | GitHub Username | Backend Architecture | IAM Module | Subscriptions Module | Monitoring Module | Establishments Module | Logistics Module | Database Design | Services Deployment |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Herrera Enriquez, Diego Fernando | DerDFHE | **L** | **L** | C | C | C | C | C | C |
+| Montoya Torres, Alexander Gabriel | AlexMontoya | **L** | **L** | C | **L** | **L** | C | **L** | C |
 | Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | C | **L** | C | C | C | C | C |
-| Montoya Torres, Alexander Gabriel | AlexMontoya | C | C | C | **L** | C | C | **L** | C |
-| Paredes Díaz, Tomás Alessandro | TParedes92 | C | C | C | C | **L** | C | C | C |
 | Rioja Nuñez, Franco Diego | FrancoDiegoR | C | C | C | C | C | **L** | C | **L** |
-| Urviola Condori, Mateo Sebastián | BeyaminUv | C | C | C | C | C | C | C | C |
 
 ---
 
 **Sustento de los Aspectos de Liderazgo:**
 
-* **Diego Herrera (Backend Architecture & IAM Module):** Lideró la arquitectura general de microservicios y la implementación del módulo de autenticación e identidad, definiendo patrones de seguridad y estructuras de control de acceso.
+* **Alexander Montoya (Backend Architecture, IAM, Monitoring, Establishments & Database):** Lideró la arquitectura general de microservicios, la implementación del módulo de autenticación, el diseño de la base de datos relacional y los endpoints de dispositivos y establecimientos.
 * **Dhilsen Mallqui (Subscriptions Module):** Responsable de la implementación de la lógica de planes de suscripción, integrando endpoints para creación, consulta y eliminación de suscripciones vinculadas a administradores.
-* **Alexander Montoya (Monitoring Module & Database Design):** Lideró el diseño de la base de datos relacional y la implementación de endpoints para dispositivos, sensor data y seguimiento de condiciones ambientales.
-* **Tomás Paredes (Establishments Module):** Responsable del desarrollo de endpoints para gestión de establecimientos, incluyendo creación, consulta y eliminación de sedes y almacenes farmacéuticos.
-* **Franco Rioja (Logistics Module & Services Deployment):** Lideró la implementación de endpoints de logística y transportes, además de coordinar el despliegue en Microsoft Azure y configuración de infrastructure.
+* **Franco Rioja (Logistics Module & Services Deployment):** Lideró la implementación de endpoints de logística y transportes, además de coordinar el despliegue en Render y la configuración de infrastructure.
 
 #### 5.2.3.3. Sprint Backlog 3
 
@@ -596,28 +585,28 @@ Enlace de Trello: https://trello.com/invite/b/6a2997ef988f03df0e99f5ba/ATTIe7076
 |----------|----------|---|---|---|---|---|---|
 | **User Story / Endpoint** | | **Work-Item / Task** | | | | | |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| EP01 | GET /api/v1/admins | TS-EP01-001 | Implementar endpoint GET Admins | Desarrollar endpoint para listar administradores | 4 | Tomás Paredes | To-do |
-| EP02 | POST /api/v1/admins | TS-EP02-001 | Implementar endpoint POST Admins | Desarrollar endpoint para crear nuevo administrador | 6 | Diego Herrera | To-do |
-| EP03 | GET /api/v1/devices | TS-EP03-001 | Implementar endpoint GET Devices | Desarrollar endpoint para listar dispositivos | 4 | Diego Herrera | To-do |
+| EP01 | GET /api/v1/admins | TS-EP01-001 | Implementar endpoint GET Admins | Desarrollar endpoint para listar administradores | 4 | Alexander Montoya | To-do |
+| EP02 | POST /api/v1/admins | TS-EP02-001 | Implementar endpoint POST Admins | Desarrollar endpoint para crear nuevo administrador | 6 | Alexander Montoya | To-do |
+| EP03 | GET /api/v1/devices | TS-EP03-001 | Implementar endpoint GET Devices | Desarrollar endpoint para listar dispositivos | 4 | Alexander Montoya | To-do |
 | EP04 | POST /api/v1/devices | TS-EP04-001 | Implementar endpoint POST Devices | Desarrollar endpoint para crear nuevo dispositivo | 6 | Franco Rioja | Done |
 | EP05 | PUT /api/v1/devices/{id}/sensor-data | TS-EP05-001 | Implementar endpoint PUT Sensor Data | Desarrollar endpoint para actualizar datos de sensores | 6 | Dhilsen Mallqui | Done |
-| EP06 | DELETE /api/v1/devices/{id} | TS-EP06-001 | Implementar endpoint DELETE Devices | Desarrollar endpoint para eliminar dispositivo | 4 | Mateo Urviola | To-do |
-| EP07 | GET /api/v1/establishments | TS-EP07-001 | Implementar endpoint GET Establishments | Desarrollar endpoint para listar establecimientos | 4 | Diego Herrera | To-do |
+| EP06 | DELETE /api/v1/devices/{id} | TS-EP06-001 | Implementar endpoint DELETE Devices | Desarrollar endpoint para eliminar dispositivo | 4 | Dhilsen Mallqui | To-do |
+| EP07 | GET /api/v1/establishments | TS-EP07-001 | Implementar endpoint GET Establishments | Desarrollar endpoint para listar establecimientos | 4 | Alexander Montoya | To-do |
 | EP08 | POST /api/v1/establishments | TS-EP08-001 | Implementar endpoint POST Establishments | Desarrollar endpoint para crear establecimiento | 6 | Dhilsen Mallqui | Done |
 | EP09 | DELETE /api/v1/establishments/{id} | TS-EP09-001 | Implementar endpoint DELETE Establishments | Desarrollar endpoint para eliminar establecimiento | 4 | Franco Rioja | Done |
 | EP10 | GET /api/v1/operators | TS-EP10-001 | Implementar endpoint GET Operators | Desarrollar endpoint para listar operadores | 4 | Franco Rioja | Done |
-| EP11 | POST /api/v1/operators | TS-EP11-001 | Implementar endpoint POST Operators | Desarrollar endpoint para crear operador | 6 | Diego Herrera | To-do |
+| EP11 | POST /api/v1/operators | TS-EP11-001 | Implementar endpoint POST Operators | Desarrollar endpoint para crear operador | 6 | Alexander Montoya | To-do |
 | EP12 | PUT /api/v1/operators/{id} | TS-EP12-001 | Implementar endpoint PUT Operators | Desarrollar endpoint para actualizar operador | 5 | Dhilsen Mallqui | Done |
-| EP13 | DELETE /api/v1/operators/{id} | TS-EP13-001 | Implementar endpoint DELETE Operators | Desarrollar endpoint para eliminar operador | 4 | Mateo Urviola | To-do |
-| EP14 | PUT /api/v1/operators/{id}/alert-answered | TS-EP14-001 | Implementar endpoint PUT Alert Answered | Desarrollar endpoint para incrementar conteo de alertas respondidas | 5 | Tomás Paredes | To-do |
-| EP15 | GET /api/v1/subscriptions | TS-EP15-001 | Implementar endpoint GET Subscriptions | Desarrollar endpoint para recuperar lista de suscripciones | 4 | Mateo Urviola | To-do |
+| EP13 | DELETE /api/v1/operators/{id} | TS-EP13-001 | Implementar endpoint DELETE Operators | Desarrollar endpoint para eliminar operador | 4 | Dhilsen Mallqui | To-do |
+| EP14 | PUT /api/v1/operators/{id}/alert-answered | TS-EP14-001 | Implementar endpoint PUT Alert Answered | Desarrollar endpoint para incrementar conteo de alertas respondidas | 5 | Alexander Montoya | To-do |
+| EP15 | GET /api/v1/subscriptions | TS-EP15-001 | Implementar endpoint GET Subscriptions | Desarrollar endpoint para recuperar lista de suscripciones | 4 | Dhilsen Mallqui | To-do |
 | EP16 | POST /api/v1/subscriptions | TS-EP16-001 | Implementar endpoint POST Subscriptions | Desarrollar endpoint para crear nueva suscripción | 6 | Franco Rioja | Done |
 | EP17 | DELETE /api/v1/subscriptions/{id} | TS-EP17-001 | Implementar endpoint DELETE Subscriptions | Desarrollar endpoint para eliminar suscripción | 4 | Dhilsen Mallqui | To-do |
-| EP18 | GET /api/v1/transports | TS-EP18-001 | Implementar endpoint GET Transports | Desarrollar endpoint para listar transportes | 4 | Mateo Urviola | To-do |
-| EP19 | POST /api/v1/transports | TS-EP19-001 | Implementar endpoint POST Transports | Desarrollar endpoint para crear transporte | 6 | Tomás Paredes | To-do |
+| EP18 | GET /api/v1/transports | TS-EP18-001 | Implementar endpoint GET Transports | Desarrollar endpoint para listar transportes | 4 | Dhilsen Mallqui | To-do |
+| EP19 | POST /api/v1/transports | TS-EP19-001 | Implementar endpoint POST Transports | Desarrollar endpoint para crear transporte | 6 | Alexander Montoya | To-do |
 | EP20 | PUT /api/v1/transports/{id}/sensor-data | TS-EP20-001 | Implementar endpoint PUT Transport Sensor Data | Desarrollar endpoint para actualizar datos de sensores en transporte | 6 | Alexander Montoya | To-do |
 | EP21 | DELETE /api/v1/transports/{id} | TS-EP21-001 | Implementar endpoint DELETE Transports | Desarrollar endpoint para eliminar transporte | 4 | Alexander Montoya | To-do |
-| EP22 | GET /api/v1/users | TS-EP22-001 | Implementar endpoint GET Users | Desarrollar endpoint para listar usuarios | 4 | Tomás Paredes | To-do |
+| EP22 | GET /api/v1/users | TS-EP22-001 | Implementar endpoint GET Users | Desarrollar endpoint para listar usuarios | 4 | Alexander Montoya | To-do |
 | EP23 | POST /api/v1/users | TS-EP23-001 | Implementar endpoint POST SignUp | Desarrollar endpoint para registrar nuevos usuarios | 6 | Alexander Montoya | To-do |
 | EP24 | POST /api/v1/users/sign-in | TS-EP24-001 | Implementar endpoint POST SignIn | Desarrollar endpoint para autenticación y generación JWT | 6 | Dhilsen Mallqui | Done |
 | EP25 | DELETE /api/v1/users/{id} | TS-EP25-001 | Implementar endpoint DELETE Users | Desarrollar endpoint para eliminar usuario | 4 | Alexander Montoya | To-do |
@@ -778,11 +767,10 @@ En esta sección se evidencia la colaboración del equipo durante el Sprint 3 en
 
 **Repositorio de Backend:** MediTrackSensor-Backend
 
-- **Diego Herrera (IAM & Backend Architecture):** lideró la arquitectura general de microservicios y la implementación del módulo de autenticación, estableciendo patrones de seguridad y structures de control.
+- **Alexander Montoya (IAM & Backend Architecture):** lideró la arquitectura general de microservicios y la implementación del módulo de autenticación, estableciendo patrones de seguridad y estructuras de control.
 - **Dhilsen Mallqui (Subscriptions Module):** implementó los endpoints de gestión de planes de suscripción, asegurando persistencia y validación de datos.
-- **Alexander Montoya (Monitoring Module & Database Design):** diseñó la estructura de base de datos relacional e implementó los endpoints para dispositivos y sensor data.
-- **Tomás Paredes (Establishments Module):** desarrolló los endpoints de establecimientos, integrando validación de ubicaciones geográficas y datos de contacto.
-- **Franco Rioja (Logistics Module & Deployment):** implementó endpoints de operadores y transportes, además de coordinar la estrategia de deployment en Azure.
+- **Alexander Montoya (Monitoring Module & Database Design):** diseñó la estructura de base de datos relacional e implementó los endpoints para dispositivos, establecimientos y sensor data.
+- **Franco Rioja (Logistics Module & Deployment):** implementó endpoints de operadores y transportes, además de coordinar la estrategia de deployment en Render.
 
 **Contribuciones y Participación:**
 
@@ -812,13 +800,29 @@ Sprint Review, junto con Team Collaboration Insights during Sprint.
 | Time                           | 8:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Location                       | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Prepared By                    | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Attendees                      | Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Paredes Díaz, Tomás Alessandro / Rioja Nuñez, Franco Diego / Urviola Condori, Mateo Sebastián                                                                                                                                                                                                                                                                                                                                                                                      |
+| Attendees                      | Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Sprint 4 Goal                  | Our goal is to finalize the backend API and web services for the MediTrack Sensor platform, and ensure their seamless integration with the frontend application. We believe that uniting these components will deliver a complete and functional ecosystem, enabling data persistence, authentication, and RESTful API endpoints for managing subscriptions, devices, establishments, operators, and logistics. This will be confirmed once both the frontend and all backend microservices are correctly deployed, connected, and fully operational. |
 | Sprint 4 Velocity              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Sum of Story Points            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
+
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 4. Cada aspecto representa una fase crítica de la entrega final, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Finalization | Frontend Integration | Database Optimization | Services Documentation | Full-Stack Deployment | Report & Conclusions |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Montoya Torres, Alexander Gabriel | AlexMontoya | **L** | C | **L** | **L** | C | C |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | C | **L** | C | C | **L** | C |
+| Rioja Nuñez, Franco Diego | FrancoDiegoR | C | C | C | C | **L** | **L** |
+
+---
+
+**Sustento de los Aspectos de Liderazgo:**
+
+* **Alexander Montoya (Backend Finalization, Database & Documentation):** Lideró la finalización de endpoints del backend API, la optimización de persistencia de datos y la documentación completa de servicios en Swagger/OpenAPI.
+* **Dhilsen Mallqui (Frontend Integration & Deployment):** Responsable de la integración del frontend con los servicios REST del backend y el despliegue final de la aplicación web en Vercel conectada a la API en producción.
+* **Franco Rioja (Full-Stack Deployment & Report):** Lideró el despliegue final del backend en Render, la consolidación de evidencias del Sprint 4 y la redacción de conclusiones finales del informe.
 
 #### 5.2.4.3. Sprint Backlog 4
 
@@ -863,6 +867,22 @@ Link: https://medi-track-sensor-platform.onrender.com/swagger/index.html
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En esta sección se evidencia la colaboración del equipo durante el Sprint 4 en la integración full-stack y el cierre del ciclo de vida del proyecto MediTrack Sensor.
+
+**Repositorio de Frontend:** MediTrackSensor-Frontend
+
+- **Dhilsen Mallqui (Frontend Integration):** lideró la conexión del frontend con la API en producción y validó los flujos de autenticación y navegación entre módulos.
+- **Franco Rioja (UI Consistency & Report):** supervisó la coherencia visual del producto final y consolidó las evidencias de despliegue en el informe del proyecto.
+
+**Repositorio de Backend:** MediTrackSensor-Backend
+
+- **Alexander Montoya (Backend Finalization):** finalizó los endpoints pendientes del backend, optimizó la persistencia de datos y completó la documentación Swagger de todos los servicios.
+- **Franco Rioja (Deployment):** coordinó el despliegue final del backend en Render y verificó la operatividad del ecosistema completo.
+
+**Repositorio del Reporte:** MediTrackSensor-Project-Report
+
+- **Franco Rioja:** lideró la actualización del registro de versiones TB2, Student Outcome y la redacción de conclusiones finales del informe.
 
 ---
 

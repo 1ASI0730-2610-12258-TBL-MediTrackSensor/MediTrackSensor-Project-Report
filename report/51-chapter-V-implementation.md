@@ -823,6 +823,8 @@ Sprint Review, junto con Team Collaboration Insights during Sprint.
 #### 5.2.4.3. Sprint Backlog 4
 
 ![Sprint Backlog 4 Trello](../assets/sprint-backlog-4-trello.png)
+![Sprint Backlog 3 Trello](../assets/sprint-backlog-3-trello.png)
+
 
 Enlace de Trello:
 https://trello.com/invite/b/6a4aec825530c3b6ab9db1b7/ATTI2034d17571ccf6acbefeae2e9ecfb71e4BAC22E5/sprint-4

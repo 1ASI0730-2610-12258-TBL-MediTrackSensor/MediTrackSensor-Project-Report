@@ -823,15 +823,40 @@ Sprint Review, junto con Team Collaboration Insights during Sprint.
 #### 5.2.4.3. Sprint Backlog 4
 
 ![Sprint Backlog 4 Trello](../assets/sprint-backlog-4-trello.png)
-![Sprint Backlog 3 Trello](../assets/sprint-backlog-3-trello.png)
-
 
 Enlace de Trello:
 https://trello.com/invite/b/6a4aec825530c3b6ab9db1b7/ATTI2034d17571ccf6acbefeae2e9ecfb71e4BAC22E5/sprint-4
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
+Es esta sección mostraremos evidencia y enlaces que demuestran el correcto despliegue de nuestras application Backend (Render) y Frontend (Vercel)
+
+Aquí se puede visualizar el despliegue hecho en Vercel funcionando correctamente.
+
+![Frontend Evidence 1](../assets/Frontend%20evidence%201%20tb2.jpeg)
+
+Link: https://medi-track-sensor-frontend.vercel.app/login
+
+Aquí se puede visualizar el despliegue hecho en Render funcionando correctamente.
+
+![Backend Evidence 1](../assets/Backend%20evidence%201%20tb2.jpeg)
+
+Link: https://medi-track-sensor-platform.onrender.com/swagger/index.html
+
+
+
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
+
+En esta sección se mostrará la evidencia de la ejecución tanto del Frontend como del Backend.
+
+![Frontend Evidence 2](../assets/Frontend%20evidence%202%20tb2.jpeg)
+
+Link: https://medi-track-sensor-platform.onrender.com/swagger/index.html
+
+![Backend Evidence 2](../assets/Backend%20evidence%202%20tb2.jpeg)
+
+Link: https://medi-track-sensor-platform.onrender.com/swagger/index.html
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 

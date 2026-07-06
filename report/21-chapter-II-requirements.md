@@ -371,6 +371,10 @@ User Persona 1
 User Persona 2
 ![User Persona 2](../assets/UserPersona2_Omar%20Ruiz.png)
 
+---
+
+### 2.3.2. User Task Matrix
+
 Las siguientes matrices detallan las tareas críticas identificadas para cada arquetipo de usuario. La prioridad de desarrollo se establece mediante el cruce de importancia y frecuencia, permitiendo al equipo técnico identificar las funcionalidades de mayor impacto (Core Features).
 
 * **Importancia:** Escala del 1 al 5 (5 siendo crítico para la continuidad operativa).

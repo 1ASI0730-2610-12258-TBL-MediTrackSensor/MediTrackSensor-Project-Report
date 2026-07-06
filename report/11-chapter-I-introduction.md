@@ -83,7 +83,7 @@ El personal de salud y las entidades regulatorias no cuentan con herramientas au
 **Pregunta clave:**
 ¿Cómo podemos diseñar un sistema que permita a las entidades de salud cumplir con las normativas sanitarias de manera más eficiente, garantizando que el 100% de los medicamentos se almacenen en condiciones adecuadas dentro de los primeros 12 meses de uso?
 
-### 1.2.2.2.2. Lean UX Assumptions
+### 1.2.2.2. Lean UX Assumptions
 
 #### Supuestos de Negocio
 - **Creemos que** el mercado de la salud en Perú necesita una solución tecnológica que permita monitorear en tiempo real las condiciones ambientales (temperatura, humedad, luz) en los almacenes farmacéuticos y hospitales, para garantizar la conservación adecuada de los medicamentos.
@@ -334,9 +334,9 @@ Primero necesitamos entender si el personal encargado de almacenes y las entidad
 **8. What’s the least amount of work we need to do to learn the next most important thing?**  
 ### 8. What’s the least amount of work we need to do to learn the next most important thing?
 
-Realizar entrevistas con personal de almacenes y profesionales de salud, además de pruebas de prototipos simples, como mockups o dashboards básicos, para validar la utilidad del monitoreo en tiempo real y la aceptación del sistema. También se debe crear una landing page para obtener retroalimentación sobre el interés en la solución propuesta.## 1.3. Segmentos objetivo
+Realizar entrevistas con personal de almacenes y profesionales de salud, además de pruebas de prototipos simples, como mockups o dashboards básicos, para validar la utilidad del monitoreo en tiempo real y la aceptación del sistema. También se debe crear una landing page para obtener retroalimentación sobre el interés en la solución propuesta.
 
-### 1.3. Segmentos objetivo
+## 1.3. Segmentos objetivo
 
 **1. Personal operativo de almacenes farmacéuticos**  
 Este segmento agrupa a operarios, técnicos y responsables del almacenamiento de medicamentos en hospitales, clínicas y centros de distribución en el Perú, incluyendo almacenes estratégicos como los de Lurín. Son los encargados directos de supervisar las condiciones en las que se conservan los productos farmacéuticos.

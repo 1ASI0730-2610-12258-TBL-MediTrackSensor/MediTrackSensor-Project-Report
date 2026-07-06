@@ -10,19 +10,38 @@ Contraloría advierte inadecuado almacenamiento de medicamentos e historias clí
 
 El Peruano, D. O. (2025, agosto 11). Minsa mejora infraestructura para almacenar medicinas. Diario Oficial El Peruano. https://elperuano.pe/noticia/276495-minsa-mejora-infraestructura-para-almacenar-medicinas?utm_source
 
-Contraloría: Almacén de Hospital Virgen de Fátima no cumple con las condiciones requeridas. (s. f.). Noticias - Contraloría General de la República - Plataforma del Estado Peruano. https://www.gob.pe/institucion/contraloria/noticias/891951-contraloria-almacen-de-hospital-virgen-de-fatima-no-cumple-con-las-condiciones-requeridas?utm_source
+Contraloría: Almacén de Hospital Virgen de Fátima no cumple con las condiciones requeridas. (s. f.). Noticias - Contraloría General de la República - Plataforma del Estado Peruano. https://www.gob.pe/institucion/contraloria/noticias/891951-contraloria-almacen-de-hospital-virgen-de-fatima-no-cumple-con-las-condiciones-requeridas?utm_source
 
 (S/f). Gob.pe. Recuperado el 23 de abril de 2026, de https://www.minsa.gob.pe/Recursos/OTRANS/08Proyectos/2022/RM%20132-2015-MINSA%20BUENAS%20PRÁCTICAS%20DE%20ALMACENAMIENTO.pdf?utm_source
 
+Microsoft. (s. f.). Semantic Versioning 2.0.0. https://semver.org/
+
+OpenAPI Initiative. (s. f.). OpenAPI Specification. https://swagger.io/specification/
+
+Vue.js. (s. f.). Vue Style Guide. https://vuejs.org/style-guide/
 
 ---
 
 # Anexos
 
-Recopilación de 3 entrevistas por segmento objetivo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQC9LHfngiXQQo1Obij7K0OBAZVtMQiANyxRhhl0U5--0go?e=vBiJVb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+## Anexo A. Recopilación de entrevistas de descubrimiento
 
-## Videos de Exposiciones
+Recopilación de entrevistas por segmento objetivo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQC9LHfngiXQQo1Obij7K0OBAZVtMQiANyxRhhl0U5--0go?e=vBiJVb
 
-| Entrega | Título          | Enlace |
-|---------|-----------------|--------|
-| AV1 | Exposición AV1 | https://drive.google.com/drive/folders/1nH38g28IeEbZSu6ezcDFi0nh6URbGe9z?usp=sharing|
+## Anexo B. Videos de Exposiciones
+
+| Entrega | Título | Enlace |
+| :--- | :--- | :--- |
+| AV1 | Exposición AV1 — Sprint Review | https://drive.google.com/drive/folders/1nH38g28IeEbZSu6ezcDFi0nh6URbGe9z?usp=sharing |
+| TB1 | Exposición TB1 — Release Review | https://drive.google.com/drive/folders/1nH38g28IeEbZSu6ezcDFi0nh6URbGe9z?usp=sharing |
+| AV2 | Exposición AV2 — Sprint Review | https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing |
+| TB2 | Exposición TB2 — Release Review Final | https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing |
+
+## Anexo C. URLs de productos digitales en producción
+
+| Producto | URL |
+| :--- | :--- |
+| Landing Page | https://meditrack-sensor.vercel.app/ |
+| Web Application | https://medi-track-sensor-frontend.vercel.app/login |
+| Backend API (Swagger) | https://medi-track-sensor-platform.onrender.com/swagger/index.html |
+| Repositorio del informe | https://github.com/1ASI0730-2610-12258-TBA-MediTrackSensor/MediTrackSensor-Proyect-Report |

@@ -176,13 +176,21 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 ## TB2
 
-## Desarrollo del reporte
+Durante la entrega TB2 (Sprint 4), el equipo de tres integrantes consolidó la integración full-stack y el cierre del ciclo de vida del proyecto.
 
-## Desarrollo de Landing Page
+**Repositorio del informe:** [MediTrackSensor-Project-Report](https://github.com/1ASI0730-2610-12258-TBA-MediTrackSensor/MediTrackSensor-Proyect-Report)
 
-## Desarrollo del Frontend
+| Integrante | Repositorio | Contribución principal |
+| :--- | :--- | :--- |
+| Rioja Nuñez, Franco Diego | Informe / Backend | Sprint Planning 4, despliegue Render, conclusiones y registro de versiones TB2 |
+| Mallqui Vilca, Dhilsen Armil | Frontend / Landing | Integración frontend–API, despliegue Vercel de la Web Application |
+| Montoya Torres, Alexander Gabriel | Backend | Finalización de endpoints, base de datos Filess.io y documentación Swagger |
 
-## Desarrollo del Backend
+**Productos desplegados en producción:**
+
+- Landing Page: https://meditrack-sensor.vercel.app/
+- Frontend: https://medi-track-sensor-frontend.vercel.app/login
+- Backend API: https://medi-track-sensor-platform.onrender.com/swagger/index.html
 
 ---
 
@@ -277,6 +285,7 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
     - [5.2.1. Sprint 1](report/51-chapter-V-implementation.md#521-sprint-1)
     - [5.2.2. Sprint 2](report/51-chapter-V-implementation.md#522-sprint-2)
     - [5.2.3. Sprint 3](report/51-chapter-V-implementation.md#523-sprint-3)
+    - [5.2.4. Sprint 4](report/51-chapter-V-implementation.md#524-sprint-4)
   - [5.3. Validation Interviews](report/51-chapter-V-implementation.md#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](report/51-chapter-V-implementation.md#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](report/51-chapter-V-implementation.md#532-registro-de-entrevistas)
@@ -286,4 +295,6 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
   - [Video About-the-Team](report/51-chapter-V-implementation.md#video-about-the-team)
 - [Bibliografía](report/99-bibliography.md)
 - [Anexos](report/99-bibliography.md#anexos)
-  - [Videos de Exposiciones](report/99-bibliography.md#videos-de-exposiciones)
+  - [Anexo A. Entrevistas de descubrimiento](report/99-bibliography.md#anexo-a-recopilación-de-entrevistas-de-descubrimiento)
+  - [Anexo B. Videos de Exposiciones](report/99-bibliography.md#anexo-b-videos-de-exposiciones)
+  - [Anexo C. URLs de productos en producción](report/99-bibliography.md#anexo-c-urls-de-productos-digitales-en-producción)

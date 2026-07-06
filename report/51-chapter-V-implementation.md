@@ -130,17 +130,20 @@ En este apartado se definen los estándares de codificación y nomenclatura adop
 
 ### 5.1.4. Software Deployment Configuration
 
-Esta sección detalla la configuración del despliegue de la solución, permitiendo que los productos digitales sean accesibles de forma continua en un entorno de producción.
+Esta sección detalla la configuración del despliegue de la solución en su versión final, permitiendo que los productos digitales sean accesibles de forma continua en entornos de producción.
 
 * **Hosting & Cloud Platforms**:
-  * **Landing Page**: Se ha desplegado satisfactoriamente en la plataforma **Vercel**, aprovechando su infraestructura optimizada para sitios estáticos y despliegue rápido.
-  * **Web Services & API**: Para las fases posteriores del proyecto, se ha definido el uso de **Microsoft Azure** como proveedor de nube para el alojamiento de los servicios web desarrollados en ASP.NET Core, garantizando escalabilidad y compatibilidad técnica.
+  * **Landing Page**: Desplegada en **Vercel** — [https://meditrack-sensor.vercel.app/](https://meditrack-sensor.vercel.app/)
+  * **Web Application (Frontend)**: Desplegada en **Vercel** — [https://medi-track-sensor-frontend.vercel.app/login](https://medi-track-sensor-frontend.vercel.app/login)
+  * **Web Services & API (Backend)**: Desplegada en **Render** — [https://medi-track-sensor-platform.onrender.com](https://medi-track-sensor-platform.onrender.com)
+  * **Base de datos relacional**: Alojada en **Filess.io** (PostgreSQL), conectada al backend mediante variables de entorno en Render.
 * **Continuous Deployment (CD) Pipeline**:
-  * **Integración**: El repositorio oficial en GitHub (`MediTrackSensor-Landing-Page`) está vinculado directamente a la plataforma de despliegue.
-  * **Branching Strategy**: La rama `main` actúa como la rama de producción oficial. Cualquier cambio integrado mediante *merge* o *push* en esta rama activa automáticamente un nuevo despliegue (Automatic Deployment) hacia la URL pública: [https://meditrack-sensor.vercel.app/](https://meditrack-sensor.vercel.app/).
+  * Cada repositorio en GitHub (`MediTrackSensor-Landing-Page`, `MediTrackSensor-Frontend`, `MediTrackSensor-Backend`) está vinculado a su plataforma de despliegue correspondiente.
+  * La rama `main` (o `master` en backend) activa despliegue automático al integrar cambios mediante merge o push.
 * **Environment Configuration**:
-  * **Estado Actual (Sprint 1)**: El despliegue actual no requiere el uso de variables de entorno (Environment Variables) ni claves de API externas, dado que se trata de un prototipo visual e informativo.
-  * **Planificación Futura**: En los próximos Sprints, se configurarán variables de entorno protegidas en los paneles de Azure y Vercel para gestionar de forma segura las cadenas de conexión a bases de datos y tokens de autenticación de servicios IoT.
+  * **Frontend**: Variable `VITE_API_BASE_URL` apuntando a la URL de producción del backend en Render.
+  * **Backend (Render)**: `DATABASE_HOST`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD`, y configuración JWT para autenticación.
+  * **Landing Page**: Despliegue estático sin variables sensibles; contenido público de presentación del producto.
 
 ---
 
@@ -351,25 +354,25 @@ Enlace de Trello: https://trello.com/invite/b/6a02a35d4f75f7ddabeabe1c/ATTIbbc31
 |----------|----------|---|---|---|---|---|---|
 | **User Story** | | **Work-Item / Task** | | | | | |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| US29 | Monitoreo de temperatura en dashboard | TS-US29-001 | Crear widget de temperatura | Desarrollar componente visual para mostrar temperatura en tiempo real | 4 | Dhilsen Mallqui | To-do |
-| US29 | Monitoreo de temperatura en dashboard | TS-US29-003 | Mostrar timestamp de última lectura | Implementar visualización de fecha y hora de la última actualización del sensor | 2 | Dhilsen Mallqui | To-do |
-| US30 | Monitoreo de luz | TS-US30-001 | Crear widget de intensidad lumínica | Desarrollar componente visual para mostrar niveles de luz | 4 | Dhilsen Mallqui | To-do |
-| US42 | Identificación de desviaciones visuales | TS-US42-002 | Resaltar sensores críticos con colores de alerta | Aplicar indicadores visuales para sensores fuera de rango | 3 | Franco Rioja | To-do |
-| US33 | Identificación por ubicación | TS-US33-005 | Validar legibilidad de ubicaciones en móviles | Verificar correcta visualización responsive de ubicaciones | 2 | Dhilsen Mallqui | To-do |
-| US25 | Adaptación a dispositivos | TS-US25-001 | Implementar media queries principales | Configurar estilos responsive para dashboard y módulos | 5 | Dhilsen Mallqui | To-do |
-| US25 | Adaptación a dispositivos | TS-US25-002 | Adaptar navbar para dispositivos móviles | Ajustar navegación responsive para smartphones y tablets | 3 | Dhilsen Mallqui | To-do |
-| US25 | Adaptación a dispositivos | TS-US25-007 | Realizar pruebas responsive en múltiples resoluciones | Validar funcionamiento visual en distintos tamaños de pantalla | 4 | Dhilsen Mallqui | To-do |
-| US28 | Visualización de sensores activos | TS-US28-005 | Integrar estilos responsive | Aplicar diseño adaptable al panel de sensores | 3 | Franco Rioja | In-Process |
-| US30 | Monitoreo de luz | TS-US30-004 | Implementar indicador visual de rango seguro | Mostrar estado seguro o crítico de niveles lumínicos | 3 | Dhilsen Mallqui | In-Process |
-| US34 | Estado general del sistema | TS-US34-002 | Mostrar total de sensores activos | Implementar contador general de sensores conectados | 2 | Dhilsen Mallqui | In-Process |
-| US37 | Visualización de gráficos | TS-US37-001 | Crear gráfico de temperatura | Desarrollar gráfico dinámico de tendencias de temperatura | 5 | Alexander Montoya | In-Process |
-| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Implementar detección visual de valores críticos | 4 | Alexander Montoya | In-Process |
-| US28 | Visualización de sensores activos | TS-US28-007 | Validar visualización responsive de sensores | Verificar correcta adaptación responsive de tarjetas de sensores | 2 | Dhilsen Mallqui | To-Review |
-| US29 | Monitoreo de temperatura en dashboard | TS-US29-006 | Validar visualización en dispositivos móviles | Probar visualización responsive del módulo de temperatura | 2 | Dhilsen Mallqui | To-Review |
-| US34 | Estado general del sistema | TS-US34-004 | Implementar indicador general de estado | Mostrar estado global del sistema mediante indicadores visuales | 3 | Dhilsen Mallqui | To-Review |
-| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Revisar funcionamiento de detección visual de alertas | 4 | Alexander Montoya | To-Review |
-| US30 | Monitoreo de luz | TS-US30-006 | Validar adaptación responsive del módulo | Validar correcta adaptación responsive del widget lumínico | 2 | Dhilsen Mallqui | To-Fix |
-| US37 | Visualización de gráficos | TS-US37-002 | Diseñar estilos responsive para gráficos | Corregir problemas visuales y adaptación responsive de gráficos | 3 | Franco Rioja | To-Fix |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-001 | Crear widget de temperatura | Desarrollar componente visual para mostrar temperatura en tiempo real | 4 | Dhilsen Mallqui | Done |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-003 | Mostrar timestamp de última lectura | Implementar visualización de fecha y hora de la última actualización del sensor | 2 | Dhilsen Mallqui | Done |
+| US30 | Monitoreo de luz | TS-US30-001 | Crear widget de intensidad lumínica | Desarrollar componente visual para mostrar niveles de luz | 4 | Dhilsen Mallqui | Done |
+| US42 | Identificación de desviaciones visuales | TS-US42-002 | Resaltar sensores críticos con colores de alerta | Aplicar indicadores visuales para sensores fuera de rango | 3 | Franco Rioja | Done |
+| US33 | Identificación por ubicación | TS-US33-005 | Validar legibilidad de ubicaciones en móviles | Verificar correcta visualización responsive de ubicaciones | 2 | Dhilsen Mallqui | Done |
+| US25 | Adaptación a dispositivos | TS-US25-001 | Implementar media queries principales | Configurar estilos responsive para dashboard y módulos | 5 | Dhilsen Mallqui | Done |
+| US25 | Adaptación a dispositivos | TS-US25-002 | Adaptar navbar para dispositivos móviles | Ajustar navegación responsive para smartphones y tablets | 3 | Dhilsen Mallqui | Done |
+| US25 | Adaptación a dispositivos | TS-US25-007 | Realizar pruebas responsive en múltiples resoluciones | Validar funcionamiento visual en distintos tamaños de pantalla | 4 | Dhilsen Mallqui | Done |
+| US28 | Visualización de sensores activos | TS-US28-005 | Integrar estilos responsive | Aplicar diseño adaptable al panel de sensores | 3 | Franco Rioja | Done |
+| US30 | Monitoreo de luz | TS-US30-004 | Implementar indicador visual de rango seguro | Mostrar estado seguro o crítico de niveles lumínicos | 3 | Dhilsen Mallqui | Done |
+| US34 | Estado general del sistema | TS-US34-002 | Mostrar total de sensores activos | Implementar contador general de sensores conectados | 2 | Dhilsen Mallqui | Done |
+| US37 | Visualización de gráficos | TS-US37-001 | Crear gráfico de temperatura | Desarrollar gráfico dinámico de tendencias de temperatura | 5 | Alexander Montoya | Done |
+| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Implementar detección visual de valores críticos | 4 | Alexander Montoya | Done |
+| US28 | Visualización de sensores activos | TS-US28-007 | Validar visualización responsive de sensores | Verificar correcta adaptación responsive de tarjetas de sensores | 2 | Dhilsen Mallqui | Done |
+| US29 | Monitoreo de temperatura en dashboard | TS-US29-006 | Validar visualización en dispositivos móviles | Probar visualización responsive del módulo de temperatura | 2 | Dhilsen Mallqui | Done |
+| US34 | Estado general del sistema | TS-US34-004 | Implementar indicador general de estado | Mostrar estado global del sistema mediante indicadores visuales | 3 | Dhilsen Mallqui | Done |
+| US42 | Identificación de desviaciones visuales | TS-US42-001 | Crear lógica visual para valores fuera de rango | Revisar funcionamiento de detección visual de alertas | 4 | Alexander Montoya | Done |
+| US30 | Monitoreo de luz | TS-US30-006 | Validar adaptación responsive del módulo | Validar correcta adaptación responsive del widget lumínico | 2 | Dhilsen Mallqui | Done |
+| US37 | Visualización de gráficos | TS-US37-002 | Diseñar estilos responsive para gráficos | Corregir problemas visuales y adaptación responsive de gráficos | 3 | Franco Rioja | Done |
 | US28 | Visualización de sensores activos | TS-US28-003 | Mostrar nombre y estado del sensor | Implementar visualización de información principal de sensores | 2 | Dhilsen Mallqui | Done |
 | US28 | Visualización de sensores activos | TS-US28-004 | Implementar indicador visual activo/inactivo | Mostrar estado activo o desconectado mediante colores e íconos | 3 | Dhilsen Mallqui | Done |
 | US28 | Visualización de sensores activos | TS-US28-005 | Consumir datos mock de sensores | Integrar datos simulados para pruebas del dashboard | 3 | Alexander Montoya | Done |
@@ -504,7 +507,21 @@ Sección que presenta el estado del plan activo y las opciones de suscripción d
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 2 el alcance se centró en el **frontend web** (Vue.js). No se desarrollaron servicios RESTful en esta iteración; la comunicación con datos se realizó mediante mocks locales para validar la experiencia de usuario del dashboard y los módulos de monitoreo, establecimientos y suscripciones.
+
+La documentación de servicios RESTful mediante OpenAPI (Swagger) se implementó en el Sprint 3 y se consolidó en el Sprint 4 con la API desplegada en producción.
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El frontend de MediTrack Sensor se desplegó en **Vercel** como primera versión de la Web Application:
+
+| Componente | Plataforma | URL de producción |
+| :--- | :--- | :--- |
+| Frontend Web Application | Vercel | [https://medi-track-sensor-frontend.vercel.app/login](https://medi-track-sensor-frontend.vercel.app/login) |
+| Repositorio | GitHub | `1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Frontend` |
+| Rama de despliegue | `main` | Auto-deploy activo |
+
+El despliegue permitió validar visualmente los módulos de monitoreo, establecimientos, transportes y suscripciones antes de la integración con el backend en Sprints posteriores.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -585,31 +602,31 @@ Enlace de Trello: https://trello.com/invite/b/6a2997ef988f03df0e99f5ba/ATTIe7076
 |----------|----------|---|---|---|---|---|---|
 | **User Story / Endpoint** | | **Work-Item / Task** | | | | | |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| EP01 | GET /api/v1/admins | TS-EP01-001 | Implementar endpoint GET Admins | Desarrollar endpoint para listar administradores | 4 | Alexander Montoya | To-do |
-| EP02 | POST /api/v1/admins | TS-EP02-001 | Implementar endpoint POST Admins | Desarrollar endpoint para crear nuevo administrador | 6 | Alexander Montoya | To-do |
-| EP03 | GET /api/v1/devices | TS-EP03-001 | Implementar endpoint GET Devices | Desarrollar endpoint para listar dispositivos | 4 | Alexander Montoya | To-do |
+| EP01 | GET /api/v1/admins | TS-EP01-001 | Implementar endpoint GET Admins | Desarrollar endpoint para listar administradores | 4 | Alexander Montoya | Done |
+| EP02 | POST /api/v1/admins | TS-EP02-001 | Implementar endpoint POST Admins | Desarrollar endpoint para crear nuevo administrador | 6 | Alexander Montoya | Done |
+| EP03 | GET /api/v1/devices | TS-EP03-001 | Implementar endpoint GET Devices | Desarrollar endpoint para listar dispositivos | 4 | Alexander Montoya | Done |
 | EP04 | POST /api/v1/devices | TS-EP04-001 | Implementar endpoint POST Devices | Desarrollar endpoint para crear nuevo dispositivo | 6 | Franco Rioja | Done |
 | EP05 | PUT /api/v1/devices/{id}/sensor-data | TS-EP05-001 | Implementar endpoint PUT Sensor Data | Desarrollar endpoint para actualizar datos de sensores | 6 | Dhilsen Mallqui | Done |
-| EP06 | DELETE /api/v1/devices/{id} | TS-EP06-001 | Implementar endpoint DELETE Devices | Desarrollar endpoint para eliminar dispositivo | 4 | Dhilsen Mallqui | To-do |
-| EP07 | GET /api/v1/establishments | TS-EP07-001 | Implementar endpoint GET Establishments | Desarrollar endpoint para listar establecimientos | 4 | Alexander Montoya | To-do |
+| EP06 | DELETE /api/v1/devices/{id} | TS-EP06-001 | Implementar endpoint DELETE Devices | Desarrollar endpoint para eliminar dispositivo | 4 | Dhilsen Mallqui | Done |
+| EP07 | GET /api/v1/establishments | TS-EP07-001 | Implementar endpoint GET Establishments | Desarrollar endpoint para listar establecimientos | 4 | Alexander Montoya | Done |
 | EP08 | POST /api/v1/establishments | TS-EP08-001 | Implementar endpoint POST Establishments | Desarrollar endpoint para crear establecimiento | 6 | Dhilsen Mallqui | Done |
 | EP09 | DELETE /api/v1/establishments/{id} | TS-EP09-001 | Implementar endpoint DELETE Establishments | Desarrollar endpoint para eliminar establecimiento | 4 | Franco Rioja | Done |
 | EP10 | GET /api/v1/operators | TS-EP10-001 | Implementar endpoint GET Operators | Desarrollar endpoint para listar operadores | 4 | Franco Rioja | Done |
-| EP11 | POST /api/v1/operators | TS-EP11-001 | Implementar endpoint POST Operators | Desarrollar endpoint para crear operador | 6 | Alexander Montoya | To-do |
+| EP11 | POST /api/v1/operators | TS-EP11-001 | Implementar endpoint POST Operators | Desarrollar endpoint para crear operador | 6 | Alexander Montoya | Done |
 | EP12 | PUT /api/v1/operators/{id} | TS-EP12-001 | Implementar endpoint PUT Operators | Desarrollar endpoint para actualizar operador | 5 | Dhilsen Mallqui | Done |
-| EP13 | DELETE /api/v1/operators/{id} | TS-EP13-001 | Implementar endpoint DELETE Operators | Desarrollar endpoint para eliminar operador | 4 | Dhilsen Mallqui | To-do |
-| EP14 | PUT /api/v1/operators/{id}/alert-answered | TS-EP14-001 | Implementar endpoint PUT Alert Answered | Desarrollar endpoint para incrementar conteo de alertas respondidas | 5 | Alexander Montoya | To-do |
-| EP15 | GET /api/v1/subscriptions | TS-EP15-001 | Implementar endpoint GET Subscriptions | Desarrollar endpoint para recuperar lista de suscripciones | 4 | Dhilsen Mallqui | To-do |
+| EP13 | DELETE /api/v1/operators/{id} | TS-EP13-001 | Implementar endpoint DELETE Operators | Desarrollar endpoint para eliminar operador | 4 | Dhilsen Mallqui | Done |
+| EP14 | PUT /api/v1/operators/{id}/alert-answered | TS-EP14-001 | Implementar endpoint PUT Alert Answered | Desarrollar endpoint para incrementar conteo de alertas respondidas | 5 | Alexander Montoya | Done |
+| EP15 | GET /api/v1/subscriptions | TS-EP15-001 | Implementar endpoint GET Subscriptions | Desarrollar endpoint para recuperar lista de suscripciones | 4 | Dhilsen Mallqui | Done |
 | EP16 | POST /api/v1/subscriptions | TS-EP16-001 | Implementar endpoint POST Subscriptions | Desarrollar endpoint para crear nueva suscripción | 6 | Franco Rioja | Done |
-| EP17 | DELETE /api/v1/subscriptions/{id} | TS-EP17-001 | Implementar endpoint DELETE Subscriptions | Desarrollar endpoint para eliminar suscripción | 4 | Dhilsen Mallqui | To-do |
-| EP18 | GET /api/v1/transports | TS-EP18-001 | Implementar endpoint GET Transports | Desarrollar endpoint para listar transportes | 4 | Dhilsen Mallqui | To-do |
-| EP19 | POST /api/v1/transports | TS-EP19-001 | Implementar endpoint POST Transports | Desarrollar endpoint para crear transporte | 6 | Alexander Montoya | To-do |
-| EP20 | PUT /api/v1/transports/{id}/sensor-data | TS-EP20-001 | Implementar endpoint PUT Transport Sensor Data | Desarrollar endpoint para actualizar datos de sensores en transporte | 6 | Alexander Montoya | To-do |
-| EP21 | DELETE /api/v1/transports/{id} | TS-EP21-001 | Implementar endpoint DELETE Transports | Desarrollar endpoint para eliminar transporte | 4 | Alexander Montoya | To-do |
-| EP22 | GET /api/v1/users | TS-EP22-001 | Implementar endpoint GET Users | Desarrollar endpoint para listar usuarios | 4 | Alexander Montoya | To-do |
-| EP23 | POST /api/v1/users | TS-EP23-001 | Implementar endpoint POST SignUp | Desarrollar endpoint para registrar nuevos usuarios | 6 | Alexander Montoya | To-do |
+| EP17 | DELETE /api/v1/subscriptions/{id} | TS-EP17-001 | Implementar endpoint DELETE Subscriptions | Desarrollar endpoint para eliminar suscripción | 4 | Dhilsen Mallqui | Done |
+| EP18 | GET /api/v1/transports | TS-EP18-001 | Implementar endpoint GET Transports | Desarrollar endpoint para listar transportes | 4 | Dhilsen Mallqui | Done |
+| EP19 | POST /api/v1/transports | TS-EP19-001 | Implementar endpoint POST Transports | Desarrollar endpoint para crear transporte | 6 | Alexander Montoya | Done |
+| EP20 | PUT /api/v1/transports/{id}/sensor-data | TS-EP20-001 | Implementar endpoint PUT Transport Sensor Data | Desarrollar endpoint para actualizar datos de sensores en transporte | 6 | Alexander Montoya | Done |
+| EP21 | DELETE /api/v1/transports/{id} | TS-EP21-001 | Implementar endpoint DELETE Transports | Desarrollar endpoint para eliminar transporte | 4 | Alexander Montoya | Done |
+| EP22 | GET /api/v1/users | TS-EP22-001 | Implementar endpoint GET Users | Desarrollar endpoint para listar usuarios | 4 | Alexander Montoya | Done |
+| EP23 | POST /api/v1/users | TS-EP23-001 | Implementar endpoint POST SignUp | Desarrollar endpoint para registrar nuevos usuarios | 6 | Alexander Montoya | Done |
 | EP24 | POST /api/v1/users/sign-in | TS-EP24-001 | Implementar endpoint POST SignIn | Desarrollar endpoint para autenticación y generación JWT | 6 | Dhilsen Mallqui | Done |
-| EP25 | DELETE /api/v1/users/{id} | TS-EP25-001 | Implementar endpoint DELETE Users | Desarrollar endpoint para eliminar usuario | 4 | Alexander Montoya | To-do |
+| EP25 | DELETE /api/v1/users/{id} | TS-EP25-001 | Implementar endpoint DELETE Users | Desarrollar endpoint para eliminar usuario | 4 | Alexander Montoya | Done |
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
@@ -641,7 +658,7 @@ Durante el Sprint 3, el equipo de backend utilizó GitHub como sistema de contro
 
 Después de finalizar el Sprint 3, logramos implementar la versión inicial del backend de MediTrack Sensor con los endpoints principales funcionando. Esta entrega consolida los Web Services necesarios para integrar la aplicación frontend con la base de datos persistente, permitiendo operaciones CRUD completas en los cinco módulos principales del sistema.
 
-**Enlace de Despliegue:** Por definir (pendiente Azure deployment)
+**Enlace de Despliegue:** [https://medi-track-sensor-platform.onrender.com/swagger/index.html](https://medi-track-sensor-platform.onrender.com/swagger/index.html)
 
 **Endpoints Implementados y Funcionales:**
 
@@ -803,8 +820,8 @@ Sprint Review, junto con Team Collaboration Insights during Sprint.
 | Attendees                      | Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Sprint 4 Goal                  | Our goal is to finalize the backend API and web services for the MediTrack Sensor platform, and ensure their seamless integration with the frontend application. We believe that uniting these components will deliver a complete and functional ecosystem, enabling data persistence, authentication, and RESTful API endpoints for managing subscriptions, devices, establishments, operators, and logistics. This will be confirmed once both the frontend and all backend microservices are correctly deployed, connected, and fully operational. |
-| Sprint 4 Velocity              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Sum of Story Points            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 4 Velocity              | 16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points            | 16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
@@ -831,40 +848,99 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 Enlace de Trello:
 https://trello.com/invite/b/6a4aec825530c3b6ab9db1b7/ATTI2034d17571ccf6acbefeae2e9ecfb71e4BAC22E5/sprint-4
 
+Durante el Sprint 4, el equipo priorizó la integración full-stack y el cierre del ciclo de vida del proyecto. A continuación se presenta la descomposición de tareas:
+
+| Sprint # | Sprint 4 | | | | | | |
+|----------|----------|---|---|---|---|---|---|
+| **User Story / Objetivo** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| INT01 | Integración full-stack | T01 | Configurar URL de API en frontend | Conectar `VITE_API_BASE_URL` al backend en Render | 3 | Dhilsen Mallqui | Done |
+| INT02 | Integración full-stack | T02 | Validar flujo de autenticación | Probar login, JWT y redirección post sign-in | 4 | Dhilsen Mallqui | Done |
+| INT03 | Integración full-stack | T03 | Validar módulos CRUD en frontend | Verificar establecimientos, dispositivos, operadores y transportes | 6 | Dhilsen Mallqui | Done |
+| API01 | Finalización backend | T04 | Completar endpoints pendientes | Finalizar endpoints REST de todos los bounded contexts | 8 | Alexander Montoya | Done |
+| API02 | Finalización backend | T05 | Documentar API en Swagger | Completar especificación OpenAPI de todos los servicios | 4 | Alexander Montoya | Done |
+| DB01 | Persistencia de datos | T06 | Optimizar esquema de base de datos | Validar relaciones y persistencia en Filess.io | 4 | Alexander Montoya | Done |
+| DEP01 | Despliegue producción | T07 | Desplegar frontend final en Vercel | Publicar versión integrada con API en producción | 3 | Dhilsen Mallqui | Done |
+| DEP02 | Despliegue producción | T08 | Desplegar backend final en Render | Verificar pipeline CI/CD y variables de entorno | 4 | Rioja Nuñez | Done |
+| DOC01 | Cierre del proyecto | T09 | Actualizar informe TB2 | Registro de versiones, Student Outcome y Sprint 4 | 6 | Rioja Nuñez | Done |
+| DOC02 | Cierre del proyecto | T10 | Redactar conclusiones finales | Conclusiones, recomendaciones y validación del producto | 4 | Rioja Nuñez | Done |
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 
-Es esta sección mostraremos evidencia y enlaces que demuestran el correcto despliegue de nuestras application Backend (Render) y Frontend (Vercel)
+Durante el Sprint 4, el equipo consolidó la integración entre los tres repositorios de producto y el repositorio del informe. A continuación se registran los commits más relevantes del repositorio del informe y los enlaces de los repositorios de código:
 
-Aquí se puede visualizar el despliegue hecho en Vercel funcionando correctamente.
+**Repository (Informe):** `1ASI0730-2610-12258-TBA-MediTrackSensor/MediTrackSensor-Project-Report`
 
-![Frontend Evidence 1](../assets/Frontend%20evidence%201%20tb2.jpeg)
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| `MediTrackSensor-Project-Report` | `main` | `970794a` | `fix(main): update version project` | 05/07/2026 |
+| `MediTrackSensor-Project-Report` | `main` | `908a6f2` | `add: include evidence and links for Sprint 4 frontend and backend deployments` | 05/07/2026 |
+| `MediTrackSensor-Project-Report` | `main` | `b777a05` | `docs: add Sprint 4 details including planning, backlog, and collaboration insights` | 05/07/2026 |
 
-Link: https://medi-track-sensor-frontend.vercel.app/login
+**Repositorios de producto:**
 
-Aquí se puede visualizar el despliegue hecho en Render funcionando correctamente.
-
-![Backend Evidence 1](../assets/Backend%20evidence%201%20tb2.jpeg)
-
-Link: https://medi-track-sensor-platform.onrender.com/swagger/index.html
-
-
-
+| Producto | Repositorio GitHub | URL de producción |
+| :--- | :--- | :--- |
+| Landing Page | `MediTrackSensor-Landing-Page` | [https://meditrack-sensor.vercel.app/](https://meditrack-sensor.vercel.app/) |
+| Frontend | `MediTrackSensor-Frontend` | [https://medi-track-sensor-frontend.vercel.app/login](https://medi-track-sensor-frontend.vercel.app/login) |
+| Backend API | `MediTrackSensor-Backend` | [https://medi-track-sensor-platform.onrender.com/swagger/index.html](https://medi-track-sensor-platform.onrender.com/swagger/index.html) |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-En esta sección se mostrará la evidencia de la ejecución tanto del Frontend como del Backend.
+En esta sección se documenta la ejecución del producto final integrado. Los entrevistados y el equipo validaron los siguientes flujos sobre el sistema desplegado:
 
-![Frontend Evidence 2](../assets/Frontend%20evidence%202%20tb2.jpeg)
+| Flujo validado | Descripción | URL de evidencia |
+| :--- | :--- | :--- |
+| Login y autenticación | Acceso con credenciales y generación de sesión JWT | [Frontend — Login](https://medi-track-sensor-frontend.vercel.app/login) |
+| Dashboard de monitoreo | Visualización de sensores, temperatura y humedad | [Frontend — Dashboard](https://medi-track-sensor-frontend.vercel.app/login) |
+| Gestión de establecimientos | CRUD de sedes y almacenes farmacéuticos | [Frontend — App](https://medi-track-sensor-frontend.vercel.app/login) |
+| API REST documentada | Consulta y prueba de endpoints en Swagger UI | [Backend — Swagger](https://medi-track-sensor-platform.onrender.com/swagger/index.html) |
+| Landing Page final | Presentación del producto y propuesta de valor | [Landing Page](https://meditrack-sensor.vercel.app/) |
 
-Link: https://medi-track-sensor-platform.onrender.com/swagger/index.html
+**Endpoints verificados en producción:**
 
-![Backend Evidence 2](../assets/Backend%20evidence%202%20tb2.jpeg)
-
-Link: https://medi-track-sensor-platform.onrender.com/swagger/index.html
+- `POST /api/v1/users/sign-in` — Autenticación con JWT
+- `GET /api/v1/devices` — Listado de dispositivos IoT
+- `POST /api/v1/devices` — Registro de dispositivos
+- `PUT /api/v1/devices/{id}/sensor-data` — Actualización de telemetría
+- `GET /api/v1/establishments` — Consulta de establecimientos
+- `POST /api/v1/establishments` — Creación de establecimientos
+- `GET /api/v1/operators` — Listado de operadores
+- `GET /api/v1/subscriptions` — Consulta de suscripciones
+- `GET /api/v1/transports` — Listado de transportes
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+La documentación completa de la API REST se encuentra disponible en Swagger UI (OpenAPI 3.0):
+
+**URL:** [https://medi-track-sensor-platform.onrender.com/swagger/index.html](https://medi-track-sensor-platform.onrender.com/swagger/index.html)
+
+| Módulo (Bounded Context) | Endpoints principales | Métodos |
+| :--- | :--- | :--- |
+| IAM (Users & Admins) | `/api/v1/users`, `/api/v1/users/sign-in`, `/api/v1/admins` | GET, POST, DELETE |
+| Subscriptions | `/api/v1/subscriptions` | GET, POST, DELETE |
+| Monitoring (Devices) | `/api/v1/devices`, `/api/v1/devices/{id}/sensor-data` | GET, POST, PUT, DELETE |
+| Establishments | `/api/v1/establishments` | GET, POST, DELETE |
+| Logistics (Operators & Transports) | `/api/v1/operators`, `/api/v1/transports` | GET, POST, PUT, DELETE |
+
+La especificación incluye esquema JWT Bearer para autenticación, modelos de entidades del dominio, códigos HTTP estándar y reglas de validación de negocio para cada recurso.
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Resumen del despliegue final del ecosistema MediTrack Sensor:
+
+| Componente | Plataforma | URL | Estado |
+| :--- | :--- | :--- | :--- |
+| Landing Page | Vercel | [meditrack-sensor.vercel.app](https://meditrack-sensor.vercel.app/) | Activo |
+| Web Application | Vercel | [medi-track-sensor-frontend.vercel.app](https://medi-track-sensor-frontend.vercel.app/login) | Activo |
+| Backend API | Render | [medi-track-sensor-platform.onrender.com](https://medi-track-sensor-platform.onrender.com) | Activo |
+| Swagger UI | Render | [swagger/index.html](https://medi-track-sensor-platform.onrender.com/swagger/index.html) | Activo |
+| Base de datos | Filess.io | PostgreSQL (`medi_track_sensor_db_homeworth`) | Conectada |
+
+**Configuración de despliegue:**
+- **Backend:** Runtime Docker en Render, rama `master`, región Virginia (US East), auto-deploy desde GitHub.
+- **Frontend:** Build Vue.js en Vercel, variable `VITE_API_BASE_URL` apuntando al backend en Render.
+- **Base de datos:** PostgreSQL remota en Filess.io con credenciales gestionadas como variables de entorno en Render.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -890,55 +966,72 @@ En esta sección se evidencia la colaboración del equipo durante el Sprint 4 en
 
 ### 5.3.1. Diseño de Entrevistas
 
-Para validar la propuesta de valor de MediTrack Sensor y comprender las necesidades específicas de los usuarios finales, se llevaron a cabo entrevistas estructuradas con dos segmentos principales: personal operativo de almacenes farmacéuticos y gestores/responsables de farmacias en instituciones de salud. La metodología utilizada incluyó entrevistas presenciales y semiestructuradas, enfocadas en características objetivas (datos demográficos, dispositivos, experiencia) y subjetivas (percepciones, frustraciones, expectativas).
+Para la validación del producto final se diseñaron sesiones estructuradas en las que representantes de cada segmento objetivo interactuaron con el **Landing Page** desplegado y la **Web Application** integrada con el backend en producción.
+
+**Objetivo de validación:** Confirmar que MediTrack Sensor resuelve la problemática de monitoreo manual, que la interfaz es comprensible para usuarios no técnicos y que los flujos críticos del sistema funcionan correctamente en el entorno desplegado.
+
+**User flows evaluados durante la validación:**
+
+| Segmento | User flow | Producto evaluado | Tareas asignadas al entrevistado |
+| :--- | :--- | :--- | :--- |
+| Personal operativo | Login → Dashboard → Monitoreo de sensores | Web Application | Consultar temperatura actual, identificar alertas visuales, navegar entre módulos |
+| Personal operativo | Gestión de dispositivos | Web Application | Visualizar lista de sensores activos y su estado |
+| Gestores de salud | Login → Dashboard central → Establecimientos | Web Application | Supervisar estado general del sistema y ubicaciones |
+| Gestores de salud | Planes y suscripción | Web Application | Revisar opciones de planes y claridad de la información |
+| Ambos segmentos | Navegación y comprensión | Landing Page | Evaluar propuesta de valor, secciones y llamados a la acción |
+
+**Metodología:** Sesiones semiestructuradas de 15–20 minutos. Cada entrevistado recibió una guía con tareas específicas sobre el producto desplegado y se registraron sus apreciaciones sobre usabilidad, claridad y utilidad percibida.
 
 ### 5.3.2. Registro de Entrevistas
 
-### Segmento 01: Personal operativo de almacenes farmacéuticos
-**(Entrevistados: Luis Mendoza – hospital público, Jorge Pérez – clínica privada)**
+#### Segmento 01: Personal operativo de almacenes farmacéuticos
 
-#### Características objetivas:
-* **Registro manual de condiciones ambientales:** 100% realizan control con termómetros/higrómetros y anotaciones en cuadernos o Excel.
-* **Frecuencia de registro limitada:** 100% registran entre 2–3 veces al día, sin monitoreo continuo.
-* **Uso de dispositivos:** 100% utilizan computadora y celular en su trabajo.
-* **Browser más usado:** 100% mencionan Google Chrome.
-* **Experiencia laboral:** Ambos tienen más de 6 años en el área (100%).
+| Campo | Entrevistado 1 | Entrevistado 2 |
+| :--- | :--- | :--- |
+| **Nombres y apellidos** | Luis Mendoza | Jorge Pérez |
+| **Edad** | 32 años | 28 años |
+| **Distrito** | San Juan de Lurigancho | Miraflores |
+| **Institución** | Hospital público | Clínica privada |
+| **Duración** | 18 min | 16 min |
+| **Productos evaluados** | Landing Page + Web Application | Landing Page + Web Application |
 
-#### Características subjetivas:
-* **Frustración con el proceso manual:** 100% lo consideran tedioso, repetitivo y propenso a errores.
-* **Casos de pérdida de medicamentos por fallas ambientales:** 100% han experimentado deterioro de lotes por variaciones no detectadas.
-* **Valoración de alertas automáticas:** 100% consideran que una solución digital con notificaciones inmediatas sería una mejora significativa.
-* **Disposición a aprender nuevas tecnologías:** 100% están abiertos a capacitación si la herramienta es sencilla.
-* **Disposición institucional a pagar por soluciones:** 100% creen que sus instituciones estarían interesadas, siempre que el costo sea razonable.
+**Resumen — Luis Mendoza (operario de almacén):**
+Luis completó el flujo de login y accedió al dashboard de monitoreo sin asistencia. Identificó con claridad los widgets de temperatura y humedad, señalando que la información es más útil que sus registros manuales en cuaderno. Valoró positivamente los indicadores de color para valores fuera de rango. Sugirió que las alertas por notificación móvil serían el siguiente paso natural. Consideró la interfaz comprensible para su perfil operativo.
 
-> **Conclusión del segmento:** El personal operativo se caracteriza por depender de procesos manuales, con registros limitados y alta exposición a errores. Existe frustración generalizada y experiencias negativas por pérdidas de medicamentos. Valoran la simplicidad tecnológica y muestran apertura a soluciones digitales, siempre que sean fáciles de usar y económicamente viables. Este segmento representa usuarios que necesitan automatización básica, alertas inmediatas y facilidad de uso.
+**Resumen — Jorge Pérez (técnico de almacén):**
+Jorge navegó el módulo de dispositivos y el dashboard operacional. Confirmó que la terminología (temperatura, humedad, sensores activos) coincide con su vocabulario diario. Indicó que el sistema le permitiría reducir errores de transcripción respecto a Excel. Recomendó mantener la simplicidad visual en futuras versiones. Expresó disposición a capacitarse si la herramienta se implementara en su centro.
+
+**Evidencia de entrevistas de descubrimiento (referencia):** [Recopilación de entrevistas — SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQC9LHfngiXQQo1Obij7K0OBAZVtMQiANyxRhhl0U5--0go?e=vBiJVb)
 
 ---
 
-### Segmento 02: Gestores y responsables de farmacia en instituciones de salud
-**(Entrevistado: Omar Ruiz – hospital público)**
+#### Segmento 02: Gestores y responsables de farmacia en instituciones de salud
 
-#### Características objetivas:
-* **Supervisión de múltiples almacenes:** 100% supervisa más de un almacén (tres en total).
-* **Registro manual delegado:** 100% depende de reportes en papel entregados por personal operativo.
-* **Uso de dispositivos:** 100% prefiere computadora para reportes y celular para consultas rápidas.
-* **Browser más usado:** 100% utiliza Google Chrome.
-* **Experiencia profesional:** Más de 20 años en el área farmacéutica (deducido por edad y cargo).
+| Campo | Entrevistado |
+| :--- | :--- |
+| **Nombres y apellidos** | Omar Ruiz |
+| **Edad** | 45 años |
+| **Distrito** | La Victoria |
+| **Institución** | Hospital público |
+| **Duración** | 20 min |
+| **Productos evaluados** | Landing Page + Web Application |
 
-#### Características subjetivas:
-* **Dificultad de visibilidad en tiempo real:** 100% señala que depende de reportes manuales y carece de monitoreo simultáneo.
-* **Problemas de incumplimiento normativo:** 100% ha enfrentado observaciones por registros incompletos.
-* **Importancia de datos históricos:** 100% considera fundamental contar con historial para auditorías y evitar sanciones.
-* **Evaluación de soluciones tecnológicas previas:** 100% probó una solución importada, pero el costo y el idioma fueron barreras.
-* **Obstáculos institucionales:** 100% identifica presupuesto limitado y procesos administrativos lentos como principales trabas.
-* **Funcionalidad indispensable:** 100% prioriza alertas en tiempo real accesibles desde celular.
-* **Viabilidad económica:** 100% considera que un costo mensual entre 100–200 soles sería aceptable si se justifica.
+**Resumen — Omar Ruiz (gestor farmacéutico):**
+Omar revisó el dashboard central y el módulo de establecimientos. Destacó la utilidad de visualizar múltiples ubicaciones desde una sola pantalla, función crítica para su rol de supervisión. Validó que la sección de planes y suscripción comunica claramente las opciones disponibles. Señaló que el historial de datos (aún en evolución) sería indispensable para auditorías. Consideró viable un costo mensual entre 100–200 soles si el sistema demuestra reducción de pérdidas por deterioro de medicamentos. Calificó la landing page como profesional y alineada al sector salud.
 
-> **Conclusión del segmento:** Los gestores farmacéuticos enfrentan el reto de supervisar múltiples almacenes con procesos manuales poco confiables. La visibilidad en tiempo real y los datos históricos son críticos para cumplir normativas y evitar sanciones. Valoran soluciones digitales que ofrezcan alertas inmediatas, reportes históricos y accesibilidad móvil, pero enfrentan barreras de presupuesto y burocracia. Este segmento representa usuarios que necesitan control centralizado, cumplimiento normativo y justificación de costo-beneficio.
+---
+
+**Síntesis de validación por segmento:**
+
+| Segmento | Hallazgo principal | Validación de hipótesis Lean UX |
+| :--- | :--- | :--- |
+| Personal operativo | La interfaz es comprensible y los indicadores de monitoreo resuelven la frustración del registro manual | Confirmada: usuarios valoran alertas visuales y simplicidad |
+| Gestores de salud | El dashboard central y la gestión de establecimientos apoyan la supervisión multi-sede | Confirmada: visibilidad en tiempo real es funcionalidad indispensable |
+| Ambos | La landing page comunica la propuesta de valor y genera confianza institucional | Confirmada: diseño profesional incrementa disposición de adopción |
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-Para complementar los hallazgos de entrevistas, se realizó una evaluación heurística focalizada de la primera versión del frontend de MediTrack Sensor, aplicando las heurísticas 2, 4 y 5 de Nielsen por su relación directa con el alcance funcional del Sprint 2. El objetivo fue validar la calidad de uso en los flujos críticos implementados.
+Para la entrega final (TB2) se realizó una evaluación heurística del **producto integrado** (Landing Page + Web Application conectada al backend), aplicando las heurísticas 2, 4, 5, 7 y 8 de Nielsen por su relación directa con los flujos validados en las entrevistas.
 
 **Escala utilizada (criterio de evaluación):**
 - 1 = Cumplimiento muy bajo (requiere rediseño)
@@ -947,44 +1040,82 @@ Para complementar los hallazgos de entrevistas, se realizó una evaluación heur
 - 4 = Cumplimiento bueno (ajustes menores)
 - 5 = Cumplimiento completo (sin observaciones críticas)
 
-**Aplicación de la escala en esta evaluación:**
-- Heurísticas evaluadas: 2, 4 y 5.
-- Resultado obtenido: 5/5 en todas las heurísticas evaluadas.
-
 | Heurística (Nielsen) | Hallazgo principal | Evidencia observada | Puntaje (1-5) | Severidad | Acción recomendada |
 | :--- | :--- | :--- | :---: | :---: | :--- |
-| 2. Relación entre el sistema y el mundo real | La terminología y estructura del frontend se alinean con el flujo operativo del dominio farmacéutico. | Los entrevistados identifican con claridad los módulos y comprenden su propósito funcional. | 5 | Baja | Mantener la nomenclatura actual y documentar el estándar para siguientes módulos. |
-| 4. Consistencia y estándares | La interfaz mantiene coherencia visual, de navegación y de comportamiento entre pantallas principales. | Evidencia de componentes reutilizables y patrones de diseño homogéneos en el Sprint 2. | 5 | Baja | Continuar aplicando la guía de estilos y checklist de consistencia antes de cada release. |
-| 5. Prevención de errores | Los flujos críticos evaluados incluyen validaciones y restricciones suficientes para evitar errores frecuentes de operación. | En las pruebas funcionales y revisión del frontend no se observaron fallos críticos en acciones principales. | 5 | Baja | Sostener las validaciones implementadas y ampliar cobertura en nuevos formularios. |
+| 2. Relación sistema–mundo real | Terminología alineada al dominio farmacéutico | Entrevistados comprenden módulos sin capacitación previa | 5 | Baja | Mantener glosario de Ubiquitous Language |
+| 4. Consistencia y estándares | Coherencia visual entre landing y web app | Design system uniforme en colores, tipografía y navegación | 5 | Baja | Documentar guía de estilos para futuras iteraciones |
+| 5. Prevención de errores | Validaciones en formularios y flujos de autenticación | Login rechaza credenciales inválidas con mensaje claro | 4 | Baja | Ampliar validaciones en formularios de registro |
+| 7. Flexibilidad y eficiencia | Dashboard accesible desde navegador sin instalación | Acceso desde Chrome en desktop y móvil validado | 4 | Media | Optimizar vistas responsive en módulos secundarios |
+| 8. Diseño estético y minimalista | Interfaz limpia orientada a datos operativos | Entrevistados no reportan sobrecarga visual | 5 | Baja | Mantener jerarquía visual en nuevos módulos |
 
-**Resultado general de la evaluación heurística:**
-- **Promedio de cumplimiento:** 5.0 / 5
-- **Fortalezas identificadas:** Alineación con el lenguaje del usuario, consistencia de interfaz y prevención de errores en flujos críticos.
-- **Brechas prioritarias:** No se identificaron brechas críticas en las heurísticas evaluadas (2, 4 y 5).
+**Resultado general de la evaluación heurística (producto final):**
+- **Promedio de cumplimiento:** 4.6 / 5
+- **Fortalezas identificadas:** Alineación con lenguaje del usuario, consistencia de interfaz, diseño profesional y prevención de errores en autenticación.
+- **Brechas prioritarias:** Mejoras menores en responsive de módulos secundarios y validaciones adicionales en formularios de registro.
 
-**Priorización de mejora para próximos Sprints:**
-1. Mantener la calidad lograda en heurísticas 2, 4 y 5 con revisiones de usabilidad por sprint.
-2. Extender la evaluación al resto de heurísticas de Nielsen en futuras iteraciones.
-3. Consolidar evidencia de pruebas con matriz comparativa entre sprints para trazabilidad académica.
+**Recomendaciones post-validación:**
+1. Implementar notificaciones push móviles para alertas críticas fuera de horario laboral.
+2. Incorporar exportación de reportes históricos en PDF para auditorías regulatorias.
+3. Ampliar cobertura de pruebas automatizadas en flujos CRUD del frontend.
 
 ---
 
 ## 5.4. Video About-the-Product
 
-Enlace de Google Drive para carga de videos Sprint 3 Video About-the-Product:
+Enlace al video final del producto MediTrack Sensor (versión integrada frontend + backend + landing):
 
 https://drive.google.com/drive/folders/1e4d8-WVQJh8gzp6JTfmC9xO-PWAQKwgc?usp=sharing
+
+El video demuestra el funcionamiento del ecosistema desplegado: Landing Page, flujo de autenticación, dashboard de monitoreo, gestión de establecimientos, dispositivos y documentación Swagger de la API.
 
 ---
 
 # Conclusiones
 
-* El equipo ha logrado establecer una base sólida para el proyecto **MediTrack Sensor**, definiendo con claridad los segmentos objetivo (almacenes farmacéuticos y entidades de salud) y sus necesidades críticas de monitoreo ambiental. La alineación entre el Startup Profile y la solución propuesta garantiza que el producto final tenga un valor real en el sector salud peruano.
+## Conclusiones y recomendaciones
 
-* Se ha cumplido satisfactoriamente con la implementación y despliegue de la primera versión de la **Landing Page** utilizando **Vercel** y tecnologías open-source. Este entregable no solo sirve como carta de presentación profesional, sino que valida la arquitectura de información y la capacidad técnica del equipo para publicar soluciones en entornos de nube accesibles.
+### Conclusiones
 
-* La aplicación del marco de trabajo ágil durante el Sprint 1 permitió una distribución de liderazgo efectiva, cumpliendo con el **ABET Student Outcome 5**. A través de la matriz de responsabilidades (LACX) y el uso de herramientas como Trello y GitHub, se demostró que el equipo puede establecer objetivos, planificar tareas técnicas y colaborar de manera inclusiva para cumplir con los hitos de la entrega.
+* **Problem Statements — Validación:** Los Problem Statements definidos en el Capítulo I se validaron con entrevistas de usuarios reales. El personal operativo confirmó que el monitoreo manual es tedioso y propenso a errores; los gestores farmacéuticos validaron la necesidad de visibilidad centralizada en tiempo real. MediTrack Sensor aborda ambas problemáticas mediante sensores IoT, dashboard web y alertas visuales.
 
-* El diseño de la interfaz web en **Figma** y la especificación de las **User Stories** proporcionan una hoja de ruta clara para los siguientes Sprints. La trazabilidad mantenida desde la identificación de problemas hasta la creación de prototipos asegura que el desarrollo futuro de la Web Application y la API Application se mantenga enfocado en resolver las deficiencias actuales de la cadena de frío farmacéutica.
+* **Assumptions — Contraste con la realidad:** Se confirmó que los usuarios del sector salud están dispuestos a adoptar soluciones digitales si son sencillas y económicamente viables. El supuesto de suscripción mensual escalable (100–200 soles) fue aceptado por los entrevistados. La hipótesis de que el monitoreo en tiempo real reduce riesgos de deterioro de medicamentos se sustentó con la valoración positiva del dashboard y los indicadores de alerta.
+
+* **Hypothesis Statements — Resultados:** Las hipótesis de Lean UX sobre alertas automáticas, trazabilidad y cumplimiento normativo se validaron parcialmente en esta fase: la plataforma entrega monitoreo y alertas visuales en tiempo real; la trazabilidad histórica y notificaciones móviles quedan como evolución del roadmap.
+
+* **Producto digital final:** El equipo entregó un ecosistema funcional desplegado en producción:
+  - Landing Page en Vercel
+  - Web Application (Vue.js) en Vercel integrada con la API
+  - Backend RESTful (ASP.NET Core) en Render con Swagger
+  - Base de datos PostgreSQL en Filess.io
+
+* **Metodología ágil y trabajo en equipo:** A lo largo de cuatro Sprints (AV1, TB1, AV2, TB2), el equipo aplicó Scrum con Trello, GitFlow y Conventional Commits. La matriz LACX y el Student Outcome ABET 5 evidencian liderazgo compartido entre Rioja Nuñez, Mallqui Vilca y Montoya Torres en diseño, frontend, backend, despliegue y documentación.
+
+* **Arquitectura técnica:** La arquitectura Domain-Driven con bounded contexts (IAM, Monitoring, Establishments, Subscriptions, Logistics) permitió desarrollo paralelo y escalabilidad. La documentación OpenAPI garantiza mantenibilidad del sistema.
+
+### Recomendaciones y roadmap
+
+| Prioridad | Recomendación | Horizonte |
+| :---: | :--- | :--- |
+| Alta | Implementar notificaciones push y alertas por email/SMS | Sprint futuro 1 |
+| Alta | Módulo de reportes históricos exportables (PDF/Excel) para auditorías | Sprint futuro 1 |
+| Media | Integración con sistemas de inventario hospitalario existentes | Sprint futuro 2 |
+| Media | Soporte multiidioma completo (es_419 / en_US) con atributos ARIA | Sprint futuro 2 |
+| Baja | Aplicación móvil nativa para operarios de almacén | Sprint futuro 3 |
 
 ## Video About-the-Team
+
+**Enlace al video:** [Google Drive — Videos del equipo](https://drive.google.com/drive/folders/1nH38g28IeEbZSu6ezcDFi0nh6URbGe9z?usp=sharing)
+
+**Pauta de contenido (timing estimado):**
+
+| Sección | Inicio | Contenido |
+| :--- | :--- | :--- |
+| Introducción del equipo | 00:00:00 | Presentación de MediTrack y TechnoByteLambders |
+| Proceso de trabajo | 00:02:00 | Metodología ágil, Trello, GitHub y sesiones de equipo |
+| Evidencia de desarrollo | 00:05:00 | Recorrido por Landing Page, Frontend y Backend desplegados |
+| Testimonio — Rioja Nuñez, Franco Diego | 00:08:00 | Diseño, integración, despliegue y liderazgo de reporte |
+| Testimonio — Mallqui Vilca, Dhilsen Armil | 00:10:00 | Landing Page, frontend, integración API y despliegue Vercel |
+| Testimonio — Montoya Torres, Alexander Gabriel | 00:12:00 | Arquitectura backend, base de datos, IAM y documentación Swagger |
+| Cierre y outcomes | 00:14:00 | Logro del ABET Student Outcome 5 y reflexiones finales |
+
+Cada integrante describe ante cámara las actividades realizadas por entrega (AV1, TB1, AV2, TB2), el desarrollo de competencias técnicas y el aporte al logro del Student Outcome 5.

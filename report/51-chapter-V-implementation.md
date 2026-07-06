@@ -794,6 +794,49 @@ El equipo mantuvo una comunicación constante mediante Discord y reuniones sincr
 
 En conjunto, el Sprint 3 consolidó las bases técnicas del backend, permitiendo una integración fluida con el frontend desarrollado en Sprint 2 y preparando el sistema para las fases siguientes de optimización y escalabilidad.
 
+
+### 5.2.4. Sprint 4
+
+En esta sección se registra y explica el avance en términos del producto backend, frontend y trabajo
+colaborativo para el Sprint 4. Incluye como secciones internas: Sprint Planning 4,
+Aspect Leaders and Collaborators, Sprint Backlog 4, Development Evidence for Sprint
+Review, Execution Evidence for Sprint Review, Services Documentation Evidence for
+Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint #                       | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Date                           | 2026-07-05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Time                           | 8:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Location                       | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Prepared By                    | Rioja Nuñez, Franco Diego                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Attendees                      | Mallqui Vilca, Dhilsen Armil / Montoya Torres, Alexander Gabriel / Paredes Díaz, Tomás Alessandro / Rioja Nuñez, Franco Diego / Urviola Condori, Mateo Sebastián                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 4 Goal                  | Our goal is to finalize the backend API and web services for the MediTrack Sensor platform, and ensure their seamless integration with the frontend application. We believe that uniting these components will deliver a complete and functional ecosystem, enabling data persistence, authentication, and RESTful API endpoints for managing subscriptions, devices, establishments, operators, and logistics. This will be confirmed once both the frontend and all backend microservices are correctly deployed, connected, and fully operational. |
+| Sprint 4 Velocity              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sum of Story Points            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+#### 5.2.4.3. Sprint Backlog 4
+
+![Sprint Backlog 4 Trello](../assets/sprint-backlog-4-trello.png)
+
+Enlace de Trello:
+https://trello.com/invite/b/6a4aec825530c3b6ab9db1b7/ATTI2034d17571ccf6acbefeae2e9ecfb71e4BAC22E5/sprint-4
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
 ---
 
 ## 5.3. Validation Interviews

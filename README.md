@@ -146,6 +146,21 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 ## AV2
 
+## Desarrollo del reporte
+
+![Desarrollo_reporte](assets/desarrollo-reporte-3.png)
+
+## Desarrollo de Landing Page
+
+![Desarrollo_landing_2](assets/desarrollo-landing-page-3.png)
+
+## Desarrollo del Frontend
+
+![Desarrollo_frontend](assets/desarrollo-fronted-3.png)
+
+## Desarrollo del Backend
+
+![Desarrollo_backend](assets/desarrollo-backend-3.png)
 
 ---
 

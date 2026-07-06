@@ -180,6 +180,22 @@ Durante la entrega TB2 (Sprint 4), el equipo de tres integrantes consolidó la i
 
 **Repositorio del informe:** [MediTrackSensor-Project-Report](https://github.com/1ASI0730-2610-12258-TBL-MediTrackSensor/MediTrackSensor-Project-Report)
 
+## Desarrollo del reporte
+
+![Desarrollo_reporte](assets/desarrollo-reporte-3.png)
+
+## Desarrollo de Landing Page
+
+![Desarrollo_landing_2](assets/desarrollo-landing-page-3.png)
+
+## Desarrollo del Frontend
+
+![Desarrollo_frontend](assets/desarrollo-fronted-3.png)
+
+## Desarrollo del Backend
+
+![Desarrollo_backend](assets/desarrollo-backend-3.png)
+
 | Integrante | Repositorio | Contribución principal |
 | :--- | :--- | :--- |
 | Rioja Nuñez, Franco Diego | Informe / Backend | Sprint Planning 4, despliegue Render, conclusiones y registro de versiones TB2 |

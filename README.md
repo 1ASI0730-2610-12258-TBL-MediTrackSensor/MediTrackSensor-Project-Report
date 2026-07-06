@@ -178,6 +178,22 @@ A continuación, se brindará un mayor detalle sobre las actividades realizadas 
 
 Durante la entrega TB2 (Sprint 4), el equipo de tres integrantes consolidó la integración full-stack y el cierre del ciclo de vida del proyecto.
 
+## Desarrollo del reporte
+
+![Desarrollo_reporte](assets/desarrollo-reporte-3.png)
+
+## Desarrollo de Landing Page
+
+![Desarrollo_landing_2](assets/desarrollo-landing-page-3.png)
+
+## Desarrollo del Frontend
+
+![Desarrollo_frontend](assets/desarrollo-fronted-3.png)
+
+## Desarrollo del Backend
+
+![Desarrollo_backend](assets/desarrollo-backend-3.png)
+
 **Repositorio del informe:** [MediTrackSensor-Project-Report](https://github.com/1ASI0730-2610-12258-TBA-MediTrackSensor/MediTrackSensor-Proyect-Report)
 
 | Integrante | Repositorio | Contribución principal |

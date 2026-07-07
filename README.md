@@ -28,13 +28,13 @@ Docente
 
 Equipo
 
-<strong>MediTrack</strong>
+<strong>TechnoByteLambders</strong>
 
 
 Proyecto
 
 
-<strong>VITAL CARE</strong>
+<strong>MediTrack Sensor</strong>
 
 
 
